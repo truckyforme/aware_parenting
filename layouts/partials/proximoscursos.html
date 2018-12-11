@@ -1,0 +1,48 @@
+<section class="section-proximos-cursos js--section-proximoscursos" id="proximoscursos">
+    <div class="row justify-content-center">
+        <h2>{{ with .Site.Params.proximoscursos.titulo }}{{ . | markdownify }}{{ end }}</h2>
+    </div>
+    <div class="row">
+        {{ range where (.Pages.ByParam "date1") "Type" "eventos"}}
+         <div class="col-6 col-sm-3 card-row">
+            <a class="card event-box" href="{{ .Permalink }}">
+                <img class="card-img" src="{{ .Params.thumb }}" alt=".Params.thumb">
+                <div class="card-img-overlay">
+                    <div class="card-evento-date">
+                        <div class="card-evento-month">
+                                {{ index $.Site.Data.mes (printf "%d" ((time .Params.date1).Month)) }}
+                        </div>
+                        <div class="card-evento-day">
+                                {{ dateFormat "2" .Params.date1 }}{{ with .Params.date2 }}-{{dateFormat "2" . }}{{ end }}
+                        </div>
+                        <div class="card-evento-year">
+                                {{ dateFormat "2006" .Params.date1 }}
+                        </div>
+                    </div>
+                    <div class="card-evento-ciudad">{{ .Params.ciudad }}</div>
+                    <div class="card-title card-evento-title">
+                        <div class="card-evento-tipo">{{ .Params.tipoevento }}</div>
+                        <div class="card-evento-maintitle">{{ .Params.title }}</div>
+                    </div>    
+                </div>
+            </a>    
+        </div>
+        {{ end }}
+    </div>
+    <div class="row justify-content-center">
+            <p>{{ with .Site.Params.proximoscursos.maintext }}{{ . | markdownify }}{{ end }}</p>
+            <a class="btn btn-full" href="/cursos.hmtl">{{ .Site.Params.features.more }}</a>  
+        </div>    
+</section>
+
+<!--
+<div class="card bg-dark text-white">
+  <img class="card-img" src=".../100px270/#55595c:#373a3c/text:Card image" alt="Card image">
+  <div class="card-img-overlay">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
+
+-->

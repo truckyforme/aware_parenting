@@ -1,0 +1,9 @@
+<div class="hero-text-box">
+    <h1>{{ with .Site.Params.hero.titulo }}{{ . | markdownify  }}{{ end }}</h1>
+    <h3>{{ with .Site.Params.hero.subtitulo }}{{ . | markdownify }}{{ end }}</h3>
+    <p> {{ with .Site.Params.hero.texto }}{{ . | markdownify }}{{ end }}</p>
+        {{ range .Site.Params.hero.menu}}
+            <a class="btn-hero js--scroll-{{ .scroll }}" href="{{ .url }}">{{ .name }}</a>
+        {{ end }}
+        </ul>
+</div>

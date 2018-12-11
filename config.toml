@@ -1,0 +1,123 @@
+baseURL = "https://www.awareparenting.es/"
+languageCode = "es-es"
+paginate		= 5
+paginatePath	= "newspage"
+canonifyurls	= false
+
+title = "Laura Díaz de Entresotos - Aware Parenting en España"
+name         	= "Laura Díaz de Entresotos"
+copyright		= "©Laura Díaz de Entresotos"
+description     = "Psicóloga especialista en Aware Parenting, un enfoque de educación y crianza basado en el apego y el respeto; sin castigos ni recompensas."
+theme        	= "ap_theme"
+
+[Permalinks]
+    news = "/news/:year/:month/:day/:filename/"
+    
+[params]
+    favicon = "/static/img/favicon.ico"
+    email = "laura@awareparenting.es"
+    year = "2018"
+
+# Navigation
+    [params.navigation]
+        brand 		= "Aware Parenting"
+        brand_logo	= "/img/ap_logo_full.svg"
+			[params.navigation.items]
+				
+				[params.navigation.items.001]
+					name		 	= "Cursos y Charlas"
+					url			 	= "/cursos/"
+					frontpageurl 	= "/cursos/"
+                [params.navigation.items.002]
+					name			= "Consulta"
+					url				= "/#consulta"
+					frontpageurl	= "/#consulta"
+				[params.navigation.items.003]
+					name			= "Aware Parenting"
+					url				= "/aware_parenting/"
+					frontpageurl	= "/aware_parenting/"
+                [params.navigation.items.004]
+					name			= "Contacto"
+					url				= "#contacto"
+					frontpageurl	= "#contacto"
+				[params.navigation.items.005]
+					name			= "Acerca de mi"
+					url				= "/about/"
+					frontpageurl	= "/about/"
+                [params.navigation.items.006]
+					name			= "Artículos"
+					url				= "/articulos/"
+					frontpageurl	= "/articulos/"
+                    
+	[params.hero]
+        titulo ="Laura Díaz de Entresotos"
+        subtitulo ="PSICOLOGA - INSTRUCTORA AWARE PARENTING"
+        texto ="Un enfoque de educación y crianza que **sí** funciona para todos, basado en la disciplina no punitiva, el respeto, y el apego"
+        button_1 = "Consulta"
+        button_2 = "Próximos Cursos"
+        [params.hero.menu]
+            [params.hero.menu.001]
+                name    = "Próximos Cursos"
+                url     = "#proximoscursos"
+                scroll  = "cursos"
+            [params.hero.menu.002]
+                name    = "Consulta"
+                url     = "#consulta"
+                scroll  ="consulta"
+            
+    [params.features]
+        titulo   ="¿Cuáles son las bases de mi enfoque?"
+        subtitulo  ="La base de mi enfoque terapéutico es Aware Parenting, una filosofía de crianza desarrollada por la Dra. Aletha Solter a partir de las investigaciones más recientes acerca del desarrollo infantil. Cuestiona gran parte de las ideas tradicionales acerca de la crianza y propone un nuevo enfoque capaz de transformar las relaciones con nuestros hijos basándose en el respeto y el amor.<br><br>La filosofía de Aware Parenting se sustenta en tres pilares:"
+        more    ="¿Quieres saber más?"
+        [params.features.items]
+            [params.features.items.001]
+                name    = "Paternidad basada en el apego"
+                img    ="apego_2.svg"
+            [params.features.items.002]
+                name    = "Disciplina no punitiva"
+                img    ="recompensas2.svg"
+            [params.features.items.003]
+                name    = "Curación del estrés y el trauma"
+                img    ="stress_2.svg"
+                
+    [params.proximoscursos]
+        titulo = "Próximos Cursos y Charlas"
+        maintext ="Estos son los próximos cursos y charlas programados. Si quieres conocer con más detalle todos los cursos y charlas que ofrezco, haz click en el botón."
+        more = "+ info sobre cursos"
+        morelink = "/cursos/"
+    [params.consulta]
+        titulo = "Consulta Privada"
+        maintext ="Con más de 15 años de experiencia profesional, ofrezco consultas privadas a aquellos padres que estén buscando una forma distinta de relacionarse con sus hijos y afrontar los conflictos. Las consultas están orientadas a resolver dudas, a enseñar a los adultos a cómo interactuar con sus hijos de forma que puedan ayudarles en su desarrollo y a resolver los problemas de comportamiento más comunes."
+        more = "Solicita una consulta ahora"
+        morelink = "#contacto"
+        [params.consulta.items]
+            [params.consulta.items.001]
+                name    ="Presencial"
+                img     ="consulta_presencial_white.svg"
+            [params.consulta.items.002]
+                name    ="A distancia"
+                img     ="videocall_white.svg"
+    
+
+    [params.articulos]
+        Title = "Artículos"
+        readmore = "Leer más"
+        prev = "Entradas Recientes"
+        next = "Entradas Antiguas"
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

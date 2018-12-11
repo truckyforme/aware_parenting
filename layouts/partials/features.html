@@ -1,0 +1,17 @@
+<section class="features" id="awareparenting">
+    <div class="row justify-content-center">
+        <h2>{{ with .Site.Params.features.titulo }}{{ . | markdownify }}{{ end }}</h2>
+        <p>{{ with .Site.Params.features.subtitulo }}{{ . | markdownify }}{{ end }}</p>
+    </div> 
+    <div class="row">
+        {{ range .Site.Params.features.items }}
+            <div class="col-xs-12 col-sm-4 feature-box fadeInUp">
+                <img src="/img/{{ .img }}" alt="{{ .name }}">
+                 <h3>{{ .name }}</h3>
+            </div>
+        {{ end }}
+    </div>
+    <div class="row justify-content-center">
+        <a class="btn btn-full" href="/aware_parenting.hmtl">{{ .Site.Params.features.more }}</a>
+    </div>
+</section>

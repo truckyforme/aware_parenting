@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{{ "<!-- index -->" | safeHTML }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}es-es{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        {{partial "header.html" . }}
+        {{ partial "hero.html" . }}
+        {{ partial "features.html" . }}
+        {{ partial "proximoscursos.html" . }}
+        {{ partial "consulta.html" . }}
+
+        {{ partial "js.html"}}
+    </body>
+</html>
+

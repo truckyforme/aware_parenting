@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+{{ "<!-- articulos -->" | safeHTML }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}es-es{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+            <header class="header-page">
+                {{ partial "nav.html" . }} 
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <h1>{{ with .Site.Params.Articulos.Title }}{{ . | markdownify  }}{{ end }}</h1>  
+                    </div>
+                </div>
+            </header>
+            
+            <div class="container" >
+                    <div class="row">
+                        <!-- *** LEFT COLUMN *** -->
+                        <div class="col-md-10-offset-1 articulo" >
+    <!-- For some reason the pagination is not working properly. I'm hardcoding 5 articles in the next line -->
+                            {{ $paginator := .Paginate (where .Data.Pages "Type" "articulos") 5 }}
+                            {{ range $paginator.Pages }}
+                                <div class="row articulo">
+                                    <div class="col-md-3">
+                                          <a href="{{ .Permalink }}">
+                                              {{ if .Params.banner }}
+                                              <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-fluid" alt="{{ .Params.banner }}">
+                                              {{ else }}
+                                               
+                                              {{ end }}
+                                          </a>
+                                      
+                                    </div>
+                                    <div class="col-md-9">
+                                        <a href="{{ .RelPermalink }}"><h3>{{ .Title }}</h3></a>
+                                        <div class="clearfix">
+                                            <p class="author-category">
+                                              {{ if isset .Params "author" }}
+                                              por {{ .Params.author }}
+                                              {{ end }}    
+                                            </p>
+                                            <p class="date-comments">
+                                                <i class="fa fa-calendar-o"></i>
+                                                    <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.meses (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
+                                            </p>
+                                        </div>
+                                        <p class="intro">{{ .Summary }}</p>
+                                        <a href="{{ .RelPermalink }}" class="read-more"><p>{{ .Site.Params.articulos.readmore }}</p></a>
+                                        
+                                    </div>
+                                </div>
+                            {{ end }}
+    
+                            <ul class="pager">
+                                {{ if .Paginator.HasPrev }}
+                                <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; {{ .Site.Params.articulos.prev }}</a></li>
+                                {{ else }}
+    <!-- this code greys out the "Newer" button in the first page                            
+                                <li class="previous disabled"><a href="#">&larr; Newer</a></li>
+    -->                            
+                                {{ end }}
+    
+                                {{ if .Paginator.HasNext }}
+                                <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">{{ .Site.Params.articulos.next }} &rarr;</a></li>
+                                {{ else }}
+    <!-- this code greys out the "Older" button in the first page   
+                                <li class="next disabled"><a href="#">Older &rarr;</a></li>
+    -->
+                                {{ end }}
+                            </ul>
+                        </div>
+                        <!-- /.col-md-9 -->
+    
+                        <!-- *** LEFT COLUMN END *** -->
+    
+       
+    
+                    </div>
+                    <!-- /.row -->
+                </div>
+
+
+
+
+
+
+
+    
+        {{ partial "js.html"}}
+    </body>
+</html>
+

@@ -1,0 +1,72 @@
+<section class="section-consulta js--section-consulta" id="consulta">
+    <div class="container">
+        <div class="row justify-content-center">
+            <h2>{{ with .Site.Params.consulta.titulo }}{{ . | markdownify }}{{ end }}</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <p>{{ with .Site.Params.consulta.maintext }}{{ . | markdownify }}{{ end }}</p>
+                <div class="row">
+                    {{ range .Site.Params.consulta.items }}
+                    <div class="col-6 feature-box fadeInUp">
+                        <img src="/img/{{ .img }}" alt="{{ .name }}">
+                        <h3>{{ .name }}</h3>    
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 consulta-form">
+                <div class="row justify-content-center">
+                    <h3>{{ with .Site.Params.consulta.more }}{{ . | markdownify }}{{ end }}</h3>
+                </div>
+                <div class="row">
+                        <form class="formulario-consulta" method="post" action="#">
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 form-label">
+                                    <label for="name">Nombre</label>
+                                </div>
+                                <div class="col-xs-8 col-sm-8">
+                                    <input type="text" name="name" id="name" placeholder="Tu nombre" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 form-label">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="col-xs-8 col-sm-8">
+                                    <input type="email" name="email" id="email" placeholder="Tu email" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-xs-4 col-sm-4 form-label">
+                                        <label for="telefono">Telefono</label>
+                                    </div>
+                                    <div class="col-xs-8 col-sm-8">
+                                        <input type="text" name="telefono" id="telefono" placeholder="Tu telefono" required>
+                                    </div>
+                                </div>
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 form-label">
+                                    <label>Información adicional</label>
+                                </div>
+                                <div class="col-xs-8 col-sm-8">
+                                    <textarea name="mensaje" placeholder="Escribe aquí cualquier información relevante"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 form-label">
+                                    <label>&nbsp;</label>
+                                </div>
+                                <div class="col-xs-8 col-sm-8">
+                                    <input type="submit" value="Enviar">
+                                </div>
+                            </div>
+                            
+                        </form>
+                        
+                    </div>
+            </div>
+        </div>
+    </div>    
+</section>
