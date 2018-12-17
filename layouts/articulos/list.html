@@ -23,7 +23,7 @@
                             {{ range $paginator.Pages }}
                                 <div class="row articulo">
                                     <div class="col-md-3">
-                                          <a href="{{ .Permalink }}">
+                                          <a href="{{ .RelPermalink }}">
                                               {{ if .Params.banner }}
                                               <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-fluid" alt="{{ .Params.banner }}">
                                               {{ else }}
@@ -87,7 +87,8 @@
 
 
     
-        {{ partial "js.html"}}
+            {{ partial "footer.html"}}
+            {{ partial "js.html"}}
     </body>
 </html>
 

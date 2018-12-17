@@ -5,18 +5,18 @@
         </div>
 
         <div class="row">
-            <div class="col-12 col-sm-6">
+            <div class="col col-sm-6">
                 <p>{{ with .Site.Params.consulta.maintext }}{{ . | markdownify }}{{ end }}</p>
                 <div class="row">
                     {{ range .Site.Params.consulta.items }}
-                    <div class="col-6 feature-box fadeInUp">
+                    <div class="col-sm-6 feature-box fadeInUp">
                         <img src="/img/{{ .img }}" alt="{{ .name }}">
                         <h3>{{ .name }}</h3>    
                     </div>
                     {{ end }}
                 </div>
             </div>
-            <div class="col-12 col-sm-6 consulta-form">
+            <div class="col col-sm-6 consulta-form">
                 <div class="row justify-content-center">
                     <h3>{{ with .Site.Params.consulta.more }}{{ . | markdownify }}{{ end }}</h3>
                 </div>

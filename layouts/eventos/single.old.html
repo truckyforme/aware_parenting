@@ -10,14 +10,15 @@
         </header>
 
         <div class="container" >
-            <div class="row evento-main">
-                <h1>{{ .Title }}</h1> 
-                {{ with .Params.Subtitle }}<h2>{{ . }}</h2>{{ end }}   
-            </div>
-            <div class="row bg-light">
-            
+            <div class="row">
                 <!-- *** LEFT-COLUMN *** -->   
-                <div class="col-md-9 evento-main">
+                <div class="col-md-12 evento-main">
+                    <div class="row">
+                        <h1>{{ .Title }}</h1> 
+                        {{ with .Params.Subtitle }}<h2>{{ . }}</h2>
+                        {{ end }}   
+                    </div>
+
                     <div class="row small-gutters d-flex align-items-center evento-data">
                         <div class="col-2 evento-label align-middle">
                             <p>Cuando: </p>
@@ -62,28 +63,37 @@
                                     <img src="/img/_ionicons_svg_ios-mail.svg" style="height:1rem; float: left; padding-right:1em;"></img> <p> {{ .Params.contactoemail }}</p>    
                             </div>
                         </div>                    
+                    <div class="row">
+                        <div id="evento-content">
+                        <img src="/{{ .Params.thumb }}" class="rounded float-right evento-img" alt="{{ .Params.thumb }}">
+                        {{ with .Content }}{{ . }}{{ end }}
+                        </div>
+                        <!-- /#evento-content -->
+                        {{ if .Site.DisqusShortname }}
+                        <div id="comments">
+                         {{ template "_internal/disqus.html" . }}
+                        </div>
+                        {{ end }}            
+                        </div>
                     
                 </div>
-                <div class="col-md-3 evento-main">
-                    <img src="/{{ .Params.thumb }}" class="rounded float-right evento-img" alt="{{ .Params.thumb }}">    
-                </div>
-                
+
+
+                 <!-- *** LEFT COLUMN END *** -->
+
+   
+
                 </div>
                 <!-- /.row -->
-            </div>
-            <div class="row evento-main">
-                    <div id="evento-content">
-                    {{ with .Content }}{{ . }}{{ end }}
-                    </div>
-                    <!-- /#evento-content -->
-                    {{ if .Site.DisqusShortname }}
-                    <div id="comments">
-                     {{ template "_internal/disqus.html" . }}
-                    </div>
-                    {{ end }}            
-                    </div>
-                    
-        {{ partial "footer.html"}}
+            </div>    
+
+
+
+
+
+
+
+    
         {{ partial "js.html"}}
     </body>
 </html>

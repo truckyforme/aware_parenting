@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{{ "<!-- articulo -->" | safeHTML }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}es-es{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        <header class="header-article">
+            {{ partial "nav.html" . }} 
+        </header>
+
+        <div class="container" >
+            <div class="row">
+                <!-- *** MAIN BODY *** -->   
+                <div class="col-md-12">
+                    <h1>{{ .Title }}</h1>
+                    
+                    <div id="articulo-content">
+                        {{ with .Content }}{{ . }}{{ end }}
+                    </div>
+                    </div>
+                    <!-- /#blog-post -->
+
+                    <!-- *** LEFT COLUMN END *** -->
+
+   
+
+                </div>
+                <!-- /.row -->
+            </div>    
+
+
+
+
+
+
+
+    
+        {{ partial "js.html"}}
+    </body>
+</html>

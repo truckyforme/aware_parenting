@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand navbar-header" href={{ if .IsHome }}"#page-top"{{ else }}"/#page-top"{{ end }}>
+        <img src="{{ .Site.Params.navigation.brand_logo }}" alt="Aware Parenting" class="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto d-flex flex-row-reverse responsive-nav">
+        {{ range .Site.Params.navigation.items }}
+        <li>
+            <a class="nav-item" href= {{ if .IsHome }}"{{ .frontpageurl }}" {{ else }} "{{ .url }}" {{ end }}>{{ .name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </nav>

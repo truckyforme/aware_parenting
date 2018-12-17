@@ -5,7 +5,7 @@
     <div class="row">
         {{ range where (.Pages.ByParam "date1") "Type" "eventos"}}
          <div class="col-6 col-sm-3 card-row">
-            <a class="card event-box" href="{{ .Permalink }}">
+            <a class="card event-box" href="{{ .RelPermalink }}">
                 <img class="card-img" src="{{ .Params.thumb }}" alt=".Params.thumb">
                 <div class="card-img-overlay">
                     <div class="card-evento-date">
