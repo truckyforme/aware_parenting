@@ -14,20 +14,20 @@
                 <h1>{{ .Title }}</h1> 
                 {{ with .Params.Subtitle }}<h2>{{ . }}</h2>{{ end }}   
             </div>
-            <div class="row bg-light">
+            <div class="row bg-light no-gutters">
             
                 <!-- *** LEFT-COLUMN *** -->   
-                <div class="col-md-9 evento-main">
-                    <div class="row small-gutters d-flex align-items-center evento-data">
+                <div class="col-12 col-md-9 evento-main">
+                    <div class="row d-flex align-items-center evento-data">
                         <div class="col-2 evento-label align-middle">
                             <p>Cuando: </p>
                         </div>
                         <div class="col-10 evento-fecha align-middle">
                             <p>
-                                {{ dateFormat "2" .Params.date1 }} {{ index $.Site.Data.meses (printf "%d" ((time .Params.date1).Month)) }} {{ dateFormat "2006" .Params.date1 }}
+                                {{ dateFormat "2" .Params.date1 }} {{ index $.Site.Data.mes (printf "%d" ((time .Params.date1).Month)) }} {{ dateFormat "2006" .Params.date1 }}
                             {{ with .Params.date2 }}
                             - 
-                            {{ dateFormat "2" . }} {{ index $.Site.Data.meses (printf "%d" ((time .).Month)) }} {{ dateFormat "2006" . }}
+                            {{ dateFormat "2" . }} {{ index $.Site.Data.mes (printf "%d" ((time .).Month)) }} {{ dateFormat "2006" . }}
                         
                             {{ end }}
                             
@@ -71,18 +71,14 @@
                 </div>
                 <!-- /.row -->
             </div>
-            <div class="row evento-main">
+            <div class="container">
+                <div class="row evento-main">
                     <div id="evento-content">
-                    {{ with .Content }}{{ . }}{{ end }}
-                    </div>
-                    <!-- /#evento-content -->
-                    {{ if .Site.DisqusShortname }}
-                    <div id="comments">
-                     {{ template "_internal/disqus.html" . }}
-                    </div>
-                    {{ end }}            
-                    </div>
-                    
+                        {{ with .Content }}{{ . }}{{ end }}
+                    </div>            
+                </div>
+            </div>
+                                
         {{ partial "footer.html"}}
         {{ partial "js.html"}}
     </body>
