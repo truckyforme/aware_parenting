@@ -48,25 +48,24 @@
                     </ul>
             </div>
             <div class="col-sm-3">
-                    <h4>{{ $.Site.Params.footer.Titlemenu3 }}</h4>
-                    {{ $paginator := .Paginate (where .Data.Pages "Type" "articulos") 3 }}
-                            {{ range $paginator.Pages }}
-                                <div class="row articulo-footer no-gutters">
-                                    <div class="col-md-3">
-                                          <a href="{{ .RelPermalink }}">
-                                              {{ if .Params.banner }}
-                                              <img src="{{ .Params.banner }}" class="img-fluid" alt="{{ .Params.banner }}">
-                                              {{ else }}
-                                               
-                                              {{ end }}
-                                          </a>
-                                      
-                                    </div>
-                                    <div class="col-md-9">
-                                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>  
-                                    </div>
-                                </div>
-                            {{ end }}
+                <h4>{{ $.Site.Params.footer.Titlemenu3 }}</h4>
+                {{ range first 3 (where .Site.RegularPages "Type" "articulos") }}
+                    <div class="row articulo-footer no-gutters">
+                        <div class="col-md-3">
+                          <a href="{{ .RelPermalink }}">
+                              {{ if .Params.banner }}
+                              <img src="{{ .Params.banner }}" class="img-fluid" alt="{{ .Params.banner }}">
+                              {{ else }}
+                               
+                              {{ end }}
+                          </a>
+                      
+                        </div>
+                        <div class="col-md-9">
+                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>  
+                        </div>
+                    </div>
+                {{ end }}
             </div>
             <div class="col-sm-3">
                     <h4>{{ $.Site.Params.footer.Titlemenu4 }}</h4>
@@ -79,7 +78,7 @@
         </div>
         <div class="row justify-content">
             <p class="mx-auto">
-                {{ $.Site.Params.Copyright }}
+                {{ $.Site.Copyright }}
             </p>
         </div>
     </footer>

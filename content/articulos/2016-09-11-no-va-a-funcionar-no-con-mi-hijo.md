@@ -6,7 +6,7 @@ date: 2016-09-11T07:04:11+00:00
 url: /no-va-a-funcionar-no-con-mi-hijo/
 banner: /img/articulos/soluciones_enlatadas.jpg
 ---
-![soluciones enlatdas][pic1]
+![soluciones enlatadas][pic1]
 ## Las recomendaciones del experto
 
 Imagina esta situación: Has acudido a un experto para que te ayude a resolver una situación difícil. Tras escuchar tus preocupaciones el experto comienza a hablar&#8230; y sus sugerencias te suenan enlatadas y te hacen pensar que ha sacado conclusiones rápidamente acerca de cómo eres y cuál es tu problema. Desde luego, si no estás convencida, puedes decidir no hacer caso al experto. Aunque, claro, esto no es tan sencillo como parece, pues desde pequeños nos han enseñado que el experto siempre tiene razón. Pero si no puedes escapar de las redes del “debería”, lo más probable es que te vuelvas a casa sintiéndote culpable por no saber hacer bien lo que se te indica.

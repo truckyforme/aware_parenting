@@ -18,7 +18,7 @@ Como siempre, fue un privilegio disfrutar de su compañía y sus profundos conoc
 
 * * *
 
-[<img class="alignright wp-image-427 size-large" src="http://awareparenting.es/wp-content/uploads/2015/09/DSC_0325-1024x683.jpg" alt="DSC_0325" width="1024" height="683" srcset="http://awareparenting.es/wp-content/uploads/2015/09/DSC_0325-1024x683.jpg 1024w, http://awareparenting.es/wp-content/uploads/2015/09/DSC_0325-300x200.jpg 300w, http://awareparenting.es/wp-content/uploads/2015/09/DSC_0325-1080x720.jpg 1080w" sizes="(max-width: 1024px) 100vw, 1024px" />][1]
+![Aletha Solter][pic1]
 
 &nbsp;
 
@@ -48,7 +48,7 @@ Una de las situaciones más difíciles para los padres es lidiar con el comporta
 
 En ocasiones los niños comienzan a llorar cuando establecemos límites diciendo ‘no’ o les refrenamos físicamente. Cuando esto ocurre, podemos dar apoyo al estallido emocional del niño, pero no tenemos que cambiar el límite. De hecho, el llanto puede representar una liberación saludable del estrés acumulado que subyace a su comportamiento. Desafortunadamente, algunos padres  se abstienen de establecer límites necesarios, o “ceden” cuando el niño empieza a llorar, porque no quieren que su hijo esté molesto. Sin embargo, las lágrimas del niño no implican que el padre esté siendo tiránico o autoritario.
 
-**[<img class="alignright size-medium wp-image-428" src="http://awareparenting.es/wp-content/uploads/2015/09/DSC_0286-300x200.jpg" alt="DSC_0286" width="300" height="200" srcset="http://awareparenting.es/wp-content/uploads/2015/09/DSC_0286-300x200.jpg 300w, http://awareparenting.es/wp-content/uploads/2015/09/DSC_0286-1024x683.jpg 1024w, http://awareparenting.es/wp-content/uploads/2015/09/DSC_0286-1080x720.jpg 1080w" sizes="(max-width: 300px) 100vw, 300px" />][2] ****Los padres que descubren el enfoque de Aware Parenting siendo sus hijos ya adolescentes o adultos, se preguntan a menudo qué pueden hacer después de toda una infancia de castigos y recompensas. ¿Qué dirías a estos padres?** 
+![aletha y laura díaz][pic2] ****Los padres que descubren el enfoque de Aware Parenting siendo sus hijos ya adolescentes o adultos, se preguntan a menudo qué pueden hacer después de toda una infancia de castigos y recompensas. ¿Qué dirías a estos padres?** 
 
 ** **¡Nunca es demasiado tarde para empezar con la filosofía de Aware Parenting! El primer paso con los adolescentes es empezar a escucharles cuando hablan. Escuchar bien significa no interrumpirles, no aconsejarles, y no culpar a los adolescentes de sus problemas. Para muchos padres las asambleas familiares son una manera efectiva de empezar el enfoque no punitivo con los adolescentes. Sin embargo, cuando los padres han estado usando los castigos y recompensas anteriormente, puede que los niños tengan rabia acumulada hacia los padres y sientan la necesidad de rebelarse contra cualquier intento de cambiar su comportamiento. Puede que a los padres les lleve un tiempo construir una relación con sus adolescentes basada en el respeto mutuo y la confianza en vez de en los métodos de control basados en el poder.
 
@@ -91,6 +91,7 @@ Mis planes para el futuro pasan por continuar promocionando este enfoque y exten
 &nbsp;
 
 **Muchas gracias**
-
+[pic1]: /img/articulos/aletha-pool.jpg
+[pic2]: /img/articulos/aletha-laura.jpg
  [1]: http://awareparenting.es/wp-content/uploads/2015/09/DSC_0325.jpg
  [2]: http://awareparenting.es/wp-content/uploads/2015/09/DSC_0286.jpg

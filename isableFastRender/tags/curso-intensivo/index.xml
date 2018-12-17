@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Curso Intensivo on Laura Díaz de Entresotos - Aware Parenting en España</title>
+    <link>http://localhost:1313/tags/curso-intensivo/</link>
+    <description>Recent content in Curso Intensivo on Laura Díaz de Entresotos - Aware Parenting en España</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>© 2018 Laura Díaz de Entresotos. Todos los derechos reservados.</copyright>
+    
+	<atom:link href="http://localhost:1313/tags/curso-intensivo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Autorregulación</title>
+      <link>http://localhost:1313/eventos/2019-01-19-autorregulacion-castellon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/eventos/2019-01-19-autorregulacion-castellon/</guid>
+      <description>La capacidad de autorregulación se desarrolla y fortalece a lo largo de la vida, y el papel de los padres y cuidadores es determinante: pueden interferir con una educación basada en castigos y recompensas que persigue la obediencia de los niños, o pueden proporcionar las condiciones de libertad y responsabilidad adecuadas para que se produzca el aprendizaje de esta habilidad.
+Pero, ¿cuáles son esas condiciones?, ¿qué es autorregulación?, y ¿cómo ayudar a los niños a aprender a regularse?</description>
+    </item>
+    
+  </channel>
+</rss>
