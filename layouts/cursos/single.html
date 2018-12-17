@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+{{ "<!-- evento -->" | safeHTML }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}es-es{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        <header class="header-cursos">
+            {{ partial "nav.html" . }} 
+            <div class="container">
+                <div class="row justify-content-center">
+                    <h1>{{ with .Params.Title }}{{ . | markdownify  }}{{ end }}</h1>  
+                </div>
+            </div>
+        </header>
+        
+        <section class="container intensivos" id="cursos-intensivos">
+            <div class="row justify-content-center">
+                {{ with .Params.intensivostitle }}
+                 <h2>{{ . | markdownify }}</h2>
+                {{ end }} 
+                {{ with .Params.intensivosintro }}
+                 <p>{{ . | markdownify }}</p>
+                {{ end }}
+            </div>
+            <div class="container cursos-panel">
+                <div class="row list">
+                    <div class="list">
+                        <div class="list-body">
+                            {{ range .Site.Data.cursosintensivos }}
+                            <div class="list-el">
+                                <div class="intro">
+                                    <h3 class="col-9">{{ .title }}</h3>
+                                    <div class="other-params col-2">
+                                        <img class="img-fluid rounded float-right"src="{{ .thumb }}" alt="{{ .thumb }}">
+                                    </div>
+                                </div>
+                                <div class="desc">
+                                    <div class="excerpt-fullwidth">
+                                        {{ .description | markdownify }}
+                                    </div>
+                                </div>
+                            </div>
+                            {{ end }}     
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="container" id="proximos-cursos">
+                    <div class="row justify-content-center">
+                             <h3>Próximos Cursos</h3>
+                        </div>    
+                <div class="row">
+                            {{ range where (.Site.RegularPages.ByParam "date1") "Type" "eventos"}}
+                            
+                             <div class="col-6 col-sm-4 col-lg-3 card-row">
+                                <a class="card event-box" href="{{ .RelPermalink }}">
+                                    <img class="card-img" src="{{ .Site.BaseURL }}{{ .Params.thumb }}" alt=".Params.thumb">
+                                    <div class="card-img-overlay">
+                                        <div class="card-evento-date">
+                                            <div class="card-evento-month">
+                                                    {{ index $.Site.Data.mes (printf "%d" ((time .Params.date1).Month)) }}
+                                            </div>
+                                            <div class="card-evento-day">
+                                                    {{ dateFormat "2" .Params.date1 }}{{ with .Params.date2 }}-{{dateFormat "2" . }}{{ end }}
+                                            </div>
+                                            <div class="card-evento-year">
+                                                    {{ dateFormat "2006" .Params.date1 }}
+                                            </div>
+                                        </div>
+                                        <div class="card-evento-ciudad">{{ .Params.ciudad }}</div>
+                                        <div class="card-title card-evento-title">
+                                            <div class="card-evento-tipo">{{ .Params.tipoevento }}</div>
+                                            <div class="card-evento-maintitle">{{ .Params.title }}</div>
+                                        </div>    
+                                    </div>
+                                </a>    
+                            </div>
+                            
+                            {{ end }}
+                        </div>
+            </div>
+        </section>
+
+        <section class="container charlas" id="idcharlas">
+                <div class="row justify-content-center">
+                    {{ with .Params.charlastitle }}
+                     <h2>{{ . | markdownify }}</h2>
+                    {{ end }} 
+                    {{ with .Params.charlasintro }}
+                     <p>{{ . | markdownify }}</p>
+                    {{ end }}
+                </div>
+                <div class="container cursos-panel">
+                    <div class="row list">
+                        <div class="list">
+                            <div class="list-body">
+                                {{ range .Site.Data.charlas }}
+                                <div class="list-el">
+                                    <div class="intro">
+                                        <h3 class="col-10">{{ .title }}</h3>
+                                        <div class="other-params col-2">
+                                            <img class="img-fluid rounded float-right"src="{{ .thumb }}" alt="{{ .thumb }}">
+                                        </div>
+                                    </div>
+                                    <div class="desc">
+                                        <div class="excerpt-fullwidth">
+                                            {{ .description | markdownify }}
+                                        </div>
+                                    </div>
+                                </div>
+                                {{ end }}     
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                <div class="container" id="proximas-charlas">
+                        <div class="row justify-content-center">
+                                 <h3>Próximas Charlas</h3>
+                            </div>    
+                    <div class="row">
+                                {{ range where (.Site.RegularPages.ByParam "date1") "Type" "eventos"}}
+                            
+                                 <div class="col-6 col-sm-4 col-lg-3 card-row">
+                                    <a class="card event-box" href="{{ .RelPermalink }}">
+                                        <img class="card-img" src="{{ .Site.BaseURL }}{{ .Params.thumb }}" alt=".Params.thumb">
+                                        <div class="card-img-overlay">
+                                            <div class="card-evento-date">
+                                                <div class="card-evento-month">
+                                                        {{ index $.Site.Data.mes (printf "%d" ((time .Params.date1).Month)) }}
+                                                </div>
+                                                <div class="card-evento-day">
+                                                        {{ dateFormat "2" .Params.date1 }}{{ with .Params.date2 }}-{{dateFormat "2" . }}{{ end }}
+                                                </div>
+                                                <div class="card-evento-year">
+                                                        {{ dateFormat "2006" .Params.date1 }}
+                                                </div>
+                                            </div>
+                                            <div class="card-evento-ciudad">{{ .Params.ciudad }}</div>
+                                            <div class="card-title card-evento-title">
+                                                <div class="card-evento-tipo">{{ .Params.tipoevento }}</div>
+                                                <div class="card-evento-maintitle">{{ .Params.title }}</div>
+                                            </div>    
+                                        </div>
+                                    </a>    
+                                </div>
+                                
+                                {{ end }}
+                            </div>
+                </div>
+            </section>
+
+                                
+        {{ partial "footer.html" . }}
+        {{ partial "js.html" }}
+        {{ partial "jsacordion.html" }}
+    </body>
+</html>
