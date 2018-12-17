@@ -117,7 +117,7 @@ Se puede encontrar una descripción de esta filosofía de la educación en los t
   </tr>
   <tr>
     <td align="center">
-      Mi bebé lo entiendo todo
+      Mi bebé lo entiende todo
     </td>
     <td align="center">
       Mi niño lo entiende todo
@@ -128,4 +128,3 @@ Se puede encontrar una descripción de esta filosofía de la educación en los t
   </tr>
 </table>
 
-** **

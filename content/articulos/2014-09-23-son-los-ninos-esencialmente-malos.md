@@ -42,34 +42,29 @@ Cuando los adultos tienen tendencia a la destrucción o la violencia, debemos as
 
 &nbsp;
 
-<img src="http://www.awareparenting.com/sb10-1.gif" alt="line" width="100%" />
+<img src="/img/articulos/sb10-1.gif" alt="line" width="100%" />
 
 Se puede encontrar una descripción de esta filosofía de la educación en los tres libros de Aletha Solter: _Mi bebé lo entiende todo, Mi niño lo entiende todo, LLantos y rabietas._ Fecha de publicación: 2002, Ediciones Medici, Barcelona, España. (Titulos en inglés: _The Aware Baby, Helping Young Children Flourish,_ y _Tears and Tantrums_.)
 
 <table border="0" width="100%" align="center">
   <tr>
     <td align="center">
-      <img src="http://www.awareparenting.com/abspanish.jpg" alt="Mi bebé lo entiendo todo" width="130" height="196" />
+      <img src="/img/articulos/mi-bebe-lo-entiende-todo.jpg" alt="Mi bebé lo entiendo todo">
     </td>
-    
     <td align="center">
-      <img src="http://www.awareparenting.com/hyspanish.jpg" alt="Mi niño lo entiende todo" width="130" height="196" />
+      <img src="/img/articulos/mi-nino-lo-entiende-todo.jpg" alt="Mi niño lo entiende todo">
     </td>
-    
     <td align="center">
-      <img src="http://www.awareparenting.com/ttspanish.jpg" alt="Llantos y rabietas" width="130" height="196" />
+      <img src="/img/articulos/LlantosRabietas.jpg" alt="Llantos y rabietas">
     </td>
   </tr>
-  
   <tr>
     <td align="center">
-      Mi bebé lo entiendo todo
+      Mi bebé lo entiende todo
     </td>
-    
     <td align="center">
       Mi niño lo entiende todo
     </td>
-    
     <td align="center">
       Llantos y rabietas
     </td>
