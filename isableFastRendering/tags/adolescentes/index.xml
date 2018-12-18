@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adolescentes on Laura Díaz de Entresotos - Aware Parenting en España</title>
+    <link>http://localhost:1313/tags/adolescentes/</link>
+    <description>Recent content in Adolescentes on Laura Díaz de Entresotos - Aware Parenting en España</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>© 2018 Laura Díaz de Entresotos. Todos los derechos reservados.</copyright>
+    
+	<atom:link href="http://localhost:1313/tags/adolescentes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Empatía y Conexión</title>
+      <link>http://localhost:1313/eventos/2019-02-02-taller-empatia-y-conexion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/eventos/2019-02-02-taller-empatia-y-conexion/</guid>
+      <description>Un taller dedicado a practicar la escucha, el superpoder de los padres con hijos adolescentes. Habilidad básica para la resolución de conflictos, pieza clave para la regulación emocional, e ingrediente imprescindible para fortalecer la relación con los hijos. Pero, ¡ojo! ¿de qué hablamos cuando hablamos de escucha?
+El curso combina la exposición de ideas y conceptos con ejemplos reales y ejercicios prácticos aplicados a situaciones reales de los propios participantes.</description>
+    </item>
+    
+  </channel>
+</rss>

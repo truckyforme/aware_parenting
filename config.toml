@@ -1,4 +1,4 @@
-baseURL = "https://www.awareparenting.es/"
+baseURL = "https://awareparentingtest.netlify.com/"
 languageCode = "es-es"
 paginate		= 5
 paginatePath	= "newspage"
