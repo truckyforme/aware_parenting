@@ -88,7 +88,9 @@ theme        	= "ap_theme"
         titulo = "Próximos Cursos y Charlas"
         maintext ="Estos son los próximos cursos y charlas programados. Si quieres conocer con más detalle todos los cursos y charlas que ofrezco, haz click en el botón."
         more = "+ info sobre cursos"
-        morelink = "/cursos/"
+        morelink = "/cursos"
+
+# Consulta
     [params.consulta]
         titulo = "Consulta Privada"
         maintext ="Con más de 15 años de experiencia profesional, ofrezco consultas privadas a aquellos padres que estén buscando una forma distinta de relacionarse con sus hijos y afrontar los conflictos. Las consultas están orientadas a resolver dudas, a enseñar a los adultos a cómo interactuar con sus hijos de forma que puedan ayudarles en su desarrollo y a resolver los problemas de comportamiento más comunes."
