@@ -1,5 +1,5 @@
 ---
-title: "Empatía y Conexión"
+title: "Acoso Escolar"
 subtitle: ""
 author: Laura Díaz de Entresotos
 type: eventos
