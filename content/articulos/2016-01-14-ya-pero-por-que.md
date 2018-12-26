@@ -4,7 +4,7 @@ author: Laura Díaz de Entresotos
 type: articulos
 date: 2016-01-14T22:54:27+00:00
 url: /ya-pero-por-que/
-banner: /img/articulos/pegatinas.jpg
+banner: /img/articulos/pegatinas-thumb.jpg
 et_enqueued_post_fonts:
 
 categories:

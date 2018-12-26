@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+{{ "<!-- evento -->" | safeHTML }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}es-es{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        <header class="header-awareparenting">
+            {{ partial "nav.html" . }} 
+            <div class="container">
+                <div class="row justify-content-center">
+                    <h1>{{ with .Params.Title }}{{ . | markdownify  }}{{ end }}</h1>  
+                </div>
+            </div>
+    </header>
+        
+    <section>
+        <div class="container">  
+            <div class="row justify-content-center">
+                {{ with .Params.queesap }}
+                 <h2>{{ . | markdownify }}</h2>
+                {{ end }} 
+                {{ with .Params.queesapdescription }}
+                
+                 <p>
+                    <img src="/img/aware_parenting/solter1.jpg" class="float-right w-50 mx-3" alt="Aletha Solter">
+                    {{ . | markdownify }}</p>
+
+                {{ end }}
+            </div>
+            <div class="row justify-content-center">
+                    {{ with .Params.pilaresap }}
+                     <h2>{{ . | markdownify }}</h2>
+                    {{ end }} 
+                    {{ with .Params.apdescription }}
+                     <p>
+                        {{ . | markdownify }}</p>
+    
+                    {{ end }}
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 feature-box fadeInUp">
+                        <img src="{{ .Params.pilaresap1img }}" alt="{{ .Params.pilaresap1 }}">
+                        <h3>{{ .Params.pilaresap1 }}</h3>
+                        <ul>
+                            {{ range .Params.pilaresap1list }}
+                                <li>{{ . }}</li>   
+                            {{ end }} 
+                        </ul>
+
+                </div>
+                <div class="col-xs-12 col-sm-4 feature-box fadeInUp">
+                        <img src="{{ .Params.pilaresap2img }}" alt="{{ .Params.pilaresap2 }}">
+                        <h3>{{ .Params.pilaresap2 }}</h3>
+                        <ul>
+                            {{ range .Params.pilaresap2list }}
+                                <li>{{ . }}</li>   
+                            {{ end }} 
+                        </ul>
+
+                </div>
+                <div class="col-xs-12 col-sm-4 feature-box fadeInUp">
+                        <img src="{{ .Params.pilaresap3img }}" alt="{{ .Params.pilaresap3 }}">
+                        <h3>{{ .Params.pilaresap3 }}</h3>
+                        <ul>
+                            {{ range .Params.pilaresap3list }}
+                                <li>{{ . }}</li>   
+                            {{ end }} 
+                        </ul>
+
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                    {{ with .Params.principiosap }}
+                     <h2>{{ . | markdownify }}</h2>
+                    {{ end }} 
+                    <ul>
+                        {{ range .Params.principiosaplist }}
+                            <li class="ml-3">{{ . }}</li>   
+                            {{ end }} 
+                        </ul>
+            </div>
+            <div class="row justify-content-center">
+                    {{ with .Params.apinstitute }}
+                     <h2>{{ . | markdownify }}</h2>
+                    {{ end }} 
+                    {{ with .Params.apinstitutedescription }}
+                    
+                     <p>
+                        <img src="/img/aware_parenting/ap_institute.png" class="float-right w-25 mx-3" alt="Aletha Solter">
+                        {{ . | markdownify }}</p>
+    
+                    {{ end }}
+                </div>
+              </div>
+            </section>
+
+                                
+        {{ partial "footer.html" . }}
+        {{ partial "js.html" }}
+        {{ partial "jsacordion.html" }}
+    </body>
+</html>

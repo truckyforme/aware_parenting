@@ -60,7 +60,7 @@
                     <h4>{{ $.Site.Params.footer.Titlemenu4 }}</h4>
                     <ul class="footer-nav">
                     {{ range $.Site.Params.footer.menu4 }}
-                        <li>{{ .name }}<a href="{{ .url }}">{{ .value }}</a></li>
+                        <li>{{ .name }}<a href="{{ .url | safeURL }}">{{ .value }}</a></li>
                     {{ end }}    
                     </ul>
             </div>

@@ -4,7 +4,7 @@ author: Laura Díaz de Entresotos
 type: articulos
 date: 2014-09-24
 url: /articulos/el-espacio-negativo/
-banner: /img/articulos/tazas.png
+banner: /img/articulos/tazas-thumb.jpg
 categories: ['Articulos']
 
 ---
@@ -12,11 +12,7 @@ En Agosto viajé a Nueva York para asistir al curso “Dibujar con el lado derec
 
 Para mostrarnos la “esclavitud” a la que nos somete el lado izquierdo del cerebro, Brian nos contó el ejemplo de una alumna que dibujó  una taza como se muestra en la figura 1. Aún sin prestar mucha atención, algo parece raro en el dibujo, no parece estar correcto; el borde inferior de la taza es recto. Sin embargo, si colocáis una taza en una mesa y, con un ojo guiñado, recorréis con el dedo en la distancia el borde inferior de la taza, os daréis cuenta de que lo que veis es una curva y no una recta. En la figura 2 la taza está representada tal como la vemos. Pues bien, Brian nos contaba cómo esta mujer seguía dibujando el borde recto incluso después de haber comprobado y reconocido que lo que veía en el modelo era una curva. Y es que nuestro cerebro izquierdo sabe muy bien que las tazas se posan sobre el plano de una mesa, por eso nos “dice” que el borde inferior tiene que ser recto.
 
-&nbsp;
-
-&nbsp;
-
-<img class="aligncenter" src="https://gallery.mailchimp.com/19b232fc76c2699b8d5a7dd15/images/tazas118da9.png" alt="" width="562" height="152" align="none" data-cke-saved-src="https://gallery.mailchimp.com/19b232fc76c2699b8d5a7dd15/images/tazas118da9.png" />
+![tazas-perspectiva][pic1]
 
 A lo largo del curso me fui dando cuenta de cómo estas habilidades también son importantes si queremos educar sin castigos ni recompensas, y de lo necesario que resulta mirar la realidad de un modo distinto para aplicar este estilo de educación.
 
@@ -31,3 +27,5 @@ Sin embargo, si nos fijamos en el “espacio negativo”,  pasaremos de pregunt
 Desde luego, no siempre es fácil llevar esto a la práctica, pero cuando ponemos nuestra atención en el “espacio negativo”, dejamos de centrarnos en un aspecto concreto, para ganar una visión global del conjunto.  Y sorprendentemente, esta visión global es la que nos ayuda a solucionar el conflicto o el “mal comportamiento” sin recurrir a los habituales castigos o recompensas. El resultado de este proceso es que todos nos sentimos bien y en armonía.
 
 ¿Y tú, has probado ya a buscar el “espacio negativo” en los conflictos con tus hijos?
+
+ [pic1]: /img/articulos/tazas.jpg

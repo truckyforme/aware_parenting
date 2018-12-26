@@ -16,49 +16,49 @@
                     {{ end }}
                 </div>
             </div>
-            <div class="col-12 col-sm-6 consulta-form">
+            <div class="col-12 col-md-6 consulta-form pl-1">
                 <div class="row justify-content-center">
                     <h3>{{ with .Site.Params.consulta.more }}{{ . | markdownify }}{{ end }}</h3>
                 </div>
                 <div class="row">
                         <form class="formulario-consulta" method="post" action="#">
                             <div class="row">
-                                <div class="col-xs-4 col-sm-4 form-label">
+                                <div class="col-3 pl-0 form-label">
                                     <label for="name">Nombre</label>
                                 </div>
-                                <div class="col-xs-8 col-sm-8">
+                                <div class="col-9">
                                     <input type="text" name="name" id="name" placeholder="Tu nombre" required>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-xs-4 col-sm-4 form-label">
+                                <div class="col-3 pl-0 form-label">
                                     <label for="email">Email</label>
                                 </div>
-                                <div class="col-xs-8 col-sm-8">
+                                <div class="col-9">
                                     <input type="email" name="email" id="email" placeholder="Tu email" required>
                                 </div>
                             </div>
                             <div class="row">
-                                    <div class="col-xs-4 col-sm-4 form-label">
+                                    <div class="col-3 pl-0 form-label">
                                         <label for="telefono">Telefono</label>
                                     </div>
-                                    <div class="col-xs-8 col-sm-8">
+                                    <div class="col-9">
                                         <input type="text" name="telefono" id="telefono" placeholder="Tu telefono" required>
                                     </div>
                                 </div>
                             <div class="row">
-                                <div class="col-xs-4 col-sm-4 form-label">
+                                <div class="col-3 pl-0 form-label">
                                     <label>Información adicional</label>
                                 </div>
-                                <div class="col-xs-8 col-sm-8">
+                                <div class="col-9">
                                     <textarea name="mensaje" placeholder="Escribe aquí cualquier información relevante"></textarea>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-xs-4 col-sm-4 form-label">
+                                <div class="col-3 pl-0 form-label">
                                     <label>&nbsp;</label>
                                 </div>
-                                <div class="col-xs-8 col-sm-8">
+                                <div class="col-9" style="text-align: left;">
                                     <input type="submit" value="Enviar">
                                 </div>
                             </div>

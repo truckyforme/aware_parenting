@@ -4,7 +4,7 @@ author: Laura Díaz de Entresotos
 type: articulos
 date: 2014-12-28T21:48:43+00:00
 url: /las-consecuencias-naturales/
-banner: /img/articulos/piel-de-gallina.png
+banner: /img/articulos/piel-de-gallina-thumb.jpg
 categories:
   - Artículos
 
@@ -27,4 +27,4 @@ Cuando los padres nos tomamos la libertad de decidir acerca de los asuntos de nu
 
 Los niños están deseando conquistar su autonomía. Cualquiera con un bebé de año y medio en adelante puede dar fe de esta afirmación. Pero para hacer esta conquista necesitan decidir, equivocarse y aprender de sus errores. Nuestro rol como padres no es tanto “enseñarles” como proporcionarles un entorno seguro (desde luego, no recomiendo en ninguna situación que se ponga en riesgo la integridad física del niño) y darles la libertad de elegir, ofreciendo nuestra ayuda y apoyo cuando experimentan las consecuencias naturales.
 
- [pic1]: /img/articulos/piel-de-gallina.png
+ [pic1]: /img/articulos/piel-de-gallina.jpg

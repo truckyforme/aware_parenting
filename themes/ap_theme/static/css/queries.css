@@ -1,6 +1,12 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
+    .consulta-form {
+        text-align: right;
+    }
+    .form-label {
+        padding-top: 5px;
+        margin-bottom: 10px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -78,8 +84,107 @@
         width: 100%;
         margin-left: 15px;
     }
+
+    .feature-box h3,
+    .consulta-form h3 {
+        font-size: 110%;
+    }
+    
+/* Lista cursos y charlas*/
+.list-body {
+    /* box-shadow: 0 12px 20px hsla(0, 0%, 62%, 0.3); */
+    background: #fbfbfd;
+    margin-bottom: 0;
+}     
+.list-body h3, .intro .name {
+    width: 85%;
+    padding-right: 10px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 120%;
+}
+
+.list-body h3:before, .intro .name:before, .active-list-el .name:before {
+    content: '+';
+    border: 1px solid #555;
+    border-radius: 30px;
+    padding: 1px 6px;
+    line-height: 1em;
+    font-size: 100%;
+    position: absolute;
+    left: -28px;
+    margin-top: 2px;
+    top: calc(50% - 10px);
+}
+    
+.list-body .list-el {
+    padding: 0px 0px 5px 40px;
+    font-size: 100%;
+    color: #555;
+    border-bottom: 1px solid rgba(40, 40, 40, 0.1);
+    margin-bottom: 0;
+    cursor: pointer;
+}
+    
+.list-body .active {
+    background: #fff;
+}
+    
+.list-body .intro {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
     
 
+    
+.active-list-el .name:before, .active-list-el h3:before {
+    content: '-';
+    font-size: 100%;
+    padding: 1px 9px;
+}
+    
+.list-body .desc {
+    margin-top: 15px;
+    display: flex;
+}
+    
+.list-body .desc p, .list-body .desc a {
+    font-size: 100%;
+    line-height: 20px;
+    color: #555;
+    padding-right: 20px;
+}
+    
+.list-body .desc p:last-child {
+    margin-bottom: 0;
+}
+    
+    
+.active-list-el {
+    background: #ffffff;
+}
+    
+.other-params {
+    width: 15%;
+}
+    
+.other-params .flex-box  {
+    display: flex;
+    align-items: center;
+}
+    
+    
+.list-body .desc .other-params .single-column-3:last-child {
+    margin-bottom: 0;
+}
+    
+.other-params .name:before {
+    content: none;
+}
+    
  
 }
 
@@ -144,6 +249,9 @@
         top: 10px;
         left: 10px;
 
+    }
+    .feature-box h3 {
+        font-size: 125%;
     }
 }
 

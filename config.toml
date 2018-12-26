@@ -71,6 +71,7 @@ theme        	= "ap_theme"
         titulo   ="¿Cuáles son las bases de mi enfoque?"
         subtitulo  ="Mi enfoque terapéutico se basa en Aware Parenting, una filosofía de crianza desarrollada por la Dra. Aletha Solter a partir de las investigaciones más recientes acerca del desarrollo infantil. Cuestiona gran parte de las ideas tradicionales acerca de la crianza y propone un nuevo enfoque capaz de transformar las relaciones con nuestros hijos basándose en el respeto y el amor.<br><br>La filosofía de Aware Parenting se sustenta en tres pilares:"
         more    ="¿Quieres saber más?"
+        morelink ="/aware_parenting"
         [params.features.items]
             [params.features.items.001]
                 name    = "Paternidad basada en el apego"
@@ -131,18 +132,6 @@ theme        	= "ap_theme"
             [params.footer.menu1.004]
                 name="Condiciones de uso"
                 url="/terms"
-        [params.footer.menu2]
-            [params.footer.menu2.001]
-                name="Laura Díaz de Entresotos"
-                url=""
-            [params.footer.menu2.002]
-                name="e-mail: "
-                value ="laura@awareparenting.es"
-                url="mailto:laura@awareparenting.es"
-            [params.footer.menu2.003]
-                name="telefono: "
-                value="687 05 45 95"
-                url="tel:687054595"
         [params.footer.menu4]
             [params.footer.menu4.001]
                 name="Laura Díaz de Entresotos"
@@ -154,7 +143,7 @@ theme        	= "ap_theme"
             [params.footer.menu4.003]
                 name="telefono: "
                 value="687 05 45 95"
-                url="tel:+34687054595"
+                url= "tel:+34687054595"
  
 # Cursos y Charlas
  

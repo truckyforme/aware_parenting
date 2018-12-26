@@ -24,7 +24,6 @@
                  <p>{{ . | markdownify }}</p>
                 {{ end }}
             </div>
-            <div class="container">
                     <div class="row">
                         <div id="main" class="col-md-12">
             
@@ -35,11 +34,7 @@
                                         <div class="intro">
                                             <div class="name">{{ .title }}</div>
                                             <div class="other-params">
-                                                <div class="flex-box">
-                                                    <div class="column-3">
                                                             <img class="img-fluid rounded float-right"src="{{ .thumb }}" alt="{{ .thumb }}">
-                                                    </div>
-                                                </div>
                                             </div>
                                         </div>
                                         <div class="desc">
@@ -57,7 +52,6 @@
                         </div>
 
                         </div>
-            </div>
             <!-- Tarjetas con los próximos cursos -->
             <div class="container" id="proximos-cursos">
                     <div class="row justify-content-center" style="margin-top: 5rem;">
@@ -66,7 +60,7 @@
                 <div class="row">
                             {{ range where (.Site.RegularPages.ByParam "date1") "Type" "eventos"}}
                             {{ if eq .Params.tipoevento "Curso" }}
-                             <div class="col-6 col-sm-4 col-lg-3 card-row">
+                             <div class="col-6 col-sm-4 col-lg-3 card-row px-1 px-md-3">
                                 <a class="card event-box" href="{{ .RelPermalink }}">
                                     <img class="card-img" src="{{ .Site.BaseURL }}{{ .Params.thumb }}" alt=".Params.thumb">
                                     <div class="card-img-overlay">
@@ -154,7 +148,7 @@
                     <div class="row">
                                 {{ range where (.Site.RegularPages.ByParam "date1") "Type" "eventos"}}
                                 {{ if eq .Params.tipoevento "Charla" }}
-                                 <div class="col-6 col-sm-4 col-lg-3 card-row">
+                                 <div class="col-6 col-sm-4 col-lg-3 card-row px-1 px-md-3">
                                     <a class="card event-box" href="{{ .RelPermalink }}">
                                         <img class="card-img" src="{{ .Site.BaseURL }}{{ .Params.thumb }}" alt=".Params.thumb">
                                         <div class="card-img-overlay">
@@ -241,7 +235,7 @@
                         <div class="row">
                                     {{ range where (.Site.RegularPages.ByParam "date1") "Type" "eventos"}}
                                     {{ if eq .Params.tipoevento "Taller" }}
-                                     <div class="col-6 col-sm-4 col-lg-3 card-row">
+                                     <div class="col-6 col-sm-4 col-lg-3 card-row px-1 px-md-3">
                                         <a class="card event-box" href="{{ .RelPermalink }}">
                                             <img class="card-img" src="{{ .Site.BaseURL }}{{ .Params.thumb }}" alt=".Params.thumb">
                                             <div class="card-img-overlay">
