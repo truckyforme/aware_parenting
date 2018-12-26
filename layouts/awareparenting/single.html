@@ -28,16 +28,20 @@
 
                 {{ end }}
             </div>
-            <div class="row justify-content-center">
-                    {{ with .Params.pilaresap }}
-                     <h2>{{ . | markdownify }}</h2>
-                    {{ end }} 
-                    {{ with .Params.apdescription }}
-                     <p>
-                        {{ . | markdownify }}</p>
-    
-                    {{ end }}
-            </div>
+        </div>
+    </section>
+    <section class="pilares-ap">
+        <div class="container">
+                <div class="row justify-content-center">
+                        {{ with .Params.pilaresap }}
+                         <h2>{{ . | markdownify }}</h2>
+                        {{ end }} 
+                        {{ with .Params.apdescription }}
+                         <p>
+                            {{ . | markdownify }}</p>
+        
+                        {{ end }}
+                </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-4 feature-box fadeInUp">
                         <img src="{{ .Params.pilaresap1img }}" alt="{{ .Params.pilaresap1 }}">
@@ -48,7 +52,7 @@
                             {{ end }} 
                         </ul>
 
-                </div>
+                </div>  
                 <div class="col-xs-12 col-sm-4 feature-box fadeInUp">
                         <img src="{{ .Params.pilaresap2img }}" alt="{{ .Params.pilaresap2 }}">
                         <h3>{{ .Params.pilaresap2 }}</h3>
@@ -70,30 +74,41 @@
 
                 </div>
             </div>
-            <div class="row justify-content-center">
-                    {{ with .Params.principiosap }}
-                     <h2>{{ . | markdownify }}</h2>
-                    {{ end }} 
-                    <ul>
-                        {{ range .Params.principiosaplist }}
-                            <li class="ml-3">{{ . }}</li>   
-                            {{ end }} 
-                        </ul>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+             <div class="row justify-content-center">
+                        {{ with .Params.principiosap }}
+                         <h2>{{ . | markdownify }}</h2>
+                        {{ end }} 
+                        <ul>
+                            {{ range .Params.principiosaplist }}
+                                <li class="ml-3">{{ . }}</li>   
+                                {{ end }} 
+                            </ul>
             </div>
-            <div class="row justify-content-center">
-                    {{ with .Params.apinstitute }}
-                     <h2>{{ . | markdownify }}</h2>
-                    {{ end }} 
-                    {{ with .Params.apinstitutedescription }}
-                    
-                     <p>
-                        <img src="/img/aware_parenting/ap_institute.png" class="float-right w-25 mx-3" alt="Aletha Solter">
-                        {{ . | markdownify }}</p>
-    
-                    {{ end }}
-                </div>
-              </div>
-            </section>
+
+        </div>
+    </section>        
+    <section class="pilares-ap">
+        <div class="container">
+                <div class="row justify-content-center">
+                        {{ with .Params.apinstitute }}
+                         <h2>{{ . | markdownify }}</h2>
+                        {{ end }} 
+                        {{ with .Params.apinstitutedescription }}
+                        
+                         <p>
+                            <img src="/img/aware_parenting/ap_institute.png" class="float-right w-25 mx-3" alt="Aletha Solter">
+                            {{ . | markdownify }}</p>
+        
+                        {{ end }}
+                    </div>
+                  </div>
+        </div>
+    </section>        
+            
 
                                 
         {{ partial "footer.html" . }}

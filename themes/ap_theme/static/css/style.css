@@ -360,7 +360,8 @@ input[type=submit]:active {
 /* PROXIMOS CURSOS */
 /* ----------------------------------------------- */
 
-.section-proximos-cursos {
+.section-proximos-cursos,
+.pilares-ap {
     background-color: #f4f4f4;
 }
 .card-row {

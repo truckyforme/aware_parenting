@@ -40,7 +40,7 @@
                 <h4>{{ $.Site.Params.footer.Titlemenu3 }}</h4>
                 {{ range first 3 (where .Site.RegularPages "Type" "articulos") }}
                     <div class="row articulo-footer no-gutters">
-                        <div class="col-md-3">
+                        <div class="col-3 p-1">
                           <a href="{{ .RelPermalink }}">
                               {{ if .Params.banner }}
                               <img src="{{ .Params.banner }}" class="img-fluid" alt="{{ .Params.banner }}">
@@ -50,7 +50,7 @@
                           </a>
                       
                         </div>
-                        <div class="col-md-9">
+                        <div class="col-9 align-self-center pl-1">
                             <a href="{{ .RelPermalink }}">{{ .Title }}</a>  
                         </div>
                     </div>
