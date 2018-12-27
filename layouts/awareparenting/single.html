@@ -6,13 +6,13 @@
     </head>
     <body id="page-top">
         <header class="header-awareparenting">
-            {{ partial "nav.html" . }} 
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h1>{{ with .Params.Title }}{{ . | markdownify  }}{{ end }}</h1>  
-                </div>
-            </div>
+            {{ partial "nav_dark.html" . }} 
     </header>
+    <div class="container">
+            <div class="row justify-content-center">
+                <h1>{{ with .Params.Title }}{{ . | markdownify  }}{{ end }}</h1>  
+            </div>
+    </div>
         
     <section>
         <div class="container">  

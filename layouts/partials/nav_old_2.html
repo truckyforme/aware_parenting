@@ -1,0 +1,47 @@
+<nav class="navbar d-none d-lg-flex">
+    <a class="navbar-brand" href={{ if .IsHome }}"#page-top"{{ else }}"/#page-top"{{ end }}>
+        <img src="{{ .Site.Params.navigation.brand_logo }}" alt="Aware Parenting" class="logo">
+    </a>
+    <ul class="navbar-nav d-inline-block ml-auto main-nav js--main-nav">
+        {{ if .IsHome }}
+				{{ range .Site.Params.navigation.items }}
+                    <li class="flex-fill">
+                        <a class="page-scroll" href="{{ .frontpageurl }}">{{ .name }}</a>
+                    </li>
+                {{ end }}
+            {{ else }}  
+				{{ range .Site.Params.navigation.items }}
+				    <li class="flex-fill">
+				        <a href="{{ .url }}">{{ .name }}</a>
+				    </li>
+				{{- end }}
+            {{- end }}
+            {{ if and (isset .Site.Params "algolia_search") (eq .Site.Params.algolia_search true) }}
+		          <li>
+                        <div id="search-box" class="search">
+                            <i class="fa fa-search"></i>
+                            <input id="search" type="text" placeholder="{{ i18n "search" }}">
+                        </div>
+                  </li>   
+            {{ end }}
+    </ul>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black d-lg-none">
+    <a class="navbar-brand navbar-header" href={{ if .IsHome }}"#page-top"{{ else }}"/#page-top"{{ end }}>
+        <img src="{{ .Site.Params.navigation.brand_logo }}" alt="Aware Parenting" class="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto d-flex responsive-nav">
+        {{ range .Site.Params.navigation.items }}
+        <li>
+            <a class="nav-item" href= {{ if .IsHome }}"{{ .frontpageurl }}" {{ else }} "{{ .url }}" {{ end }}>{{ .name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </nav>

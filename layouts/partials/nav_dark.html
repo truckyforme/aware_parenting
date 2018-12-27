@@ -2,12 +2,12 @@
         <a class="navbar-brand" href={{ if .IsHome }}"#page-top"{{ else }}"/#page-top"{{ end }}>
             <img src="{{ .Site.Params.navigation.brand_logo }}" alt="Aware Parenting" class="logo">
         </a>
-        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0 main-nav">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0 main-nav main-nav-dark">
             {{ if .IsHome }}
 			   {{ range .Site.Params.navigation.items }}
                 <li class="nav-item">
