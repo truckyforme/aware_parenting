@@ -7,12 +7,10 @@
     <body id="page-top">
         <header class="header-cursos">
             {{ partial "nav.html" . }} 
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h1>{{ with .Params.Title }}{{ . | markdownify  }}{{ end }}</h1>  
-                </div>
-            </div>
         </header>
+        <div class="header-page-text-box">
+            <h1>{{ with .Params.Title }}{{ . | markdownify  }}{{ end }}</h1>
+        </div>
         
         <section class="intensivos" id="cursos-intensivos">
           <div class="container">  

@@ -293,6 +293,27 @@
     .main-nav-dark li a:visited {
         color: #555;
     }
+
+    .header-cursos,
+    .header-articulo {
+        height: 50vh;
+    } 
+    .header-page-text-box h1 {
+        padding-top: 50px;
+        font-size: 240%;
+    }
+
+    .header-about {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg-min.png);
+        background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg-min.png);
+        background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg-min.png);
+        background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg-min.png);
+        background-image: -ms-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg-min.png);
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        background-attachment: ;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

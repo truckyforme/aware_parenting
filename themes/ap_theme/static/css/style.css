@@ -225,16 +225,17 @@ input[type=submit]:active {
 
 /* Main Navigation */
 
-
+.top-z {
+    z-index: 1001;
+}
 .main-nav {
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 1000;
+    background-color: rgba(45, 48, 39, 0.8);
 
 }
 
 .main-nav li a:link,
 .main-nav li a:visited {
-    padding: 4px 0;
+    padding: 4px 4px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -516,7 +517,7 @@ input[type=submit] {
 .header-page-text-box h1 {
     margin-top: 0px;
     color: #fff;
-    font-size: 240%;
+    font-size: 180%;
     word-spacing: 4px;
     letter-spacing: 1px;
     text-align: center;
@@ -810,22 +811,17 @@ footer h4 {
 
 /* CURSOS */
 
+
 .header-cursos{
-    background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)), url(/css/img/Formacion.png);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)), url(/css/img/Formacion.png);
+    background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)), url(/css/img/Formacion.png);
+    background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)), url(/css/img/Formacion.png);
+    background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)), url(/css/img/Formacion.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 70% center;
+    height: 25vh;
 } 
-.header-cursos h1 {
-    margin-top: 60px;
-    margin-bottom: 20px;
-    padding-bottom: 80px;
-    color: #fff;
-    font-size: 240%;
-    word-spacing: 4px;
-    letter-spacing: 1px;
-}
 
 /* Lista cursos y charlas*/
 .list-body {
@@ -922,7 +918,19 @@ footer h4 {
 .other-params .name:before {
     content: none;
 }
-    
+
+
+.header-about {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg-min.png);
+    background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg-min.png);
+    background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg-min.png);
+    background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg-min.png);
+    background-image: -ms-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg-min.png);
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    background-attachment: ;
+}
 
     
     

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{{ "<!-- evento -->" | safeHTML }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}es-es{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        <header class="header-about">
+            {{ partial "nav.html" . }} 
+    </header>
+    <div class="header-page-text-box">
+        <h1>{{ with .Title }}{{ . | markdownify  }}{{ end }}</h1>
+    </div>
+    <div class="container" >
+        <p class="row articulo-main">
+                <p>
+                    <img src="/img/about/laura-columna800.jpg" class="float-left w-25 mx-3" alt="Laura Díaz">
+                    {{ with .Content }}{{ . }}{{ end }}
+                </p>
+            </div>
+            <!-- /.row -->
+        </div> 
+          
+            
+
+                                
+        {{ partial "footer.html" . }}
+        {{ partial "js.html" }}
+    </body>
+</html>
