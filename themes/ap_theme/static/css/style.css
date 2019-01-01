@@ -451,7 +451,19 @@ input[type=submit]:active {
     padding-top: 15px;
     text-align: center;
 }
-.formulario-consulta{
+
+.contacto-form {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.2rem;
+    text-align: left;
+}
+
+.contacto-form h3 {
+    padding-top: 15px;
+    text-align: center;
+}
+.formulario-consulta,
+.formulario-contacto {
     width: 100%;
 }
 

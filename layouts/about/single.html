@@ -11,15 +11,103 @@
     <div class="header-page-text-box">
         <h1>{{ with .Title }}{{ . | markdownify  }}{{ end }}</h1>
     </div>
+    <section>
     <div class="container" >
-        <p class="row articulo-main">
-                <p>
-                    <img src="/img/about/laura-columna800.jpg" class="float-left w-25 mx-3" alt="Laura Díaz">
-                    {{ with .Content }}{{ . }}{{ end }}
-                </p>
+        <div class="row">
+            <div class="col-12 col-sm-4"><img src="{{ .Params.introimage }}" alt="Laura Díaz" class="w-100">
             </div>
+            <div class="col-12 col-sm-8">
+                <div class="row">
+                    {{ .Params.intro | markdownify }}
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-12 col-sm-4 ">
+                        <img src="{{ .Params.avalimg1 }}" alt="Laura Díaz" class="w-75">
+                    </div>
+                    <div class="col-12 col-sm-4">
+                            <img src="{{ .Params.avalimg2 }}" alt="Laura Díaz" class="w-75">
+                    </div>
+                    <div class="col-12 col-sm-4">
+                            <a target="_blank" href="http://www.awareparenting.com/instruct.htm#sp"><img src="{{ .Params.avalimg3 }}" alt="Laura Díaz" class="w-75"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    {{ .Params.orientacion | markdownify }}
+                </div>
+                <div class="row">
+                        {{ .Params.traducciones | markdownify }} 
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-4 ">
+                            <a target="_blank" href="{{ .Params.libro1link }}"><img src="{{ .Params.libro1 }}" alt="{{ .Params.libro1 }}" class="w-75"></a>
+                        </div>
+                        <div class="col-12 col-sm-4"><a target="_blank" href="{{ .Params.libro2link }}"><img src="{{ .Params.libro2 }}" alt="¡Tengo Hambre!" class="w-75"></a>
+                            </div>
+                </div>
+                    
+                    <div class="row">
+                        {{ with .Content }}{{ . }}{{ end }}
+                    </div>
+            </div>
+        </div>
             <!-- /.row -->
-        </div> 
+    </div> 
+</section>
+<section class="pilares-ap" id="contacto">
+    <div class="row justify-content-center">
+        <div class="col-11 col-md-6 contacto-form pl-1">
+                    <div class="row justify-content-center">
+                        <h3>{{ with .Params.consulta }}{{ . | markdownify }}{{ end }}</h3>
+                    </div>
+                    <div class="row">
+                            <form class="formulario-contacto" method="post" data-netlify="true">
+                                <div class="row">
+                                    <div class="col-3 pl-0 form-label">
+                                        <label for="name">Nombre</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input type="text" name="name" id="name" placeholder="Tu nombre" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3 pl-0 form-label">
+                                        <label for="email">Email</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input type="email" name="email" id="email" placeholder="Tu email" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-3 pl-0 form-label">
+                                            <label for="telefono">Telefono</label>
+                                        </div>
+                                        <div class="col-9">
+                                            <input type="text" name="telefono" id="telefono" placeholder="Tu telefono" required>
+                                        </div>
+                                    </div>
+                                <div class="row">
+                                    <div class="col-3 pl-0 form-label">
+                                        <label>Información adicional</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <textarea name="mensaje" placeholder="Escribe aquí cualquier información relevante"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3 pl-0 form-label">
+                                        <label>&nbsp;</label>
+                                    </div>
+                                    <div class="col-9" style="text-align: left;">
+                                        <input type="submit" value="Enviar">
+                                    </div>
+                                </div>
+                                
+                            </form>
+                            
+                        </div>
+                </div>
+    </div>
+</section>
           
             
 

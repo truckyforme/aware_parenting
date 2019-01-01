@@ -19,7 +19,7 @@
                             {{ $paginator := .Paginate (where .Data.Pages "Type" "articulos") 5 }}
                             {{ range $paginator.Pages }}
                                 <div class="row articulo">
-                                    <div class="col-md-3">
+                                    <div class="col-sm-3">
                                           <a href="{{ .RelPermalink }}">
                                               {{ if .Params.banner }}
                                               <img src="{{ .Params.banner }}" class="img-fluid" alt="{{ .Params.banner }}">
@@ -29,7 +29,7 @@
                                           </a>
                                       
                                     </div>
-                                    <div class="col-md-9">
+                                    <div class="col-sm-9">
                                         <a href="{{ .RelPermalink }}"><h3>{{ .Title }}</h3></a>
                                         <div class="clearfix">
                                             <p class="author-category">
