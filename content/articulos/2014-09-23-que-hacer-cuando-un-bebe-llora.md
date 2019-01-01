@@ -8,7 +8,7 @@ categories:
   - Aletha Solter
   - Artículos
   - Aware Parenting
-
+bottom: "bottom_articulo_libros.html"
 ---
 <p style="text-align: center;">
   <b>por Aletha Solter, Ph.D.</b>
@@ -54,32 +54,3 @@ En primer lugar, una vez descartados los problemas médicos, hay que comprobar s
 ¿Por qué nos es tan difícil sostener a un bebé en brazos y permitir un llanto, a veces desgarrador? Probablemente porque hay pocos adultos que hayan sido permitidos llorar cuando eran pequeños tanto como lo necesitaron. Es muy probable que nuestros padres hayan intentado constantemente parar nuestro llanto cuando éramos bebés. Quizás nos daban el chupete, o dulces, o nos meneaban cada vez que llorábamos, pensando que eso era lo que necesitábamos. Quizás nos distraían con juguetes, música, o juegos, cuando todo lo que necesitábamos era su completa atención y amor para poder continuar con nuestro llanto. Es posible que nos hayan dejado llorando solos en nuestra habitación hasta que nos callamos, o incluso nos hayan dado algún fármaco para calmarnos. Quizás hasta nos hayan gritado o incluso golpeado, al sentirse frustrados y desesperados. Según fuimos creciendo, experimentamos aún más distracciones o castigos de nuestros padres y profesores porque se sentían muy molestos con nuestros intentos por desahogar nuestros sentimientos llorando y gritando.
 
 Nuestros padres no tienen que ser culpados, ya que probablemente carecían de un mínimo de información sobre la importancia del llanto. Sin embargo, debido al condicionamiento sufrido en nuestra niñez, podemos tener una gran dificultad para reconocer esa necesidad en nuestros propios hijos, y podemos sentirnos impulsados a parar su llanto de manera similar. Lleva tiempo deshacer toda una vida de condicionamientos. Quizás nosotros mismos necesitemos llorar antes de poder comprender la importancia del llanto. El consejo en este sentido es claro: &#8220;es bueno llorar&#8221;, y si encontramos a alguien que nos escuche, mejor todavía. Con el tiempo, nos sentiremos mucho mejor y el llanto de nuestro bebé nos parecerá más aceptable y fácil de soportar. En cualquier caso, si nos encontramos frustrados y agotados porque nuestro bebé llora o grita demasiado, no deberíamos de dudar en solicitar toda la ayuda y apoyo que podamos obtener.
-
-<img src="/img/articulos/sb10-1.gif" alt="line" width="100%" />
-
-Se puede encontrar una descripción de esta filosofía de la educación en los tres libros de Aletha Solter: _Mi bebé lo entiende todo, Mi niño lo entiende todo, LLantos y rabietas._ Fecha de publicación: 2002, Ediciones Medici, Barcelona, España. (Titulos en inglés: _The Aware Baby, Helping Young Children Flourish,_ y _Tears and Tantrums_.)
-
-<table border="0" width="100%" align="center">
-  <tr>
-    <td align="center">
-      <img src="/img/articulos/mi-bebe-lo-entiende-todo.jpg" alt="Mi bebé lo entiendo todo">
-    </td>
-    <td align="center">
-      <img src="/img/articulos/mi-nino-lo-entiende-todo.jpg" alt="Mi niño lo entiende todo">
-    </td>
-    <td align="center">
-      <img src="/img/articulos/LlantosRabietas.jpg" alt="Llantos y rabietas">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      Mi bebé lo entiende todo
-    </td>
-    <td align="center">
-      Mi niño lo entiende todo
-    </td>
-    <td align="center">
-      Llantos y rabietas
-    </td>
-  </tr>
-</table>

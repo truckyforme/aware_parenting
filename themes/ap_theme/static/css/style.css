@@ -621,6 +621,14 @@ input[type=submit] {
     padding-bottom: 20px;
 }
 
+.bottom-articulo-libro {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 2px;
+    border-top-style: solid;
+    border-top-color: #555;
+    text-align: center;
+}
 /* ----------------------------------------------- */
 /* EVENTOS */
 /* ----------------------------------------------- */

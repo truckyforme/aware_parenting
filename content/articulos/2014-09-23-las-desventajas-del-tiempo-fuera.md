@@ -9,7 +9,7 @@ categories:
   - Aletha Solter
   - Artículos
   - Aware Parenting
-
+bottom: "bottom_articulo_libros.html"
 ---
 <p style="text-align: center;">
   <b>por Aletha Solter, Ph.D.</b>
@@ -96,35 +96,4 @@ No es necesario aislar a los niños y retener nuestro amor para enseñarles como
 9. Alice Miller, _For Your Own Good: Hidden Cruelty in Child-Rearing and the Roots of Violence_, (New York: Farrar, Straus, Giroux), pp. 106, 259. (En español: Por tu propio bien: Raíces de la violencia en la educación del niño. Tusquet Editores)
 
 10. Martha G. Welch, _Holding Time_ (New York: Simon and Schuster, Inc., 1988), pp. 42-43.
-
-&nbsp;
-
-<img src="/img/articulos/sb10-1.gif" alt="line" width="100%" />
-
-Se puede encontrar una descripción de esta filosofía de la educación en los tres libros de Aletha Solter: _Mi bebé lo entiende todo, Mi niño lo entiende todo, LLantos y rabietas._ Fecha de publicación: 2002, Ediciones Medici, Barcelona, España. (Titulos en inglés: _The Aware Baby, Helping Young Children Flourish,_ y _Tears and Tantrums_.)
-
-<table border="0" width="100%" align="center">
-  <tr>
-    <td align="center">
-      <img src="/img/articulos/mi-bebe-lo-entiende-todo.jpg" alt="Mi bebé lo entiendo todo">
-    </td>
-    <td align="center">
-      <img src="/img/articulos/mi-nino-lo-entiende-todo.jpg" alt="Mi niño lo entiende todo">
-    </td>
-    <td align="center">
-      <img src="/img/articulos/LlantosRabietas.jpg" alt="Llantos y rabietas">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      Mi bebé lo entiende todo
-    </td>
-    <td align="center">
-      Mi niño lo entiende todo
-    </td>
-    <td align="center">
-      Llantos y rabietas
-    </td>
-  </tr>
-</table>
 

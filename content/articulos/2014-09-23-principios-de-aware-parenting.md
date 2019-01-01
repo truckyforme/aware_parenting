@@ -8,7 +8,7 @@ categories:
   - Aletha Solter
   - Artículos
   - Aware Parenting
-
+bottom: "bottom_articulo_libros.html"
 ---
 <center>
   por Aletha Solter, Ph.D.
@@ -24,32 +24,3 @@ categories:
   8. Los padres conscientes fijan fronteras y límites razonables, dirigen suavemente a sus hijos hacia comportamientos aceptables, y consideran las necesidades de todos cuando solucionan un conflicto. No controlan a sus hijos con sobornos, recompensas, amenazas, o castigo de ninguna clase.
   9. Los padres conscientes saben cuidar de sí mismos, y son honestos con sus propias necesidades y sentimientos. No se sacrifican hasta el punto volverse resentidos.
  10. Los padres conscientes se esfuerzan en darse cuenta de las maneras en las cuales su propio dolor de la niñez interfiere con su capacidad para ser buenos padres, y hacen esfuerzos conscientes para evitar pasar sus propias desdichas a sus hijos.
-
-<img src="/img/articulos/sb10-1.gif" alt="line" width="100%" />
-
-Se puede encontrar una descripción de esta filosofía de la educación en los tres libros de Aletha Solter: _Mi bebé lo entiende todo, Mi niño lo entiende todo, LLantos y rabietas._ Fecha de publicación: 2002, Ediciones Medici, Barcelona, España. (Titulos en inglés: _The Aware Baby, Helping Young Children Flourish,_ y _Tears and Tantrums_.)
-
-<table border="0" width="100%" align="center">
-  <tr>
-    <td align="center">
-      <img src="/img/articulos/mi-bebe-lo-entiende-todo.jpg" alt="Mi bebé lo entiendo todo">
-    </td>
-    <td align="center">
-      <img src="/img/articulos/mi-nino-lo-entiende-todo.jpg" alt="Mi niño lo entiende todo">
-    </td>
-    <td align="center">
-      <img src="/img/articulos/LlantosRabietas.jpg" alt="Llantos y rabietas">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      Mi bebé lo entiende todo
-    </td>
-    <td align="center">
-      Mi niño lo entiende todo
-    </td>
-    <td align="center">
-      Llantos y rabietas
-    </td>
-  </tr>
-</table>

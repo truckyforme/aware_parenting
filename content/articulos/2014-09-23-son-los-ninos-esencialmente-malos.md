@@ -8,7 +8,7 @@ categories:
   - Aletha Solter
   - Artículos
   - Aware Parenting
-
+bottom: "bottom_articulo_libros.html"
 ---
 <p style="text-align: center;">
   por Aletha Solter, Ph.D.
@@ -39,34 +39,3 @@ Si pudiéramos liberarnos de esta noción fuertemente arraigada y si pudiéramos
 Si fuéramos capaces de satisfacer todas las necesidades do amor, comprensión, estimulación, proximidad física y sustento de este bebé, y si lo tratáramos con el mayor respeto y confianza, podríamos ver que no se convierte en un monstruo egoísta y destructivo, sino en un adulto responsable, inteligente, colaborador y amoroso.
 
 Cuando los adultos tienen tendencia a la destrucción o la violencia, debemos asumir que fueron maltratados de pequeños. La gente no actúa de forma mala, estúpida o dañina a menos que haya experimentado un comportamiento doloroso por parte de los otros, o a menos que sus necesidades no hayan sido satisfechas en al niñez. Los estudios sobre criminales han mostrado repetidamente la existencia de malos tratos graves y tempranos en un ambiente que careció de comprensión de sus sentimientos y necesidades.
-
-&nbsp;
-
-<img src="/img/articulos/sb10-1.gif" alt="line" width="100%" />
-
-Se puede encontrar una descripción de esta filosofía de la educación en los tres libros de Aletha Solter: _Mi bebé lo entiende todo, Mi niño lo entiende todo, LLantos y rabietas._ Fecha de publicación: 2002, Ediciones Medici, Barcelona, España. (Titulos en inglés: _The Aware Baby, Helping Young Children Flourish,_ y _Tears and Tantrums_.)
-
-<table border="0" width="100%" align="center">
-  <tr>
-    <td align="center">
-      <img src="/img/articulos/mi-bebe-lo-entiende-todo.jpg" alt="Mi bebé lo entiendo todo">
-    </td>
-    <td align="center">
-      <img src="/img/articulos/mi-nino-lo-entiende-todo.jpg" alt="Mi niño lo entiende todo">
-    </td>
-    <td align="center">
-      <img src="/img/articulos/LlantosRabietas.jpg" alt="Llantos y rabietas">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      Mi bebé lo entiende todo
-    </td>
-    <td align="center">
-      Mi niño lo entiende todo
-    </td>
-    <td align="center">
-      Llantos y rabietas
-    </td>
-  </tr>
-</table>

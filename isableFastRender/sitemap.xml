@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://localhost:1313/aware_parenting/</loc>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/cursos/</loc>
     <lastmod>2018-12-17T00:00:00+00:00</lastmod>
   </url>
@@ -68,6 +73,20 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/tags/acoso/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/eventos/2019-02-01-charla-acoso-escolar-benicassim/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/adolescentes/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/categories/aletha-solter/</loc>
     <lastmod>2015-09-13T20:11:10+00:00</lastmod>
     <priority>0</priority>
@@ -113,6 +132,11 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/tags/charla/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/tags/conflictos/</loc>
     <priority>0</priority>
   </url>
@@ -142,8 +166,25 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/eventos/2019-02-02-taller-empatia-y-conexion/</loc>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/eventos/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/hermanos/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/eventos/2019-02-08-hermanos-y-amigos-almassora/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/about/</loc>
   </url>
   
   <url>
@@ -157,6 +198,10 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/eventos/2019-02-09-taller-resolver-conflictos-en-familia-almassora/</loc>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/eventos/2019-04-06-sonrisas-y-lagrimas-castellon/</loc>
   </url>
   
@@ -166,6 +211,11 @@
   
   <url>
     <loc>http://localhost:1313/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/taller/</loc>
     <priority>0</priority>
   </url>
   

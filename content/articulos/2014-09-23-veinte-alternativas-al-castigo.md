@@ -11,7 +11,7 @@ categories:
   - Aletha Solter
   - Artículos
   - Aware Parenting
-
+bottom: "bottom_articulo_libros.html"
 ---
 <center>
   por Aletha Solter, Ph.D.
@@ -112,37 +112,3 @@ _Copyright © 1996 por Aletha Solter. Todos los derechos reservados. Ninguna par
 **20. Tómate un descanso.**
 :   Abandona la habitación y haz lo que necesites para recuperar la compostura y el buen juicio. Ejemplo: Llama a un amigo, llora, medita, o date una ducha.
 :   
-
-<img src="http://www.awareparenting.com/sb10-1.gif" alt="line" width="100%" />
-
-Se puede encontrar una descripción de esta filosofía de la educación en los tres libros de Aletha Solter: _Mi bebé lo entiende todo, Mi niño lo entiende todo, LLantos y rabietas._ Fecha de publicación: 2002, Ediciones Medici, Barcelona, España. (Titulos en inglés: _The Aware Baby, Helping Young Children Flourish,_ y _Tears and Tantrums_.)
-
-<table border="0" width="100%" align="center">
-  <tr>
-    <td align="center">
-      <img src="http://www.awareparenting.com/abspanish.jpg" alt="Mi bebé lo entiendo todo" width="130" height="196" />
-    </td>
-    
-    <td align="center">
-      <img src="http://www.awareparenting.com/hyspanish.jpg" alt="Mi niño lo entiende todo" width="130" height="196" />
-    </td>
-    
-    <td align="center">
-      <img src="http://www.awareparenting.com/ttspanish.jpg" alt="Llantos y rabietas" width="130" height="196" />
-    </td>
-  </tr>
-  
-  <tr>
-    <td align="center">
-      Mi bebé lo entiendo todo
-    </td>
-    
-    <td align="center">
-      Mi niño lo entiende todo
-    </td>
-    
-    <td align="center">
-      Llantos y rabietas
-    </td>
-  </tr>
-</table>
