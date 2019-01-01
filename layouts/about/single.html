@@ -31,7 +31,7 @@
                             <a target="_blank" href="http://www.awareparenting.com/instruct.htm#sp"><img src="{{ .Params.avalimg3 }}" alt="Laura Díaz" class="w-75"></a>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row articulo-main">
                     {{ .Params.orientacion | markdownify }}
                 </div>
                 <div class="row">
@@ -57,7 +57,7 @@
     <div class="row justify-content-center">
         <div class="col-11 col-md-6 contacto-form pl-1">
                     <div class="row justify-content-center">
-                        <h3>{{ with .Params.consulta }}{{ . | markdownify }}{{ end }}</h3>
+                        <h5>{{ with .Params.contacto }}{{ . | markdownify }}{{ end }}</h5>
                     </div>
                     <div class="row">
                             <form class="formulario-contacto" method="post" data-netlify="true">

@@ -7,7 +7,7 @@ introimage: "/img/about/laura-columna800.jpg"
 avalimg1: "/img/about/Laura_colegiada_gris-2.png"
 avalimg2: "/img/about/Europsy-2.png"
 avalimg3: "/img/aware_parenting/ap_institute.png"
-orientacion: "Mi trabajo principal está enfocado a compartir la filosofía de Aware Parenting en el ámbito de la familia y de la escuela, ofreciendo orientación a padres y educadores, e impartiendo charlas y cursos. Además de los cursos, talleres y charlas abiertos al público, trabajo regularmente con Centros de formación de profesorado, así como centros educativos de infantil, primaria y secundaria impartiendo formación a educadores.<br><br>Participo regularmente en jornadas y eventos relacionados con la educación.<br><br>También he colaborado profesionalmente con las revistas ‘Mente Sana’ y ‘Tu Bebé’.<br><br>"
+orientacion: "Mi trabajo principal está enfocado a compartir la filosofía de Aware Parenting en el ámbito de la familia y de la escuela, ofreciendo orientación a padres y educadores, e impartiendo charlas y cursos. Además de los cursos, talleres y charlas abiertos al público, trabajo regularmente con Centros de formación de profesorado, así como centros educativos de infantil, primaria y secundaria impartiendo formación a educadores.<br><br>Participo regularmente en jornadas y eventos relacionados con la educación, y soy asesora de la escuela libre Quatre Camins.<br><br>![Quatre Camins](/img/about/quatrecamins.png)<br><br>También he colaborado profesionalmente con las revistas ‘Mente Sana’ y ‘Tu Bebé’.<br><br>"
 traducciones: "He traducido al castellano los libros de Aletha Solter, ‘Juegos que unen‘ y ‘Niños que cooperan’, y el libro ‘¡Tengo hambre!‘<br><br>"
 libro1: "/img/libros/juegos_que_unen_aletha_solter.jpg"
 libro1link: "https://amzn.to/2R6vfNv"
@@ -15,7 +15,7 @@ libro2: "/img/libros/tengo-hambre-jane-hirschmann-lela-zaphiropoulos.jpg"
 libro2link: "https://amzn.to/2AmfFCD"
 libro3: "Niños que cooperan"
 libro3link: ""
-contacto: "¿Tienes alguna duda o pregunta? Puedes utilizar el formulario para contactarme; estaré encantada de saber de ti."
+contacto: "¿Tienes alguna duda o pregunta?<br>Puedes utilizar el formulario para contactarme; estaré encantada de saber de ti."
 --- 
 
 Actualmente resido en Barcelona, donde, día a día, en mi relación con mis hijas India y Cloe, basada en el Respeto y el Amor, me hago más consciente de:

@@ -38,8 +38,8 @@ theme        	= "ap_theme"
 					frontpageurl	= "/aware_parenting/"
                 [params.navigation.items.004]
 					name			= "Contacto"
-					url				= "#contacto"
-					frontpageurl	= "#contacto"
+					url				= "/about/#contacto"
+					frontpageurl	= "/about/#contacto"
 				[params.navigation.items.005]
 					name			= "Acerca de mi"
 					url				= "/about/"
