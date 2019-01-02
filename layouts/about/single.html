@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div class="row about">
-                    {{ .Params.colaboraciones1 | markdownify }}
+                    <p>{{ .Params.colaboraciones1a | markdownify }} {{ .Params.colaboracioneslnk1 | markdownify }} {{ .Params.colaboraciones1b | markdownify }}</p>
                 </div>
                 <div class="row about align-items-center justify-content-center">
                     <div class="col-12 about" style="text-align: center;">
@@ -54,10 +54,10 @@
                         {{ .Params.traducciones | markdownify }} 
                     </div>
                     <div class="row align-items-center">
-                        <div class="col-12 col-sm-4 ">
+                        <div class="col-6 col-sm-4 ">
                             <a target="_blank" href="{{ .Params.libro1link }}"><img src="{{ .Params.libro1 }}" alt="{{ .Params.libro1 }}" class="w-75"></a>
                         </div>
-                        <div class="col-12 col-sm-4"><a target="_blank" href="{{ .Params.libro2link }}"><img src="{{ .Params.libro2 }}" alt="¡Tengo Hambre!" class="w-75"></a>
+                        <div class="col-6 col-sm-4"><a target="_blank" href="{{ .Params.libro2link }}"><img src="{{ .Params.libro2 }}" alt="¡Tengo Hambre!" class="w-75"></a>
                             </div>
                 </div>
                     
