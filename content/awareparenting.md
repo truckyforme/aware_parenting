@@ -2,7 +2,7 @@
 title: Aware Parenting
 type: awareparenting
 date: 2018-12-17
-url: "/aware_parenting"
+url: "/aware-parenting"
 queesap: "¿Qué es Aware Parenting?"
 queesapdescription: "Aware Parenting (en algunos libros traducido al castellano como *Educación Consciente*) es una filosofía de crianza infantil desarrollada por la Dra. Aletha Solter que tiene el potencial para cambiar el mundo.Basada en investigaciones de vanguardia y hallazgos en el desarrollo infantil, Aware Parenting cuestiona gran parte de las ideas tradicionales acerca de la crianza infantil y propone un nuevo enfoque que puede modificar profundamente la relación del progenitor con su hijo o hija. Los padres que siguen este enfoque crían niños brillantes, compasivos, competentes, no violentos y libres de drogas."
 pilaresap: "Los tres pilares de Aware Parenting"

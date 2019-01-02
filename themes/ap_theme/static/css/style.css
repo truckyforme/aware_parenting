@@ -317,9 +317,6 @@ input[type=submit]:active {
     color: #555;
 }
 
-.sticky .logo { display: none; }
-.sticky .logo-black { display: block; }
-
 
 /* ----------------------------------------------- */
 /* FEATURE */
