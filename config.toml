@@ -34,8 +34,8 @@ theme        	= "ap_theme"
 					frontpageurl	= "#consulta"
 				[params.navigation.items.003]
 					name			= "Aware Parenting"
-					url				= "/aware_parenting/"
-					frontpageurl	= "/aware_parenting/"
+					url				= "/aware-parenting/"
+					frontpageurl	= "/aware-parenting/"
                 [params.navigation.items.004]
 					name			= "Contacto"
 					url				= "/about/#contacto"

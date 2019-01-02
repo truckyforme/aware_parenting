@@ -21,6 +21,8 @@
                 {{ with .Params.intensivosintro }}
                  <p>{{ . | markdownify }}</p>
                 {{ end }}
+                 <p class="w-100">{{ .Params.profesores | markdownify }} {{ .Params.profesoreslnk | markdownify  }}</p>
+                 <p></p>
             </div>
                     <div class="row">
                         <div id="main" class="col-md-12">

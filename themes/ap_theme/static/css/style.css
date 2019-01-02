@@ -185,7 +185,6 @@ input[type=submit]:active {
     background-size: cover;
     background-position: center;
     height: 90vh;
-    background-attachment: ;
 }
 
 .hero-text-box {
@@ -296,7 +295,7 @@ input[type=submit]:active {
     padding-left: 20px;
     margin-top: 5px;
 }
-}
+
 
 /* Sticky navi */
 .sticky {
@@ -527,10 +526,21 @@ input[type=submit] {
     margin-top: 0px;
     color: #fff;
     font-size: 180%;
+    word-spacing: 3px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.header-page-text-box h3 {
+    margin-top: 0px;
+    color: #fff;
+    font-size: 120%;
     word-spacing: 4px;
     letter-spacing: 1px;
     text-align: center;
 }
+
 
 .author-category {
     
@@ -949,7 +959,6 @@ footer h4 {
     background-size: cover;
     background-position: center;
     height: 35vh;
-    background-attachment: ;
 }
 
 .about {
@@ -957,5 +966,22 @@ footer h4 {
     padding-bottom: 15px;
 }
 
-    
-    
+/*********************************
+    ABOUT 
+*********************************/
+.programa-box {
+    text-align: center;
+}
+.programa-box img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.programa-box p {
+    font-size: 90%;
+    text-align: left;
+}  
+.programa-box h4 {
+    font-size: 105%;
+}  

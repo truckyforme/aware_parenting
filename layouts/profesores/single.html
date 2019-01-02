@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+{{ "<!-- evento -->" | safeHTML }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}es-es{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        <header class="header-cursos">
+            {{ partial "nav.html" . }} 
+        </header>
+        <div class="header-page-text-box">
+            {{ with .Params.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
+            {{ with .Params.subtitle }}<h3 class="d-none d-sm-block">{{ . | markdownify }}</h3>{{ end }}
+        </div>
+        
+        <section id="educar-con-presencia">
+          <div class="container">  
+            <div class="row justify-content-center">
+                {{ with .Params.infantiltitle }}
+                 <h2>{{ . | markdownify }}</h2>
+                {{ end }}
+            </div>
+            <div class="row">
+                {{ with .Params.infantildesc }}
+                <div class="col-12 col-sm-8 order-2 order-sm-1"> 
+                <p>{{ . | markdownify }}</p>
+                </div>
+                {{ end }}
+                {{ with .Params.infantilimg }}
+                <div class="col-12 col-sm-4 order-1 order-sm-2" style="text-align: center;">
+                    <img src="{{ . }}" alt="infantil" class="w-100">
+                </div>
+                {{ end }}
+            </div>
+            <div class="row justify-content-center">
+                {{ with .Params.secundariatitle }}
+                 <h2>{{ . | markdownify }}</h2>
+                {{ end }}
+            </div>
+            <div class="row">
+                {{ with .Params.secundariadesc }}
+                <div class="col-12 col-sm-8 order-2 order-sm-1"> 
+                <p>{{ . | markdownify }}</p>
+                </div>
+                {{ end }}
+                {{ with .Params.secundariaimg }}
+                <div class="col-12 col-sm-4 order-1 order-sm-2" style="text-align: center;">
+                    <img src="{{ . }}" alt="secundaria" class="w-100">
+                </div>
+                {{ end }}
+            </div>
+           </div>
+        </section>
+        <section class="pilares-ap">
+            <div class="container">  
+                <div class="row justify-content-center">
+                    {{ with .Params.programatitle }}
+                     <h2>{{ . | markdownify }}</h2>
+                    {{ end }}
+                </div>
+                <div class="row">
+                    {{ with .Params.programaimg }}
+                        <div class="col-12" style="text-align: center;">
+                            <img src="{{ . }}" alt="programa" class="w-100">
+                        </div>
+                    {{ end }}
+                    {{ with .Params.programadesc }}
+                        <div class="col"> 
+                            {{ . | markdownify }}
+                        </div>
+                    {{ end }}   
+                </div>
+                <div class="row justify-content-center">
+                    {{ with .Params.basestitle }}
+                     <h2>{{ . | markdownify }}</h2>
+                    {{ end }}
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-3 programa-box">
+                        <img src="{{ .Params.base1img }}" alt="{{ .Params.base1img }}">
+                        <h4>{{ .Params.base1title | markdownify }}</h4>
+                        <p>{{ .Params.base1desc | markdownify }}</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 programa-box">
+                        <img src="{{ .Params.base2img }}" alt="{{ .Params.base1img }}">
+                        <h4>{{ .Params.base2title | markdownify }}</h4>
+                        <p>{{ .Params.base2desc | markdownify }}</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 programa-box">
+                        <img src="{{ .Params.base3img }}" alt="{{ .Params.base1img }}">
+                        <h4>{{ .Params.base3title | markdownify }}</h4>
+                        <p>{{ .Params.base3desc | markdownify }}</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 programa-box">
+                        <img src="{{ .Params.base4img }}" alt="{{ .Params.base1img }}">
+                        <h4>{{ .Params.base4title | markdownify }}</h4>
+                        <p>{{ .Params.base4desc | markdownify }}</p>
+                    </div>
+                    </div>
+                </div>
+               </div> 
+        </section>
+        <section id="contacto">
+            <div class="row justify-content-center">
+                <div class="col-11 col-md-8 contacto-form pl-1">
+                            <div class="row justify-content-center">
+                                <h5>{{ with .Params.contacto }}{{ . | markdownify }}{{ end }}</h5>
+                            </div>
+                            <div class="row">
+                                    <form class="formulario-contacto" method="post" data-netlify="true">
+                                        <div class="row">
+                                            <div class="col-3 pl-0 form-label">
+                                                <label for="name">Nombre</label>
+                                            </div>
+                                            <div class="col-9">
+                                                <input type="text" name="name" id="name" placeholder="Tu nombre" required>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-3 pl-0 form-label">
+                                                <label for="email">Email</label>
+                                            </div>
+                                            <div class="col-9">
+                                                <input type="email" name="email" id="email" placeholder="Tu email" required>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-3 pl-0 form-label">
+                                                    <label for="telefono">Telefono</label>
+                                                </div>
+                                                <div class="col-9">
+                                                    <input type="text" name="telefono" id="telefono" placeholder="Tu telefono" required>
+                                                </div>
+                                            </div>
+                                        <div class="row">
+                                            <div class="col-3 pl-0 form-label">
+                                                <label>Información adicional</label>
+                                            </div>
+                                            <div class="col-9">
+                                                <textarea name="mensaje" placeholder="Escribe aquí cualquier información relevante"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-3 pl-0 form-label">
+                                                <label>&nbsp;</label>
+                                            </div>
+                                            <div class="col-9" style="text-align: left;">
+                                                <input type="submit" value="Enviar">
+                                            </div>
+                                        </div>
+                                        
+                                    </form>
+                                    
+                                </div>
+                        </div>
+            </div>
+        </section>
+
+
+
+                                
+        {{ partial "footer.html" . }}
+        {{ partial "js.html" }}
+        {{ partial "jsacordion.html" }}
+    </body>
+</html>
