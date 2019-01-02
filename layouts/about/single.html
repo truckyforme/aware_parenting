@@ -13,26 +13,42 @@
     </div>
     <section>
     <div class="container" >
-        <div class="row">
+        <div class="row about">
             <div class="col-12 col-sm-4"><img src="{{ .Params.introimage }}" alt="Laura Díaz" class="w-100">
             </div>
             <div class="col-12 col-sm-8">
                 <div class="row">
                     {{ .Params.intro | markdownify }}
                 </div>
-                <div class="row align-items-center">
-                    <div class="col-12 col-sm-4 ">
+                <div class="row about align-items-center">
+                    <div class="col-6 col-sm-4 about" style="text-align: center;">
                         <img src="{{ .Params.avalimg1 }}" alt="Laura Díaz" class="w-75">
                     </div>
-                    <div class="col-12 col-sm-4">
+                    <div class="col-6 col-sm-4 about" style="text-align: center;">
                             <img src="{{ .Params.avalimg2 }}" alt="Laura Díaz" class="w-75">
                     </div>
-                    <div class="col-12 col-sm-4">
+                    <div class="col-12 col-sm-4 about" style="text-align: center;">
                             <a target="_blank" href="http://www.awareparenting.com/instruct.htm#sp"><img src="{{ .Params.avalimg3 }}" alt="Laura Díaz" class="w-75"></a>
                     </div>
                 </div>
-                <div class="row articulo-main">
+                <div class="row about">
                     {{ .Params.orientacion | markdownify }}
+                </div>
+                <div class="row about align-items-center justify-content-center">
+                    <div class="col-12 col-sm-6 about" style="text-align: center;">
+                        <img src="{{ .Params.orientacionimg }}" alt="Escuela Quatre Camins" class="w-75">
+                    </div>
+                </div>
+                <div class="row about">
+                    {{ .Params.colaboraciones1 | markdownify }}
+                </div>
+                <div class="row about align-items-center justify-content-center">
+                    <div class="col-12 about" style="text-align: center;">
+                        <img src="{{ .Params.colaboracionesimg1 }}" alt="Martina Repentina" class="w-100">
+                    </div>
+                </div>
+                <div class="row about">
+                    {{ .Params.colaboraciones2 | markdownify }}
                 </div>
                 <div class="row">
                         {{ .Params.traducciones | markdownify }} 
@@ -55,7 +71,7 @@
 </section>
 <section class="pilares-ap" id="contacto">
     <div class="row justify-content-center">
-        <div class="col-11 col-md-6 contacto-form pl-1">
+        <div class="col-11 col-md-8 contacto-form pl-1">
                     <div class="row justify-content-center">
                         <h5>{{ with .Params.contacto }}{{ . | markdownify }}{{ end }}</h5>
                     </div>

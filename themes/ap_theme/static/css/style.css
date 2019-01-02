@@ -939,6 +939,9 @@ footer h4 {
     content: none;
 }
 
+/*********************************
+    ABOUT 
+*********************************/
 
 .header-about {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg-min.png);
@@ -950,6 +953,11 @@ footer h4 {
     background-position: center;
     height: 35vh;
     background-attachment: ;
+}
+
+.about {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
     
