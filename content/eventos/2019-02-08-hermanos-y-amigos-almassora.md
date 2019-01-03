@@ -4,7 +4,7 @@ subtitle: ""
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Charla"
-date1: 2019-02-01
+date1: 2019-02-08
 date2: 
 lugar: "Edificio Ayuntamiento"
 ciudad: "Almassora"

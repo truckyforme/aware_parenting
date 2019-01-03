@@ -1,4 +1,4 @@
-baseURL = "https://awareparentingtest.netlify.com/"
+baseURL = "https://www.awareparenting.es/"
 languageCode = "es-es"
 paginate		= 5
 paginatePath	= "newspage"
@@ -94,7 +94,7 @@ theme        	= "ap_theme"
 # Consulta
     [params.consulta]
         titulo = "Consulta Privada"
-        maintext ="Con más de 15 años de experiencia profesional, ofrezco consultas privadas a aquellos padres que estén buscando una forma distinta de relacionarse con sus hijos y afrontar los conflictos. Las consultas están orientadas a resolver dudas, a enseñar a los adultos a cómo interactuar con sus hijos de forma que puedan ayudarles en su desarrollo y a resolver los problemas de comportamiento más comunes."
+        maintext ="Con mas de 15 años de experiencia, ofrezco consultas privadas a padres para ayudarles a mejorar la relación con sus hijos, afrontar conflictos, y resolver los problemas de comportamiento más comunes.<br>También ofrezco orientación a educadores, psicólogos, y otros profesionales que quieran trabajar con el enfoque de Aware Parenting."
         more = "Solicita una consulta ahora"
         morelink = "#contacto"
         [params.consulta.items]

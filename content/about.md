@@ -3,12 +3,12 @@ title: Laura Díaz de Entresotos
 type: about
 url: "/about"
 aliases: ["/sobre-mi/"] 
-intro: "Soy licenciada en Psicología colegiada, con mas de 15 años de experiencia profesional avalados por el sello europeo EuroPSY. Desde 2008 soy instructora certificada de AwareParenting, y desde 2013 soy instructora de nivel 2, con capacidad de ofrecer formación de Aware Parenting válida para cumplir el requisito de formación para futuros instructores."
+intro: "Soy licenciada en Psicología, con mas de 15 años de experiencia profesional avalados por el sello europeo EuroPSY. Desde 2008 soy instructora certificada de AwareParenting, y desde 2013 soy instructora de nivel 2, con capacidad de ofrecer formación de Aware Parenting válida para cumplir el requisito de formación para futuros instructores. Soy mediadora familiar formada en Comunicación no Violenta."
 introimage: "/img/about/laura-columna800.jpg"
 avalimg1: "/img/about/Laura_colegiada_gris-2.png"
 avalimg2: "/img/about/Europsy-2.png"
 avalimg3: "/img/aware_parenting/ap_institute.png"
-orientacion: "Mi trabajo principal está enfocado a compartir la filosofía de Aware Parenting en el ámbito de la familia y de la escuela, ofreciendo orientación a padres y educadores, e impartiendo charlas y cursos. Además de los cursos, talleres y charlas abiertos al público, trabajo regularmente con Centros de formación de profesorado, así como centros educativos de infantil, primaria y secundaria impartiendo formación a educadores.<br><br>Participo regularmente en jornadas y eventos relacionados con la educación, y soy asesora del colegio Quatre Camins."
+orientacion: "Oriento a padres y profesionales tanto en mi consulta privada como en cursos y charlas. Además de la formación abierta al público, trabajo regularmente con centros de formación de profesorado, así como centros educativos de infantil, primaria y secundaria impartiendo formación a educadores.<br><br>Soy asesora del colegio Quatre Camins y participo regularmente en jornadas y eventos relacionados con la educación ."
 orientacionimg: "/img/about/quatrecamins.png"
 colaboraciones1a: "He colaborado con "
 colaboraciones1b: " para la serie de cuentos de Martina Repentina: 'El cojín de Martina Repentina' y 'En tus brazos'"

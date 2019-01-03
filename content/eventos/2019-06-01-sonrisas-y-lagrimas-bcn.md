@@ -29,7 +29,7 @@ A lo largo del curso se tratan temas como:
 
 El curso combina la exposición de ideas y conceptos con ejemplos reales y ejercicios prácticos aplicados a situaciones reales de los propios participantes.
 
-**Horario:** Sábado de 10:00 a 14:00 y de 16:00 a 20:00h. Domingo de 10:00 a 14:00h
+**Horario:** Sábado de 10:00 a 14:00 y de 15:30 a 19:30h. Domingo de 10:00 a 14:00h
 
 **Duración:** 12 horas
 

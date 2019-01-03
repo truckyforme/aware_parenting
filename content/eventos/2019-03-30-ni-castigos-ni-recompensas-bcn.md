@@ -31,7 +31,7 @@ Entre otros, exploraremos los siguientes temas:
 
 Dirigido tanto a padres, educadores como a todo aquel que se relacione con niños y esté interesado en mejorar su relación y convivencia con ellos.
 
-**Horario:** Sábado de 10:00 a 14:00 y de 16:00 a 20:00h. Domingo de 10:00 a 14:00h
+**Horario:** Sábado de 10:00 a 14:00 y de 15:30 a 19:30h. Domingo de 10:00 a 14:00h
 
 **Duración:** 12 horas
 

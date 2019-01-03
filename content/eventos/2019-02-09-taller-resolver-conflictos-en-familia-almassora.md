@@ -4,7 +4,7 @@ subtitle: ""
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Taller"
-date1: 2019-02-01
+date1: 2019-02-09
 date2: 
 lugar: "Edificio Ayuntamiento"
 ciudad: "Almassora"

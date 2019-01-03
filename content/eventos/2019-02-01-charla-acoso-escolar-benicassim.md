@@ -21,7 +21,6 @@ tags: ["Charla","Acoso"]
 
 Si te haces alguna de estas preguntas, te interesa esta charla.
 
-El curso combina la exposición de ideas y conceptos con ejemplos reales y ejercicios prácticos aplicados a situaciones reales de los propios participantes.
 
 **Horario: 18:00h**
 
