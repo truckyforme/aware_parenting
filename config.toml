@@ -71,7 +71,7 @@ theme        	= "ap_theme"
         titulo   ="¿Cuáles son las bases de mi enfoque?"
         subtitulo  ="Mi enfoque terapéutico se basa en Aware Parenting, una filosofía de crianza desarrollada por la Dra. Aletha Solter a partir de las investigaciones más recientes acerca del desarrollo infantil. Cuestiona gran parte de las ideas tradicionales acerca de la crianza y propone un nuevo enfoque capaz de transformar las relaciones con nuestros hijos basándose en el respeto y el amor.<br><br>La filosofía de Aware Parenting se sustenta en tres pilares:"
         more    ="¿Quieres saber más?"
-        morelink ="/aware_parenting"
+        morelink ="/aware-parenting"
         [params.features.items]
             [params.features.items.001]
                 name    = "Paternidad basada en el apego"
