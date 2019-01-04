@@ -32,9 +32,3 @@ La conversación todavía duró un rato, y al final llegamos a un acuerdo satisf
 Pero más allá de la solución en particular, lo que se me quedó grabado es cuántas veces reacciono de forma automática y tomo decisiones sin preguntarme antes: ¿por qué?
   
 Desde entonces, cada vez que surge un conflicto, una discusión o un desacuerdo, intento cuestionarme y preguntarme, ¿por qué?, antes de tomar una postura. No siempre lo consigo, pero cuando lo hago me doy cuenta de que me cuesta mucho menos escuchar a mis hijas y me resulta mucho más fácil no irritarme con ellas. Esa pausa para cuestionarme, es la que suele marcar la diferencia.
-
-¿Te interesa saber más?
-  
-El [próximo sábado 23 de Enero daré una charla en Barcelona][1] y conversaremos sobre cómo responder a la pregunta que tantos padres nos hacemos: ¿Cómo ayudar a que nuestros hijos sean felices?
-
- [1]: http://awareparenting.es/event/charla-educar-de-forma-consciente-barcelona/
