@@ -57,9 +57,15 @@
                                 <p>Contacto: </p>
                             </div>
                             <div class="col-10 evento-text-min">
-                                    <img src="/img/_ionicons_svg_md-person.svg" style="height:1rem; float: left; padding-right:1em;"></img> <p class="evento-lugar"> {{ .Params.contactoname }}</p>
-                                    <img src="/img/_ionicons_svg_ios-call.svg" style="height:1rem; float: left; padding-right:1em;"></img> <p> {{ .Params.contactotelefono }}</p>
-                                    <img src="/img/_ionicons_svg_ios-mail.svg" style="height:1rem; float: left; padding-right:1em;"></img> <p> {{ .Params.contactoemail }}</p>    
+                                    {{ with .Params.contactoname }}
+                                    <img src="/img/_ionicons_svg_md-person.svg" style="height:1rem; float: left; padding-right:1em;"></img> <p class="evento-lugar"> {{ . }}</p>
+                                    {{ end }}
+                                    {{ with .Params.contactotelefono }}
+                                    <img src="/img/_ionicons_svg_ios-call.svg" style="height:1rem; float: left; padding-right:1em;"></img> <p> {{ . }}</p>
+                                    {{ end }}
+                                    {{ with .Params.contactoemail }}
+                                    <img src="/img/_ionicons_svg_ios-mail.svg" style="height:1rem; float: left; padding-right:1em;"></img> <p> {{ . }}</p>
+                                    {{ end }}
                             </div>
                         </div>                    
                     
