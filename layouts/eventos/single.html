@@ -20,7 +20,7 @@
                 <div class="col-12 col-md-9 evento-main">
                     <div class="row d-flex align-items-center evento-data">
                         <div class="col-2 evento-label align-middle">
-                            <p>Cuando: </p>
+                            <p>Cuándo: </p>
                         </div>
                         <div class="col-10 evento-fecha align-middle">
                             <p>
@@ -36,7 +36,7 @@
                     </div>
                     <div class="row align-items-start small-gutters evento-data">
                             <div class="col-2 evento-label">
-                                <p>Donde: </p>
+                                <p>Dónde: </p>
                             </div>
                             <div class="col-10 evento-text-min ">
                                 <p class="evento-lugar">{{ .Params.lugar }}</p>
@@ -58,13 +58,13 @@
                             </div>
                             <div class="col-10 evento-text-min">
                                     {{ with .Params.contactoname }}
-                                    <img src="/img/_ionicons_svg_md-person.svg" style="height:1rem; float: left; padding-right:1em;"></img> <p class="evento-lugar"> {{ . }}</p>
+                                    <img src="/img/_ionicons_svg_md-person.svg" style="height:1rem; float: left; padding-right:1em; margin-top:8px;"></img> <p class="evento-lugar"> {{ . }}</p>
                                     {{ end }}
                                     {{ with .Params.contactotelefono }}
-                                    <img src="/img/_ionicons_svg_ios-call.svg" style="height:1rem; float: left; padding-right:1em;"></img> <p> {{ . }}</p>
+                                    <img src="/img/_ionicons_svg_ios-call.svg" style="height:1rem; float: left; padding-right:1em; margin-top:8px;"></img> <p> {{ . }}</p>
                                     {{ end }}
                                     {{ with .Params.contactoemail }}
-                                    <img src="/img/_ionicons_svg_ios-mail.svg" style="height:1rem; float: left; padding-right:1em;"></img> <p> {{ . }}</p>
+                                    <img src="/img/_ionicons_svg_ios-mail.svg" style="height:1rem; float: left; padding-right:1em; margin-top:8px;"></img> <p> {{ . }}</p>
                                     {{ end }}
                             </div>
                         </div>                    
