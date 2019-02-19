@@ -20,8 +20,8 @@ libro1: "/img/libros/juegos_que_unen_aletha_solter.jpg"
 libro1link: "https://amzn.to/2R6vfNv"
 libro2: "/img/libros/tengo-hambre-jane-hirschmann-lela-zaphiropoulos.jpg"
 libro2link: "https://amzn.to/2AmfFCD"
-libro3: "Niños que cooperan"
-libro3link: ""
+libro3: "/img/libros/ninos_que_cooperan.jpg"
+libro3link: "https://amzn.to/2GD87Az"
 contacto: "¿Tienes alguna duda o pregunta?<br>Puedes utilizar el formulario para contactarme; estaré encantada de saber de ti."
 --- 
 
