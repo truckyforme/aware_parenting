@@ -4,8 +4,8 @@ subtitle:
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Curso"
-date1: 2019-05-19
-date2: 2019-05-20
+date1: 2019-05-18
+date2: 2019-05-19
 lugar: "Colegio 4 Camins"
 ciudad: "Castellón"
 direccion: "Avinguda de Vila-real 50, 12006 Castelló de la Plana"
