@@ -34,6 +34,7 @@
                             </p>    
                         </div>
                     </div>
+<!-- PRECIO-->   
                     <div class="row align-items-start small-gutters evento-data">
                             <div class="col-2 evento-label">
                                 <p>Dónde: </p>
@@ -52,6 +53,7 @@
                             <p>{{ .Params.precio }}</p>    
                         </div>
                     </div>
+<!-- CONTACTO - TELEFONO - MAIL -->                    
                     <div class="row small-gutters evento-data">
                             <div class="col-2 evento-label">
                                 <p>Contacto: </p>
@@ -67,7 +69,14 @@
                                     <img src="/img/_ionicons_svg_ios-mail.svg" style="height:1rem; float: left; padding-right:1em; margin-top:8px;"></img> <p> {{ . }}</p>
                                     {{ end }}
                             </div>
-                        </div>                    
+                    </div>
+<!-- INSCRIPCIÓN -->                       
+                    {{ with .Params.inscripcion }}                  
+                    <div class="row small-gutters evento-data">
+                        {{ partial "inscripcion.html" }}
+                    </div>
+                    {{ end }}
+                    
                     
                 </div>
                 <div class="col-md-3 evento-main">
@@ -87,5 +96,6 @@
                                 
         {{ partial "footer.html" . }}
         {{ partial "js.html"}}
+        {{ with .Params.inscripcion }}{{ partial "jsacordion.html" }}{{ end }}
     </body>
 </html>

@@ -1,0 +1,54 @@
+        <div id="main" class="col-md-12">
+            <div class="list"> 
+                <div class="list-body">
+                    <div class="list-el" style="border-bottom:none;">
+                        <div class="intro">
+                            <div class="name">Inscripción</div>
+                        </div>
+                        <div class="desc">
+                            <div class="excerpt-fullwidth">
+                                <p>Rellena los datos del formulario y te enviaré un correo elecrónico con los datos bancarios para realizar el pago.<br><br>Tu plaza quedará reservada una vez hayas completado el pago.</p>
+                                <form class="formulario-consulta" method="post" netlify-honeypot="bot-field" name="inscripciones" data-netlify="true" style="padding-top: 20px;">
+                                    <div class="row">
+                                        <div class="col-3 pl-0 form-label">
+                                            <label for="name">Nombre</label>
+                                        </div>
+                                        <div class="col-9">
+                                            <input type="text" name="name" id="name" placeholder="Tu nombre" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 pl-0 form-label">
+                                            <label for="email">Email</label>
+                                        </div>
+                                        <div class="col-9">
+                                            <input type="email" name="email" id="email" placeholder="Tu email" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                            <div class="col-3 pl-0 form-label">
+                                                <label for="telefono">Telefono</label>
+                                            </div>
+                                            <div class="col-9">
+                                                <input type="text" name="telefono" id="telefono" placeholder="Tu telefono" required>
+                                            </div>
+                                        </div>
+                                    <div class="row">
+                                        <div class="col-3 pl-0 form-label">
+                                            <label>&nbsp;</label>
+                                            <p class="d-none">
+                                                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                                              </p>
+                                        </div>
+                                        <div class="col-9" style="text-align: left;">
+                                            <input type="submit" value="Enviar">
+                                        </div>
+                                    </div>
+                                    
+                                </form>
+                            </div>
+                        </div>
+                    </div>                      
+                </div>
+            </div>
+        </div>
