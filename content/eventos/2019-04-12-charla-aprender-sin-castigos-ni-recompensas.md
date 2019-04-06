@@ -22,4 +22,4 @@ Las relaciones con compañeros, maestros y padres influyen de manera determinant
 
 **Horario: 18:00h**
 
-IMPORTANTE:No se permite la asistencia de niños y niñas, con la excepción de bebés de hasta 6 meses.
+IMPORTANTE:No se permite la asistencia de niños y niñas, con la excepción de bebés de hasta 6 meses.

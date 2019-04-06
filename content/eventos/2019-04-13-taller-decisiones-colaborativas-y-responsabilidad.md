@@ -28,5 +28,5 @@ El curso combina la exposición de ideas y conceptos con ejemplos reales y ejerc
 Tendrán preferencia los empadronados en Benicàssim<br>
 Inscripción del 8 al 11 de abril (instancia general presentada en el registro del Ayuntamiento)<br>
 Máximo número de asistentes: 24<br>
-Las listas de admitidos se publicarán el 12 de abril (Centro de Formación Josep Barberà i Ceprià; T: 964304212). 
+Las listas de admitidos se publicarán el 12 de abril (Centro de Formación Josep Barberà i Ceprià; T: 964304212). 
 No se permite la asistencia de niños y niñas, con la excepción de bebés de hasta 6 meses. 

@@ -23,4 +23,4 @@ Si te haces alguna de estas preguntas, te interesa este taller.
 
 **Horario:** 10:00 a 14:00 
 
-No se permite la asistencia de niños y niñas, con la excepción de bebés de hasta 6 meses. 
+No se permite la asistencia de niños y niñas, con la excepción de bebés de hasta 6 meses. 
