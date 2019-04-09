@@ -6,14 +6,14 @@ type: eventos
 tipoevento: "Curso"
 date1: 2019-06-01
 date2: 2019-06-02
-lugar: "Gestalt Barcelona"
+lugar: " Lugar pendiente de confirmar"
 ciudad: "Barcelona"
-direccion: "Plaça d'Urquinaona 10, 3º, 08010, Barcelona"
-precio: "170€"
-contactoname: "Gestalt Barcelona"
-contactoemail: "info@gestaltbarcelona.com"
-contactotelefono: "934522146"
-contactoweb: "http://gestaltbarcelona.com/sonrisas-y-lagrimas/"
+direccion: ""
+precio: "150€"
+contactoname: "Laura Díaz de Entresotos"
+contactoemail: "laura@awareparenting.es"
+contactotelefono: "687054595"
+contactoweb: ""
 thumb: img/eventos/syl_thumb.jpg
 tags: ["Curso","Emociones"]
 ---
