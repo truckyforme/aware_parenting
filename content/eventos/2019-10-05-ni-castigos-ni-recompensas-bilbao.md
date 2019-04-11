@@ -9,7 +9,7 @@ date1: 2019-10-05
 date2: 2019-10-06
 lugar: "Teatro Campos Elíseos Antzokia"
 ciudad: "Bilbao"
-direccion: "Bis, Calle de Bertendona, 3"
+direccion: "Calle de Bertendona, 3º bis"
 precio: "150€"
 contactoname: "Laura Díaz de Entresotos"
 contactoemail: "laura@awareparenting.es"
@@ -18,7 +18,11 @@ contactoweb: ""
 thumb: "img/eventos/escnr_thumb.jpg"
 tags: ["Curso","Disciplina"]
 inscripcion: "true"
-codigocurso: "ESCNR-Bilbao"
+idcurso: "ESCNR"
+idciudad: "BIL"
+earlybird: "true"
+earlybirdfecha: 2019-06-15
+earlybirdprecio: "135€"
 ---
 Muchos padres y profesionales de la educación buscan una manera de educar alejada de la tradicional disciplina autoritaria, basada en castigos y recompensas. Ante la falta de modelos en los que fijarse, a menudo se sienten inseguros, y ante la dificultad para poner en práctica cambios sin caer en la permisividad, a menudo se sienten frustrados e impotentes.
 El curso ‘Educar sin castigos ni recompensas’ plantea un enfoque de educación basado en la comunicación, la cooperación, el respeto y la responsabilidad. Redefine y clarifica conceptos que a menudo crean confusión, como el de norma, límite, consecuencia o libertad. Y ayuda a transformar la visión tradicional de los conflictos y del mal comportamiento de los niños, aportando nuevas maneras de afrontarlos desde la comprensión y la conexión.

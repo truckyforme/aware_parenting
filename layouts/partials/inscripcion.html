@@ -1,3 +1,7 @@
+{{ .Scratch.Set "inscripcion" "false" }}                       
+{{ if .Params.inscripcion }} {{ .Scratch.Set "inscripcion" "true" }}{{ end }}
+{{ if .Scratch.Get "inscripcion" }}        
+<div class="row small-gutters evento-data">
         <div id="main" class="col-md-12">
             <div class="list"> 
                 <div class="list-body">
@@ -8,7 +12,10 @@
                         <div class="desc">
                             <div class="excerpt-fullwidth">
                                 <p>Rellena los datos del formulario y te enviaré un correo elecrónico con las instrucciones para hacer el pago.<br><br>Tu plaza quedará reservada una vez hayas completado el pago.</p>
-                                <form class="formulario-consulta" method="post" netlify-honeypot="bot-field" name="inscripciones" data-netlify="true" style="padding-top: 20px;">
+                                {{ $precio:= .Params.precio }}
+                                {{ $precioearlybird := .Params.earlybirdprecio }}
+                                {{ $fecha := .Params.earlybirdfecha }}
+                                <form class="formulario-consulta" method="post" netlify-honeypot="bot-field" name="inscripciones" data-netlify="true" style="padding-top: 20px;" oninput="x.value=parseInt(a.value)*parseInt(b.value)">
                                     <div class="row">
                                         <div class="col-3 pl-0 form-label">
                                             <label for="name">Nombre</label>
@@ -32,7 +39,17 @@
                                             <div class="col-9">
                                                 <input type="text" name="telefono" id="telefono" placeholder="Tu telefono" required>
                                             </div>
-                                        </div>
+                                    </div>
+                                    <div class="row">
+                                            <div class="col-3 pl-0 form-label">
+                                                <label for="plazas">Plazas</label>
+                                            </div>
+                                            <div class="col-9">
+                                                <input type="number" name="plazas" min="1" max="5" id="plazas" value="1" required>
+                                                <input type="hidden" name="preciounitario" value="{{ with .Params.earlybird }}{{ if gt $fecha (now.Format "2006-01-20") }} ({{ $precioearlybird }}{{ else }}{{ $precio }}{{ end }} {{ end }}" >
+                                            </div>
+                                    </div>
+
                                     <div class="row">
                                         <div class="col-3 pl-0 form-label">
                                             <label>&nbsp;</label>
@@ -52,3 +69,5 @@
                 </div>
             </div>
         </div>
+    </div>
+    {{ end }}

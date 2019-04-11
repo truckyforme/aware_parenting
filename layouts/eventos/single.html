@@ -34,7 +34,7 @@
                             </p>    
                         </div>
                     </div>
-<!-- PRECIO-->   
+<!-- LUGAR -->   
                     <div class="row align-items-start small-gutters evento-data">
                             <div class="col-2 evento-label">
                                 <p>Dónde: </p>
@@ -45,12 +45,16 @@
                                 <p>{{ .Params.ciudad }}</p>      
                             </div>
                     </div>
+<!-- PRECIO -->                     
                     <div class="row small-gutters d-flex align-items-center evento-data">
                         <div class="col-2 evento-label">
                             <p>Precio: </p>
                         </div>
                         <div class="col-10 evento-text-min">
-                            <p>{{ .Params.precio }}</p>    
+                            <p>{{ .Params.precio }}
+                                {{ $fecha := .Params.earlybirdfecha }}
+                                {{ $precio := .Params.earlybirdprecio }}
+                                {{ with .Params.earlybird }}{{ if gt $fecha (now.Format "2006-01-20") }}, ({{ $precio }} hasta el {{ dateFormat "2" $fecha }} de {{ index $.Site.Data.mes (printf "%d" ((time $fecha).Month)) }}){{ end }} {{ end }}</p>    
                         </div>
                     </div>
 <!-- CONTACTO - TELEFONO - MAIL -->                    
@@ -70,13 +74,8 @@
                                     {{ end }}
                             </div>
                     </div>
-<!-- INSCRIPCIÓN -->                       
-                    {{ with .Params.inscripcion }}                  
-                    <div class="row small-gutters evento-data">
-                        {{ partial "inscripcion.html" }}
-                    </div>
-                    {{ end }}
-                    
+<!-- INSCRIPCIÓN -->
+                    {{ partial "inscripcion.html" . }}
                     
                 </div>
                 <div class="col-md-3 evento-main">
