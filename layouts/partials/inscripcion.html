@@ -46,7 +46,10 @@
                                             </div>
                                             <div class="col-9">
                                                 <input type="number" name="plazas" min="1" max="5" id="plazas" value="1" required>
-                                                <input type="hidden" name="preciounitario" value="{{ with .Params.earlybird }}{{ if gt $fecha (now.Format "2006-01-20") }} ({{ $precioearlybird }}{{ else }}{{ $precio }}{{ end }} {{ end }}" >
+                                                <input type="hidden" name="preciounitario" value="{{ with .Params.earlybird }}{{ if gt $fecha (now.Format "2006-01-20") }}{{ $precioearlybird }}{{ else }}{{ $precio }}{{ end }}{{ end }}">
+                                                <input type="hidden" name="codigocurso" value="{{ .Params.idcurso }}">
+                                                <input type="hidden" name="codigociudad" value="{{ .Params.idciudad }}">
+
                                             </div>
                                     </div>
 
