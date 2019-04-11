@@ -6,9 +6,9 @@ type: eventos
 tipoevento: "Curso"
 date1: 2019-06-01
 date2: 2019-06-02
-lugar: " Lugar pendiente de confirmar"
+lugar: " Hotel Iberostar Paseo de Gracia"
 ciudad: "Barcelona"
-direccion: ""
+direccion: "Plaza Cataluña, 10"
 precio: "150€"
 contactoname: "Laura Díaz de Entresotos"
 contactoemail: "laura@awareparenting.es"
@@ -16,6 +16,12 @@ contactotelefono: "687054595"
 contactoweb: ""
 thumb: img/eventos/syl_thumb.jpg
 tags: ["Curso","Emociones"]
+inscripcion: "true"
+idcurso: "SYL"
+idciudad: "BCN"
+earlybird: "true"
+earlybirdfecha: 2019-05-10
+earlybirdprecio: "135€"
 ---
 Este es un curso sobre emociones que persigue que los participantes aprendan cómo dar apoyo emocional a los niños y cómo ayudarles a gestionar sus emociones para garantizar su bienestar y un buen desarrollo cognitivo, social y emocional.
 
