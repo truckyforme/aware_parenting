@@ -54,7 +54,7 @@
                             <p>{{ .Params.precio }}
                                 {{ $fecha := .Params.earlybirdfecha }}
                                 {{ $precio := .Params.earlybirdprecio }}
-                                {{ with .Params.earlybird }}{{ if gt $fecha (now.Format "2006-01-20") }}, ({{ $precio }} hasta el {{ dateFormat "2" $fecha }} de {{ index $.Site.Data.mes (printf "%d" ((time $fecha).Month)) }}){{ end }} {{ end }}</p>    
+                                {{ with .Params.earlybird }}{{ if gt $fecha (now.Format "2006-01-20") }} ({{ $precio }} hasta el {{ dateFormat "2" $fecha }} de {{ index $.Site.Data.meses (printf "%d" ((time $fecha).Month)) }}){{ end }} {{ end }}</p>    
                         </div>
                     </div>
 <!-- CONTACTO - TELEFONO - MAIL -->                    
