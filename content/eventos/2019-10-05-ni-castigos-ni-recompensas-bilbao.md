@@ -17,7 +17,7 @@ contactotelefono: "687054595"
 contactoweb: ""
 thumb: "img/eventos/escnr_thumb.jpg"
 tags: ["Curso","Disciplina"]
-inscripcion: "true"
+inscripcion: true
 idcurso: "ESCNR"
 idciudad: "BIL"
 earlybird: "true"

@@ -1,6 +1,6 @@
 {{ .Scratch.Set "inscripcion" "false" }}                       
-{{ if .Params.inscripcion }} {{ .Scratch.Set "inscripcion" "true" }}{{ end }}
-{{ if .Scratch.Get "inscripcion" }}        
+{{ if .Params.inscripcion }} {{ .Scratch.Set "inscripcion" true }}{{ end }}
+{{ if eq (.Scratch.Get "inscripcion") true }}        
 <div class="row small-gutters evento-data">
         <div id="main" class="col-md-12">
             <div class="list"> 

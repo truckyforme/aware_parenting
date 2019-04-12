@@ -16,6 +16,7 @@ contactotelefono: ""
 contactoweb: "http://http://benicassimcultura.es/"
 thumb: img/eventos/c-aprender-sin-castigos-thumb.jpg
 tags: ["Charla","Acoso"]
+inscripcion: false
 ---
 Las relaciones con compañeros, maestros y padres influyen de manera determinante en el aprendizaje. Tienen un gran impacto en nuestra manera de actuar, de solucionar conflictos y relacionarnos con otros. El marco de relaciones autoritario, con castigos y recompensas, tiene resultados poco deseables, tanto para el aprendizaje como para la convivencia. ¿Cuáles son? ¿Qué podemos cambiar?
 

@@ -16,6 +16,7 @@ contactotelefono: ""
 contactoweb: "http://www.almassora.es/"
 thumb: img/eventos/t-acoso-escolar.jpg
 tags: ["Taller","acoso escolar"]
+inscripcion: false
 ---
 ¿Podemos acabar con el acoso escolar? ¿Cómo? ¿Quién? ¿Es un problema del que acosa, o del que es acosado? ¿Por qué se produce? ¿Hay cada vez más acoso? ¿Es diferente el acoso de otros conflictos? ¿Qué es acoso y qué no lo es? ¿Qué papel juega la familia? ¿Y la escuela? ¿Por dónde empezamos para acabar con el acoso escolar?
 

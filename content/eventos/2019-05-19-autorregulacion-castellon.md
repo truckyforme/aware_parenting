@@ -16,6 +16,7 @@ contactotelefono: "616611300"
 contactoweb: ""
 thumb: "img/eventos/autorregulacion_thumb.jpeg"
 tags: ["Curso Intensivo","Autorregulacion"]
+inscripcion: false
 ---
 La capacidad de autorregulación se desarrolla y fortalece a lo largo de la vida, y el papel de los padres y cuidadores es determinante: pueden interferir con una educación basada en castigos y recompensas que persigue la obediencia de los niños, o pueden proporcionar las condiciones de libertad y responsabilidad adecuadas para que se produzca el aprendizaje de esta habilidad.
 

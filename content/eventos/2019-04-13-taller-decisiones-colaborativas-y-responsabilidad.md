@@ -16,6 +16,7 @@ contactotelefono: ""
 contactoweb: "http://http://benicassimcultura.es/"
 thumb: img/eventos/t-decisiones-colaborativas.jpg
 tags: ["Taller","Adolescentes"]
+inscripcion: false
 ---
 Resolver conflictos y tomar decisiones son dos procesos diferentes. Paradójicamente, tomar decisiones de forma colaborativa puede hacer que los conflictos desaparezcan.
 Puedes aprender a tomar decisiones con tus hijos adolescentes. Sólo hay una pega, ¿quieres saber cuál?
