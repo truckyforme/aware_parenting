@@ -45,14 +45,21 @@
                                                 <label for="plazas">Plazas</label>
                                             </div>
                                             <div class="col-9">
-                                                <input type="number" name="plazas" min="1" max="5" id="plazas" value="1" required>
-                                                <input type="hidden" name="preciounitario" value="{{ with .Params.earlybird }}{{ if gt $fecha ( now.Format "2006-01-20" ) }}{{ $precioearlybird }}{{ else }}{{ $precio }}{{ end }}{{ end }}" readonly>
+                                                <input type="number" name="plazas" min="1" max="5" id="a" value="0" required>
+                                                <input type="hidden" name="preciounitario" id="b" value="{{ with .Params.earlybird }}{{ if gt $fecha ( now.Format "2006-01-02" ) }}{{ $precioearlybird }}{{ else }}{{ $precio }}{{ end }}{{ end }}" readonly>
                                                 <input type="hidden" name="codigocurso" value="{{ .Params.idcurso }}" readonly>
                                                 <input type="hidden" name="codigociudad" value="{{ .Params.idciudad }}" readonly>
                                                 <input type="hidden" name="curso" value="{{ .Params.title }}" readonly>
                                                 <input type="hidden" name="ciudad" value="{{ .Params.ciudad }}" readonly>
-
                                             </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 pl-0 form-label">
+                                            <label for="Total">Total</label>
+                                        </div>
+                                        <div class="col-9">
+                                                <output name="x" for="a b"></output> €
+                                        </div>        
                                     </div>
 
                                     <div class="row">
