@@ -15,7 +15,7 @@
                                 {{ $precio:= .Params.precio }}
                                 {{ $precioearlybird := .Params.earlybirdprecio }}
                                 {{ $fecha := .Params.earlybirdfecha }}
-                                <form class="formulario-consulta" method="post" netlify-honeypot="bot-field" name="inscripciones" data-netlify="true" style="padding-top: 20px;" oninput="x.value=parseInt(a.value)*parseInt(b.value)">
+                                <form class="formulario-consulta" method="post" netlify-honeypot="bot-field" name="inscripciones" data-netlify="true" style="padding-top: 20px;" oninput="x.value=parseInt(a.value)*parseInt(b.value)" oninput="y.value=parseInt(a.value)*parseInt(b.value)" action="/form/exito">
                                     <div class="row">
                                         <div class="col-3 pl-0 form-label">
                                             <label for="name">Nombre</label>
@@ -59,6 +59,7 @@
                                         </div>
                                         <div class="col-9">
                                                 <output name="x" for="a b"></output> €
+                                                <input type="hidden" name="y" for="a b" readonly>
                                         </div>        
                                     </div>
 
