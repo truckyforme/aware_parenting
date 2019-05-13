@@ -45,7 +45,7 @@
                                                 <label for="plazas">Plazas</label>
                                             </div>
                                             <div class="col-9">
-                                                <input type="number" name="plazas" min="1" max="5" id="a" value="0" required>
+                                                <input type="number" name="plazas" min="1" max="5" id="a" value="1" step="1" required>
                                                 <input type="hidden" name="preciounitario" id="b" value="{{ with .Params.earlybird }}{{ if gt $fecha ( now.Format "2006-01-02" ) }}{{ $precioearlybird }}{{ else }}{{ $precio }}{{ end }}{{ end }}" readonly>
                                                 <input type="hidden" name="codigocurso" value="{{ .Params.idcurso }}" readonly>
                                                 <input type="hidden" name="codigociudad" value="{{ .Params.idciudad }}" readonly>
@@ -58,8 +58,9 @@
                                             <label for="Total">Total</label>
                                         </div>
                                         <div class="col-9">
-                                                <output name="x" for="a b"></output> €
-                                                <input type="hidden" name="y" for="a b" readonly>
+                                            <input type="hidden" name="y" for="a b" readonly>    
+                                            <output name="x" for="a b"></output> €
+                                                
                                         </div>        
                                     </div>
 
