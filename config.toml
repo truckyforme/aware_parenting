@@ -16,7 +16,8 @@ theme        	= "ap_theme"
 [params]
     favicon = "/static/img/favicon.ico"
     email = "laura@awareparenting.es"
-    year = "2018"
+    year = "2019"
+    author = "Laura Díaz de Entresotos"
 
 # Navigation
     [params.navigation]

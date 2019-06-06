@@ -2,10 +2,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
-		<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+		<meta name="author" property="og:author" content="{{ with .Site.Params.author }}{{ . }}{{ end }}">
+		{{ with .Site.Params.description }}<meta name="description" property="og:description" content="{{ . }}">{{ end }}
+		
+		<meta name="title" property="og:title" content="{{ with .Params.Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
+		<meta name="image" property="og:image" content="{{ with .Params.banner }}{{ . }}{{ else }}/img/ap_logo_full.jpg{{ end }}">
 		{{ .Hugo.Generator }}
 		<title>{{ .Site.Title }}</title>
+
 		{{ "<!-- reflang -->" | safeHTML }}
 		{{- if .IsTranslated }}
 		    {{- range .AllTranslations }}
