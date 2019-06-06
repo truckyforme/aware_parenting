@@ -5,9 +5,9 @@ paginatePath	= "newspage"
 canonifyurls	= false
 
 title = "Laura Díaz de Entresotos - Aware Parenting en España"
-name         	= "Laura Díaz de Entresotos"
+author         	= "Laura Díaz de Entresotos"
 copyright		= "© 2018 Laura Díaz de Entresotos. Todos los derechos reservados."
-description     = "Psicóloga especialista en Aware Parenting, un enfoque de educación y crianza basado en el apego y el respeto; sin castigos ni recompensas."
+
 theme        	= "ap_theme"
 
 [Permalinks]
@@ -17,7 +17,8 @@ theme        	= "ap_theme"
     favicon = "/static/img/favicon.ico"
     email = "laura@awareparenting.es"
     year = "2019"
-    author = "Laura Díaz de Entresotos"
+    author         	= "Laura Díaz de Entresotos"
+    description     = "Un enfoque de educación y crianza que sí funciona para todos, basado en la disciplina no punitiva, el respeto, y el apego"
 
 # Navigation
     [params.navigation]
