@@ -29,7 +29,7 @@ Pero, ¿cuáles son esas condiciones?, ¿qué es autorregulación?, y ¿cómo ay
 
 En este curso abordaremos la autorregulación, y cuatro casos específicos: las emociones, la alimentación, el uso de pantallas y el aprendizaje.
 
-**Horario:** Sábado de 10:00 a 14:00 y de 16:00 a 20:00h. Domingo de 10:00 a 14:00h
+**Horario:** Sábado de 10:00 a 14:00 y de 15:30 a 19:30h. Domingo de 10:00 a 14:00h
 
 **Duración:** 12 horas
 
