@@ -20,7 +20,7 @@ inscripcion: "true"
 idcurso: "NVNV"
 idciudad: "BCN"
 earlybird: "true"
-earlybirdfecha: 2020-10-30
+earlybirdfecha: 2019-10-30
 earlybirdprecio: "135€"
 ---
 ¿Cómo resolver conflictos en el entorno familiar?. Partiendo del trabajo de Marshall Rosenberg (Comunicación No Violenta) pondremos en práctica una nueva forma de comunicarnos con los demás y conseguir equilibrio en nuestras relaciones con los niños. Este curso incluye una buena cantidad de ejercicios para practicar las diferentes técnicas. 
