@@ -20,7 +20,7 @@ inscripcion: "true"
 idcurso: "ESCNR"
 idciudad: "BCN"
 earlybird: "true"
-earlybirdfecha: 2020-09-26
+earlybirdfecha: 2019-09-26
 earlybirdprecio: "135€"
 ---
 Muchos padres y profesionales de la educación buscan una manera de educar alejada de la tradicional disciplina autoritaria, basada en castigos y recompensas. Ante la falta de modelos en los que fijarse, a menudo se sienten inseguros, y ante la dificultad para poner en práctica cambios sin caer en la permisividad, a menudo se sienten frustrados e impotentes.
