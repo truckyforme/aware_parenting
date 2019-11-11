@@ -13,7 +13,7 @@ precio: "150€"
 contactoname: "Fundación Universitat Jaume I-Empresa"
 contactoemail: "formacion@fue.uji.es"
 contactotelefono: "964 387 222 / 09"
-contactoweb: "http://www.fue.uji.es/formacion/EX190429"
+contactoweb: "http://www.fue.uji.es/formacion/EX190428"
 thumb: "img/eventos/escnr_thumb.jpg"
 tags: ["Curso","Disciplina"]
 earlybird: "true"
