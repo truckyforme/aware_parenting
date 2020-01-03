@@ -988,3 +988,60 @@ footer h4 {
 .programa-box h4 {
     font-size: 105%;
 }  
+
+/*********************************
+    MURRI 
+*********************************/
+
+.header-murri {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url(/img/murri/Athens2.jpg);
+    background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url(/img/murri/Athens2.jpg);
+    background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url(/img/murri/Athens2.jpg);
+    background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url(/img/murri/Athens2.jpg);
+    background-image: -ms-linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url(/img/murri/Athens2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+}
+
+.about {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.about .ajuste-bottom {
+    padding-bottom: 15px;
+}
+
+.header-murri-text-box {
+    position: absolute;
+    width: 100%;
+    top: 12%;
+    transform: translate (-10%, -15%);
+    -webkit-transform: translate (-10%, -15%);
+    -moz-transform: translate (-10%, -15%);
+    -ms-transform: translate (-10%, -15%);
+    -o-transform: translate (-10%, -15%);
+}
+
+.header-murri-text-box h1 {
+    margin-top: 0px;
+    color: #fff;
+    font-size: 250%;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px rgba(36, 35, 35, 0.87);
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.header-murri-text-box h3 {
+    margin-top: 0px;
+    color: #fff;
+    font-size: 120%;
+    font-weight: 400;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(65, 65, 65, 0.863);
+}

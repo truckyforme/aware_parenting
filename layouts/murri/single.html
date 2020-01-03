@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{{ "<!-- evento -->" | safeHTML }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}es-es{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        <header class="header-murri">   
+    </header>
+    <div class="header-murri-text-box">
+        <h1>{{ with .Title }}{{ . | markdownify  }}{{ end }}</h1>
+        <h3>{{ with .Params.subtitle }}{{ . | markdownify  }}{{ end }}</h3>
+    </div>
+    <section>
+    <div class="container" >
+        <div class="row about">
+            
+            <div class="col-12 col-sm-8">
+                <div class="row">
+                    {{ .Params.intro | markdownify }}
+                </div>                    
+            </div>
+        </div>
+            <!-- /.row -->
+    </div> 
+</section>
+
+          
+            
+
+                                
+        
+        {{ partial "js.html" }}
+    </body>
+</html>
