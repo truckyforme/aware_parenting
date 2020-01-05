@@ -22,6 +22,8 @@ idciudad: "BCN"
 earlybird: "true"
 earlybirdfecha: 2020-02-21
 earlybirdprecio: "135€"
+description: "La capacidad de autorregulación se desarrolla y fortalece a lo largo de la vida, y el papel de los padres y cuidadores es determinante: pueden interferir con una educación basada en castigos y recompensas que persigue la obediencia de los niños, o pueden proporcionar las condiciones de libertad y responsabilidad adecuadas para que se produzca el aprendizaje de esta habilidad. Pero, ¿cuáles son esas condiciones?, ¿qué es autorregulación?, y ¿cómo ayudar a los niños a aprender a regularse?"
+banner: "img/eventos/autorregulacion_thumb.jpeg"
 ---
 La capacidad de autorregulación se desarrolla y fortalece a lo largo de la vida, y el papel de los padres y cuidadores es determinante: pueden interferir con una educación basada en castigos y recompensas que persigue la obediencia de los niños, o pueden proporcionar las condiciones de libertad y responsabilidad adecuadas para que se produzca el aprendizaje de esta habilidad.
 

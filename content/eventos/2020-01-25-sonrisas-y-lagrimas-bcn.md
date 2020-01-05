@@ -22,6 +22,8 @@ idciudad: "BCN"
 earlybird: "true"
 earlybirdfecha: 2020-01-06
 earlybirdprecio: "135€"
+description: "Este es un curso sobre emociones que persigue que los participantes aprendan cómo dar apoyo emocional a los niños y cómo ayudarles a gestionar sus emociones para garantizar su bienestar y un buen desarrollo cognitivo, social y emocional."
+banner: img/eventos/syl_thumb.jpg
 ---
 Este es un curso sobre emociones que persigue que los participantes aprendan cómo dar apoyo emocional a los niños y cómo ayudarles a gestionar sus emociones para garantizar su bienestar y un buen desarrollo cognitivo, social y emocional.
 
