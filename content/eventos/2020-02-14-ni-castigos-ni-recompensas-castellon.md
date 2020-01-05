@@ -8,7 +8,7 @@ date1: 2020-02-14
 date2: 2020-02-15
 lugar: "Ceip rosa dels Vents"
 ciudad: "Baleares"
-direccion: "C/ Vent del Nord s/n, Colònia de Sant Pere, I. Balears"
+direccion: "C/ Vent del Nord s/n, Colònia de Sant Pere, Mallorca"
 precio: "150€"
 contactoname: "Esther Zarrías"
 contactoemail: "cursrosadelsvents@gmail.com"
