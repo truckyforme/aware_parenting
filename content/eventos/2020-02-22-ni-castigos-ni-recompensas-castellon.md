@@ -5,7 +5,7 @@ author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Curso"
 date1: 2020-02-22
-date2: 2020-03-23
+date2: 2020-02-23
 lugar: "Colegio 4 Camins"
 ciudad: "Castellón"
 direccion: "Avinguda de Vila-real 50, 12006 Castelló de la Plana"
