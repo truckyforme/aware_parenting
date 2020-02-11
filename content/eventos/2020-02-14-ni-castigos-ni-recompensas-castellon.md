@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Educar sense Càstigs ni Recompenses"
 subtitle: 
 author: Laura Díaz de Entresotos
