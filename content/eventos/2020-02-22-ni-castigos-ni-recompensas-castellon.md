@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Educar sin castigos ni recompensas"
 subtitle: 
 author: Laura Díaz de Entresotos
