@@ -7,3 +7,20 @@
 
 <script src="/js/script.js"></script>
 <script src="/js/nav-scroll.js"></script>
+
+<!-- jquery contact form event handler   --> 
+<script>
+    $("form").submit(function(e) {
+      e.preventDefault();
+      var $form = $(this);
+      var submitButton = $('input[type=submit]', this);
+  
+      $.post($form.attr("action"), $form.serialize()).done(function(data) {
+          var successMessage = submitButton.attr("success");
+          alert(submitButton.attr('success'));
+          submitButton.prop('disabled', true);
+      }).fail(function(data) {
+        // Optionally alert the user of an error here...
+      });
+    });    
+  </script>

@@ -21,13 +21,13 @@
                     <h3>{{ with .Site.Params.consulta.more }}{{ . | markdownify }}{{ end }}</h3>
                 </div>
                 <div class="row">
-                        <form class="formulario-consulta" method="post" netlify-honeypot="bot-field" name="consulta" data-netlify="true">
+                        <form class="formulario-consulta" action="{{ .RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="consulta" data-netlify="true">
                             <div class="row">
                                 <div class="col-3 pl-0 form-label">
                                     <label for="name">Nombre</label>
                                 </div>
                                 <div class="col-9">
-                                    <input type="text" name="name" id="name" placeholder="Tu nombre" required>
+                                    <input type="text" name="name" id="name" placeholder="Tu nombre" oninvalid="alert('Por favor, introduce tu nombre');" required>
                                 </div>
                             </div>
                             <div class="row">
@@ -35,15 +35,15 @@
                                     <label for="email">Email</label>
                                 </div>
                                 <div class="col-9">
-                                    <input type="email" name="email" id="email" placeholder="Tu email" required>
+                                    <input type="email" name="email" id="email" placeholder="Tu email" oninvalid="alert('Por favor, introduce tu email');" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}" required>
                                 </div>
                             </div>
                             <div class="row">
                                     <div class="col-3 pl-0 form-label">
-                                        <label for="telefono">Telefono</label>
+                                        <label for="telefono">Teléfono</label>
                                     </div>
                                     <div class="col-9">
-                                        <input type="text" name="telefono" id="telefono" placeholder="Tu telefono" required>
+                                        <input type="text" name="telefono" id="telefono" placeholder="Tu teléfono" oninvalid="alert('Por favor, introduce tu teléfono');" pattern="^[0-9-+\s()]*$" required>
                                     </div>
                                 </div>
                             <div class="row">
@@ -62,7 +62,7 @@
                                       </p>
                                 </div>
                                 <div class="col-9" style="text-align: left;">
-                                    <input type="submit" value="Enviar">
+                                    <input type="submit" value="Enviar" success="{{ with .Site.Params.form.contactoexito }}{{ . }}{{ end }}">
                                 </div>
                             </div>
                             

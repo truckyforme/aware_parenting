@@ -3,7 +3,7 @@
         <h2>We're happy to hear from you</h2>
     </div>
     <div class="row">
-        <form method="post" action="#" class="contact-form">
+        <form class="contact-form"action="{{ .RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="contacto"  data-netlify="true">
             <div class="row">
                 <div class="col span-1-of-3">
                     <label for="name">Nombre</label>
@@ -17,7 +17,7 @@
                     <label for="email">Email</label>
                 </div>
                 <div class="col span-2-of-3">
-                    <input type="email" name="email" id="email" placeholder="Tu email" required>
+                    <input type="text" name="name" id="name" placeholder="Tu nombre" oninvalid="alert('Por favor, introduce tu nombre');" required>
                 </div>
             </div>
             <div class="row">

@@ -382,6 +382,15 @@ input[type=submit]:active {
     list-style: none;
     text-align: left;
 }
+.feature-box h4 {
+    font-size: 120%;
+    font-weight: bolder;
+    padding-top:1.5em;
+    padding-bottom: 0.8em;
+}
+.feature-box h4:first-of-type {
+    padding-top: 0;
+}
 
 /* ----------------------------------------------- */
 /* PROXIMOS CURSOS */
@@ -1255,9 +1264,14 @@ input[type='checkbox'] {
     padding-left: 2px;
 }
 .sidebar-block-flex {
-    padding-bottom: 1.5em;
+    padding-bottom: 0.8em;
     padding-right: 2px;
     padding-left: 2px;
+    padding-top: 0.8em;
+    display: flex;
+}
+.sidebar-block-flex:first-child{
+    padding-top: 0;
     display: flex;
 }
 .sidebar-icon {
