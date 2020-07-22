@@ -1,4 +1,38 @@
 /* Small devices (landscape phones, 576px and up) */
+@media(max-aspect-ratio:1/1) and (max-width:480px) {
+    .layout-67vw,
+    .layout-33vw,
+    .layout-half,
+    .footer-75,
+    .footer-25 {
+        width: 100%;
+    }
+    .sticky-sidebar {
+        position: static;	
+    }
+    .navbar-fixed-top.scrolled,
+    .navbar-fixed-top.scrolled .dropdown-menu,
+    .navbar-fixed-top.scrolled ul {
+        background-color: #fff !important;
+        transition: background-color 200ms linear;
+    }
+  
+  .navbar-fixed-top.scrolled .nav-link,
+  .navbar-fixed-top.scrolled .dropdown-item,
+  .navbar-fixed-top.scrolled a,
+  .navbar-fixed-top.scrolled ul.apmenu li a {
+      color: #555;
+  }
+  .menutoggle {
+      background-color: transparent;
+  }
+  nav ul.apmenu {
+      background-color: rgba(45, 48, 39, 0.8); 
+  }
+  .dropdown-item {
+      text-align: right;
+  }
+}	
 @media (min-width: 576px) {
     .consulta-form {
         text-align: right;
@@ -7,7 +41,11 @@
         padding-top: 5px;
         margin-bottom: 10px;
     }
+    .dropdown-item {
+        text-align: left;
+    }
 }
+
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -96,6 +134,7 @@
     .consulta-form h3 {
         font-size: 110%;
     }
+
     
 /* Lista cursos y charlas*/
 .list-body {
@@ -207,6 +246,7 @@
     h2 {
         font-size: 180%;
         margin-bottom: 30px;
+        margin-top: 30px;
     }
 
     h2:after {
@@ -282,7 +322,8 @@
 
     .main-nav li a:hover,
     .main-nav li a:active {
-        border-bottom: 2px solid #fdfdfd;
+      /*  border-bottom: 2px solid #fdfdfd; */
+        color: rgb(248, 170, 25);
     }
     
     .main-nav-dark {
@@ -292,6 +333,15 @@
     .main-nav-dark li a:link,
     .main-nav-dark li a:visited {
         color: #555;
+    }
+    .main-nav-dark li a:hover,
+    .main-nav-dark li a:active {
+        background-color: #eeeeee;
+    }
+    .dropdown-item {
+        text-align: left;
+        font-weight: 300;
+        font-size: 100%;
     }
 
     .header-cursos,

@@ -1,26 +1,34 @@
-<nav class="navbar navbar-expand-lg top-z px-0 px-lg-3">
+<nav class="navbar navbar-fixed-top fixed-top navbar-expand-lg  top-z px-0 px-lg-5">
         <a class="navbar-brand" href={{ if .IsHome }}"#page-top"{{ else }}"/#page-top"{{ end }}>
             <img src="{{ .Site.Params.navigation.brand_logo }}" alt="Aware Parenting" class="logo">
         </a>
-        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-dark ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0 main-nav">
             {{ if .IsHome }}
-			   {{ range .Site.Params.navigation.items }}
+			         {{ range .Site.Params.navigation.items }}
                 <li class="nav-item">
                     <a class="nav-link" href="{{ .frontpageurl }}">{{ .name }}</a>
                 </li>
                {{ end }}
             {{ else }}  
-			   {{ range .Site.Params.navigation.items }}
+			         {{ range .Site.Params.navigation.items }}
                 <li class="nav-item">
-				     <a class="nav-link" href="{{ .url }}">{{ .name }}</a>
-				</li>
-				{{- end }}
+				          <a class="nav-link" href="{{ .url }}">{{ .name }}</a>
+				        </li>
+				        {{- end }}
             {{- end }}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Site.Params.navigation.sobremi }}</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    {{ range .Site.Params.navigation.housekeeping }}
+                        <a class="dropdown-item" href="{{ .url }}">{{ .name }}</a>
+                    {{ end }}
+                </div>
+            </li>
             {{ if and (isset .Site.Params "algolia_search") (eq .Site.Params.algolia_search true) }}
 		          <li>
                         <div id="search-box" class="search">

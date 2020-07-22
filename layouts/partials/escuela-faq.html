@@ -1,0 +1,74 @@
+<!-- Escuela de Familias Faq Section -->
+<section class="faq" id="faq">
+    <div class="container">
+        <div class="row justify-content-center">
+            {{ with .Params.faqtitle }}
+             <h2>{{ . | markdownify }}</h2>
+            {{ end }} 
+            {{ with .Params.faqintro }}
+             <p>{{ . | markdownify }}</p>
+            {{ end }}
+        </div>
+        <div class="row ">
+            {{ range .Site.Data.faqescuela }}
+            <div class="col-xs-12">
+                <input id="collapsible_{{ .title }}" class="faq-toggle" type="checkbox">
+                <label for="collapsible_{{ .title }}" class="faq-toggle style-faq-item-title">{{ .title }} <i class="fa fa-chevron-down text-right"> </i></label>
+                <div class="collapsible-content">
+                    <p class="style-faq-item-description">{{ .description | markdownify }}</p>
+                </div>	
+            </div>
+            
+            {{ end }}
+        </div>
+        <div class="flex-parent-row flex-justify-content padding-tb-normal">
+            <div class="layout-75">
+                        <div class="flex-parent-row flex-justify-content">
+                            <h4>{{ with .Params.faqcontacto }}{{ . | markdownify }}{{ end }}</h4>
+                        </div>
+                        <div class="flex-parent-row padding-tb-normal">
+                                <form class="formulario-contacto" method="post" name="consulta-faq" netlify-honeypot="bot-field" data-netlify="true">
+                                    <div class="flex-parent-row">
+                                        <div class="form-25">
+                                            <label for="name">Nombre</label>
+                                        </div>
+                                        <div class="form-75 padding-lr-normal">
+                                            <input type="text" name="name" id="name" placeholder="Tu nombre" required>
+                                        </div>
+                                    </div>
+                                    <div class="flex-parent-row">
+                                        <div class="form-25">
+                                            <label for="email">Email</label>
+                                        </div>
+                                        <div class="form-75 padding-lr-normal">
+                                            <input type="email" name="email" id="email" placeholder="Tu email" required>
+                                        </div>
+                                    </div>
+                                    <div class="flex-parent-row">
+                                        <div class="form-25">
+                                            <label>Pregunta</label>
+                                        </div>
+                                        <div class="form-75 padding-lr-normal">
+                                            <textarea name="mensaje" placeholder="Escribe aquí tu pregunta"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="flex-parent-row">
+                                        <div class="form-25">
+                                            <label>&nbsp;</label>
+                                            <p class="d-none">
+                                                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                                              </p>
+                                        </div>
+                                        <div class="form-75 padding-lr-normal" style="text-align: left;">
+                                            <input type="submit" value="Enviar">
+                                        </div>
+                                    </div>
+                                    
+                                </form>
+                                
+                            </div>
+                    </div>
+        </div>
+    </div>
+</section> 
+<!-- End - Escuela de Familias Faq Section -->

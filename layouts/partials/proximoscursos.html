@@ -4,7 +4,7 @@
         <h2>{{ with .Site.Params.proximoscursos.titulo }}{{ . | markdownify }}{{ end }}</h2>
     </div>
     <div class="row">
-        {{ range where (.Pages.ByParam "date1") "Type" "eventos"}}
+        {{ range where (.Site.RegularPages.ByParam "date1") "Type" "eventos"}}
         {{ if ge (time .Params.date1) (sub (now.Unix) 86400) }}
          <div class="col-6 col-sm-4 col-lg-3 card-row px-1 px-md-3">
             <a class="card event-box" href="{{ .RelPermalink }}">

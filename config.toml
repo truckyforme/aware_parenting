@@ -24,32 +24,38 @@ theme        	= "ap_theme"
     [params.navigation]
         brand 		= "Aware Parenting"
         brand_logo	= "/img/ap_logo_full.svg"
+        sobremi = "Sobre mí"
 			[params.navigation.items]
-				
 				[params.navigation.items.001]
-					name		 	= "Cursos y Charlas"
-					url			 	= "/cursos/"
-					frontpageurl 	= "/cursos/"
-                [params.navigation.items.002]
 					name			= "Consulta"
 					url				= "/#consulta"
 					frontpageurl	= "#consulta"
+                [params.navigation.items.002]
+					name		 	= "Formación"
+					url			 	= "/cursos/"
+					frontpageurl 	= "/cursos/"
 				[params.navigation.items.003]
-					name			= "Aware Parenting"
-					url				= "/aware-parenting/"
-					frontpageurl	= "/aware-parenting/"
-                [params.navigation.items.004]
+					name			= "Escuela de Familias Online"
+					url				= "/escuela-de-familias/"
+					frontpageurl	= "/escuela-de-familias/"
+                
+            [params.navigation.housekeeping]
+                [params.navigation.housekeeping.001]
+                    name			= "Acerca de mi"
+					url				= "/about/"
+					frontpageurl	= "/about/"
+                [params.navigation.housekeeping.002]
 					name			= "Contacto"
 					url				= "/about/#contacto"
 					frontpageurl	= "/about/#contacto"
-				[params.navigation.items.005]
-					name			= "Acerca de mi"
-					url				= "/about/"
-					frontpageurl	= "/about/"
-                [params.navigation.items.006]
+                [params.navigation.housekeeping.003]
+					name			= "Aware Parenting"
+					url				= "/aware-parenting/"
+					frontpageurl	= "/aware-parenting/"   
+                [params.navigation.housekeeping.004]
 					name			= "Artículos"
 					url				= "/articulos/"
-					frontpageurl	= "/articulos/"
+					frontpageurl	= "/articulos/" 
 
  # Hero Section                    
 	[params.hero]
@@ -60,13 +66,19 @@ theme        	= "ap_theme"
         button_2 = "Próximos Cursos"
         [params.hero.menu]
             [params.hero.menu.001]
-                name    = "Próximos Cursos"
-                url     = "#proximoscursos"
-                scroll  = "cursos"
-            [params.hero.menu.002]
                 name    = "Consulta"
                 url     = "#consulta"
                 scroll  ="consulta"
+            [params.hero.menu.002]
+                name    = "Escuela de Familias Online"
+                url     = "/escuela-de-familias/"
+                scroll  ="escueladefamilias"
+            [params.hero.menu.003]
+                name    = "Próximos Cursos"
+                url     = "#proximoscursos"
+                scroll  = "cursos"
+            
+            
 
 # Features Section            
     [params.features]

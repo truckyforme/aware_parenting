@@ -1,0 +1,18 @@
+<!-- Escuela de Familias testimonios Section -->
+<section class="pb-1" id="testimonios">
+    <div class="container">
+        <div class="row justify-content-center">
+            {{ with .Params.testimoniostitle }}
+                <h2>{{ . | markdownify }}</h2>
+            {{ end }}
+            {{ with .Params.texttestimonio }}
+                <p>{{ . | markdownify }}</p>
+            {{ end }}
+            
+        </div>
+        <div class="row justify-content-center">
+            <iframe width="720" height="415" src="https://www.youtube.com/embed/p4VwotauraA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>    
+    </div>      
+</section>
+<!-- End - Escuela de Familias Faq Section -->

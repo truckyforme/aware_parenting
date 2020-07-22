@@ -1,0 +1,15 @@
+{{ "<!-- partials:escuela-nav:start -->" | safeHTML }}
+    <aside class="layout-sticky light-shadow" id="secondarynav" style="border-bottom: 1px solid #ddd;">
+        <div class="flex-content ">
+            <div class="flex-parent-scroll ap-scrollbar padding-tb-normal">
+                {{ range .Params.secciones }}
+                    <div class="flex-child-scroll">
+                        <a href="{{ .lnk }}">{{ .desc }}</a>
+                    </div> 
+                {{ end }}
+            </div>
+        </div>
+            
+    </aside>
+
+{{ "<!-- partials:partials:escuela-nav:end -->" | safeHTML }}

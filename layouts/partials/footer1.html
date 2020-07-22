@@ -1,0 +1,77 @@
+<footer>
+    <div class="layout-content">
+        <div class="row newsletter">
+            <div class="layout-content-width">
+                <!-- Begin Mailchimp Signup Form -->
+                <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                <div id="mc_embed_signup">
+                    <form action="https://awareparenting.us6.list-manage.com/subscribe/post?u=19b232fc76c2699b8d5a7dd15&amp;id=d603fdb429" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <h3 form="mce-EMAIL">¿Quieres estar al corriente de los próximos cursos?</h3>
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Tu email" required>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_19b232fc76c2699b8d5a7dd15_d603fdb429" tabindex="-1" value=""></div>
+                            <div class="clear"><input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </div>
+                    </form>
+                </div>
+
+                <!--End mc_embed_signup-->
+            </div>
+        </div>
+        <div class="flex-parent-row">
+            <div class="footer-25 padding-lr-normal">
+                <h4>{{ $.Site.Params.footer.Titlemenu1 }}</h4>
+                <ul class="footer-nav">
+                {{ range $.Site.Params.footer.menu1 }}
+                    <li><a href="{{ .url }}">{{ .name }}</a></li>
+                {{ end }}    
+                </ul>
+            </div>
+            
+            <div class="footer-25 padding-lr-normal">
+                    <h4>{{ $.Site.Params.footer.Titlemenu2 }}</h4>
+                    <ul class="footer-nav">
+                    {{ range $.Site.Params.navigation.items }}
+                        <li><a href="{{ .url }}">{{ .name }}</a></li>
+                    {{ end }}    
+                    </ul>
+            </div>
+            <div class="footer-25 padding-lr-normal">
+                <h4>{{ $.Site.Params.footer.Titlemenu3 }}</h4>
+                {{ range first 3 (where .Site.RegularPages "Type" "articulos") }}
+                    <div class="flex-parent-row articulo-footer flex-align-center">
+                        <div class="footer-article-25">
+                          <a href="{{ .RelPermalink }}">
+                              {{ if .Params.banner }}
+                              <img src="{{ .Params.banner }}" class="img-fluid" alt="{{ .Params.banner }}">
+                              {{ else }}
+                               
+                              {{ end }}
+                          </a>
+                      
+                        </div>
+                        <div class="footer-article-75 padding-lr-tiny">
+                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>  
+                        </div>
+                    </div>
+                {{ end }}
+            </div>
+            <div class="footer-25 padding-lr-normal">
+                    <h4>{{ $.Site.Params.footer.Titlemenu4 }}</h4>
+                    <ul class="footer-nav">
+                    {{ range $.Site.Params.footer.menu4 }}
+                        <li>{{ .name }}<a href="{{ .url | safeURL }}">{{ .value }}</a></li>
+                    {{ end }}    
+                    </ul>
+            </div>
+        </div>
+        <div class="flex-parent-row flex-justify-content">
+            <p class="mx-auto">
+                {{ $.Site.Copyright }}
+            </p>
+        </div>  
+    </div>
+      
+    
+    </footer>

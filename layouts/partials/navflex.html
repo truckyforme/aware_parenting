@@ -1,0 +1,47 @@
+      {{ "<!-- partials:navflex.html:start -->" | safeHTML }}
+
+<nav class="apnavbar navbar-fixed-top">
+ <div class="layout-content-width">
+  <div class="apnavbar-header">
+    	<div class="apnavbar-brand">
+    	<a class="page-scroll" href="/#page-top">
+    	<img src="{{ .Site.Params.navigation.brand_logo }}" alt="Aware Parenting" class="apnavbar-brand"></a>
+  		</div>
+  </div>
+  <label for="drop" class="menutoggle apnavbar-icon">&#9776</label>
+  <input type="checkbox" id="drop" />
+  <ul class="apmenu">
+     <!-- Elementos simples -->
+     {{ if .IsHome }}
+			  {{ range .Site.Params.navigation.items }}
+          <li>
+            <a class="page-scroll" href="{{ .frontpageurl }}">{{ .name }}</a>
+          </li>
+        {{ end }}
+     {{ else }}  
+			  {{ range .Site.Params.navigation.items }}
+          <li>
+				    <a class="page-scroll" href="{{ .url }}">{{ .name }}</a>
+				  </li>
+				{{- end }}
+      {{- end }}
+
+    <li> 
+      <!-- Dropdown Sobre mi -->
+      <label for="drop-1" class="menutoggle">{{ with .Site.Params.navigation.sobremi }}{{ . }}{{ end }} <i class="fa fa-chevron-down"></i></label>
+      <a href="#">{{ with .Site.Params.navigation.sobremi }}{{ . }}{{ end }} <i class="fa fa-chevron-down"></i></a>
+      <input type="checkbox" id="drop-1"/>
+      <ul>
+        {{- range .Site.Params.navigation.housekeeping }}
+        <li>
+	      <a class="page-scroll" href="{{ .url }}">{{ .name }}</a>
+	    </li>  
+	      {{- end }}
+      </ul>
+    </li>
+  </ul>
+ </div>
+</nav>
+
+
+

@@ -1,0 +1,57 @@
+{{ "<!-- escuela-sidebar.html -->" | safeHTML }}
+<section class="row sidebar-layout" id="sidebarescuela">
+    <div class="row mx-0 sidebar-block" id="calendar">
+        <div class="col-xs-2 sidebar-icon">
+            <i class="fa fa-calendar"></i>
+        </div>
+        <div class="col-xs-10 sidebar-text">
+            <h3><strong>15 sesiones</strong></h3>
+            <p>2 horas por sesión (18:00 - 20:00)</p>
+            <p>Periodicicad quincenal</p>
+            
+        </div>
+    </div>
+    <div class="row mx-0 sidebar-block" id="group">
+        <div class="col-xs-2 sidebar-icon">
+            <i class="fa fa-users"></i>
+        </div>
+        <div class="col-xs-10 sidebar-text">
+            <h3><strong>Grupos reducidos</strong></h3>
+            <p>Máximo 12 personas</p>      
+            <div class="row">
+                <div class="col-5 sidebar-pill mr-1">Infancia<br>2-9 años</div>
+                <div class="col-6 sidebar-pill">Adolescencia<br>10-16 años</div>
+            </div>
+                  
+        </div>
+    </div>
+    <div class="row mx-0 sidebar-block" id="contenidos">
+        <div class="col-xs-2 sidebar-icon">
+            <i class="fa fa-graduation-cap"></i>
+        </div>
+        <div class="col-xs-10 sidebar-text">
+            <h3><strong>Contenido<br>personalizado</strong></h3>
+            <p>Adaptado al grupo</p>      
+            <div class="row">
+                <div class="col-5 sidebar-pill mr-1">Casos<br>prácticos</div>
+                <div class="col-6 sidebar-pill">Exposición<br>teórica</div>
+                <div class="col-5 sidebar-pill">Material<br>de consulta</div>
+            </div>
+                  
+        </div>
+    </div>
+    <div class="row mx-0 sidebar-block white-bg" id="precio">
+        <div class="col-xs-2 sidebar-icon">
+            <i class="fa fa-euro"></i>
+        </div>
+        <div class="col-xs-10 sidebar-text">
+            <h3><strong>Precio</strong></h3>
+            <p><strong>295 €</strong> antes del 15/9</p> 
+            <p><strong>350 €</strong> despúes del 15/9</p>                     
+        </div>
+        <div class="col-xs-12 mx-auto text-center"></div>    
+            <a class="btn btn-full" href="{{ .Params.registerlnk }}">{{ .Params.buttonregistro }}</a>    
+    <div class="justify-content-center">
+    </div>
+    
+</section>

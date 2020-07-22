@@ -1,0 +1,78 @@
+    <div class="row padding-lr-normal">
+        <div class="row justify-content-center pilares-ap">
+            {{ with .Params.inscripciontitle }}
+                <h2>{{ . | markdownify }}</h2>
+            {{ end }}
+        </div>
+        <div class="row">
+            <div class="excerpt-fullwidth">
+                <p>Inscríbete ahora para asegurar tu plaza y, en cuanto publique las fechas exactas de las reuniones, me pondré en contacto contigo para formalizar la inscripción realizando el pago.</p>
+                <p>Precio del curso:
+                        <li>Antes del 15 de septiembre: 295 euros</li>
+                        <li>Después del 15 de septiembre: 350 euros</li>
+                </p>
+                {{ $precio:= .Params.precio }}
+                {{ $precioearlybird := .Params.earlybirdprecio }}
+                {{ $fecha := .Params.earlybirdfecha }}
+                <div class="flex-parent-row"></div>
+                <form class="formulario-escuela" method="post" netlify-honeypot="bot-field" name="escuelafamilias" data-netlify="true" style="padding-top: 20px;" action="/form/exito">
+                    <div class="flex-parent-row">
+                        <div class="form-25">
+                            <label for="name">Nombre</label>
+                        </div>
+                        <div class="form-75 padding-lr-normal">
+                            <input type="text" name="name" id="name" placeholder="Nombre y apellidos" required>
+                        </div>
+                    </div>
+                    <div class="flex-parent-row">
+                        <div class="form-25">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-75 padding-lr-normal">
+                            <input type="email" name="email" id="email" placeholder="Tu email" required>
+                        </div>
+                    </div>
+                    <div class="flex-parent-row">
+                            <div class="form-25">
+                                <label for="telefono">Teléfono</label>
+                            </div>
+                            <div class="form-75 padding-lr-normal">
+                                <input type="text" name="telefono" id="telefono" placeholder="Tu teléfono" required>
+                            </div>
+                    </div>
+                    <div class="flex-parent-row">
+                        <div class="form-25">
+                            <label for="localidad">Localidad</label>
+                        </div>
+                        <div class="form-75 padding-lr-normal">
+                            <input type="text" name="localidad" id="localidad" placeholder="Localidad donde resides" required>
+                        </div>
+                </div>
+                    <div class="flex-parent-row">
+                            <div class="form-25">
+                                <label for="grupo">Grupo</label>
+                            </div>
+                            <div class="form-75 padding-lr-normal">
+                                <select id="grupo" name="grupo">
+                                    <option value="Infancia">Infancia</option>
+                                    <option value="Adolescencia">Adolescencia</option>
+                                </select>
+                            </div>
+                    </div>
+
+                    <div class="flex-parent-row">
+                        <div class="form-25">
+                            <label>&nbsp;</label>
+                            <p class="d-none">
+                                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                              </p>
+                        </div>
+                        <div class="form-75" style="text-align: left;">
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>

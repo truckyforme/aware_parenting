@@ -1,0 +1,59 @@
+{{ "<!-- escuela-sidebar.html -->" | safeHTML }}
+<section class="sidebar-layout sticky-sidebar" id="sidebarescuela">
+    <div class="sidebar-block-flex" id="calendar">
+        <div class="sidebar-icon-flex">
+            <i class="fa fa-calendar"></i>
+        </div>
+        <div class="sidebar-text-flex">
+            <h3><strong>15 sesiones</strong></h3>
+            <p>2 horas por sesión (18 - 20)</p>
+            <p>Periodicicad quincenal</p>
+            
+        </div>
+    </div>
+    <div class="sidebar-block-flex" id="group">
+        <div class="sidebar-icon-flex">
+            <i class="fa fa-users"></i>
+        </div>
+        <div class="sidebar-text-flex">
+            <h3><strong>Grupos reducidos</strong></h3>
+            <p>Máximo 12 personas</p>      
+            <div class="row">
+                <div class="col-5 sidebar-pill mr-1">Infancia<br>2-9 años</div>
+                <div class="col-6 sidebar-pill">Adolescencia<br>10-16 años</div>
+            </div>
+                  
+        </div>
+    </div>
+    <div class="sidebar-block-flex" id="contenidos">
+        <div class="sidebar-icon-flex">
+            <i class="fa fa-graduation-cap"></i>
+        </div>
+        <div class="sidebar-text-flex">
+            <h3><strong>Contenido<br>personalizado</strong></h3>
+            <p>Adaptado al grupo</p>      
+            <div class="row">
+                <div class="sidebar-pill">Casos<br>prácticos</div>
+                <div class="sidebar-pill">Exposición<br>teórica</div>
+                <div class="sidebar-pill">Material<br>de consulta</div>
+            </div>
+                  
+        </div>
+    </div>
+    <div class="sidebar-block-flex white-bg" id="precio">
+        <div class="col-xs-2 sidebar-icon-flex">
+            <i class="fa fa-euro"></i>
+        </div>
+        <div class="sidebar-text-flex">
+            <h3><strong>Precio</strong></h3>
+            <p><strong>295 €</strong> antes del 15/9</p>
+            <p><strong>350 €</strong> despúes del 15/9</p>                     
+        </div>
+    </div>    
+    <div class="sidebar-block-flex flex-justify-content white-bg">
+            <a class="btn btn-full text-center" href="{{ .Params.registerlnk }}">{{ .Params.buttonregistro }}</a>
+    </div>
+        
+                
+    
+</section>

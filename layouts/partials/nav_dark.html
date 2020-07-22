@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg top-z px-0 px-lg-5">
         <a class="navbar-brand" href={{ if .IsHome }}"#page-top"{{ else }}"/#page-top"{{ end }}>
             <img src="{{ .Site.Params.navigation.brand_logo }}" alt="Aware Parenting" class="logo">
         </a>
@@ -21,6 +21,14 @@
 				</li>
 				{{- end }}
             {{- end }}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Site.Params.navigation.sobremi }}</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    {{ range .Site.Params.navigation.housekeeping }}
+                        <a class="dropdown-item" href="{{ .url }}">{{ .name }}</a>
+                    {{ end }}
+                </div>
+            </li>
             {{ if and (isset .Site.Params "algolia_search") (eq .Site.Params.algolia_search true) }}
 		          <li>
                         <div id="search-box" class="search">
