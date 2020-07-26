@@ -1236,10 +1236,9 @@ input[type='checkbox'] {
     position:relative;
     content: "";
     display: block;
-    height: 112px;
-    margin-top: -72px;
-    vertical-align: top;
-}
+    height: 135px;
+    margin-top: -65px;
+  }
 
 /* @end */
 

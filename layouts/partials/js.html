@@ -7,8 +7,17 @@
 
 <script src="/js/script.js"></script>
 <script src="/js/nav-scroll.js"></script>
+<script src="/js/vendor/jquery.scrolloffset.js"></script>
 
 <!-- jquery contact form event handler   --> 
+<script>
+  $(function() {
+    $('.scroll').scrollOffset({
+      offset: 115,
+      duration: 500 // default: 400
+    });
+  });
+</script>
 <script>
     $("form").submit(function(e) {
       e.preventDefault();
