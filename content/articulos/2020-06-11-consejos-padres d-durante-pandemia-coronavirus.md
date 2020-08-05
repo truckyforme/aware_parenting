@@ -1,5 +1,6 @@
 ---
 title: Consejos para padres de niños pequeños durante la pandemia del coronavirus
+description: "Estos son algunos comportamientos previsibles en los niños durante la pandemia del coronavirus, y también algunas sugerencias acerca de cómo ayudarles"
 author: Laura Díaz de Entresotos
 type: articulos
 date: 2020-06-11

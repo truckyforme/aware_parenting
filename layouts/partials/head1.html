@@ -8,7 +8,7 @@
 		<meta name="title" property="og:title" content="{{ with .Params.Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
 		<meta name="image" property="og:image" content="{{ with .Params.banner }}{{ . }}{{ else }}/img/ap_logo_full.jpg{{ end }}">
 		{{ .Hugo.Generator }}
-		<title>{{ .Site.Title }}</title>
+		<title>{{ with .Params.Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</title>
 
 		{{ "<!-- reflang -->" | safeHTML }}
 		{{- if .IsTranslated }}

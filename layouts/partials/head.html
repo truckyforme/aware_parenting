@@ -8,7 +8,7 @@
 		<meta name="title" property="og:title" content="{{ with .Params.Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
 		<meta name="image" property="og:image" content="{{ with .Params.banner }}{{ . }}{{ else }}/img/ap_logo_full.jpg{{ end }}">
 		{{ .Hugo.Generator }}
-		<title>{{ .Site.Title }}</title>
+		<title>{{ with .Params.Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</title>
 
 		{{ "<!-- reflang -->" | safeHTML }}
 		{{- if .IsTranslated }}
@@ -18,11 +18,11 @@
 		{{- end }}
 
 		{{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" href="/css/vendor/bootstrap.min.css" type ="text/css">
 
 		{{ "<!-- Custom Fonts -->" | safeHTML }}
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin-ext" rel="stylesheet">
-		<link rel="stylesheet" href="/css/vendor/font-awesome.min.css" type="text/css">
+		<link rel="stylesheet" href="/css/vendor/font-awesome.min-minified.css" type="text/css">
 
 
 		 {{ "<!-- Plugin CSS -->" | safeHTML }}

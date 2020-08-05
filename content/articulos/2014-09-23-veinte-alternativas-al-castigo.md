@@ -1,5 +1,6 @@
 ---
 title: Veinte alternativas al castigo
+desctiption: Traducción del artículo de Aletha Solter con alternativas al castigo
 author: Laura Díaz de Entresotos
 type: articulos
 date: 2014-09-23T21:17:14+00:00

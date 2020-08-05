@@ -1,5 +1,6 @@
 ---
 title: ¿Pantallas sí o no?
+description: "¿Debemos regular el uso de pantallas a nuestros hijos? ¿Cómo?. Te propongo algunas ideas para gestionar mejor el uso de pantallas con tus hijos."
 author: Laura Díaz de Entresotos
 type: articulos
 date: 2019-06-04

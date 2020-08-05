@@ -1,5 +1,6 @@
 ---
 title: Las Consecuencias Naturales
+description: Aclarando las diferencias entre castigos, consecuencias lógicas, consecuencias naturales y otros términos semejantes que usamos con los niños.
 author: Laura Díaz de Entresotos
 type: articulos
 date: 2014-12-28T21:48:43+00:00

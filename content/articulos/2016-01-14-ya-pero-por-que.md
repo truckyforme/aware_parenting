@@ -1,6 +1,7 @@
 ---
 title: Ya, pero ¿por qué?
 author: Laura Díaz de Entresotos
+description: Muchas veces decimos ¡No! a los niños sin pararnos a pensar de dónde surge nuestra negativa. Ante un conflicto con tus hijos, párate y pregúntate a ti misma ¿Por qué?
 type: articulos
 date: 2016-01-14T22:54:27+00:00
 url: /ya-pero-por-que/

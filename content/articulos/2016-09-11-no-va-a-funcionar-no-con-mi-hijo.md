@@ -1,5 +1,6 @@
 ---
 title: No va a funcionar, no con mi hijo
+description: Las recetas mágicas para el "mal comportamiento" de los niños no existen, pero sí hay algunas bases que pueden ayudarte a prevenir comportamientos no deseados y además funcionan para toda la familia. 
 author: Laura Díaz de Entresotos
 type: articulos
 date: 2016-09-11T07:04:11+00:00

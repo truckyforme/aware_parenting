@@ -1,5 +1,6 @@
 ---
 title: El “Espacio Negativo”
+description: Una forma diferente de afrontar los conflictos con tus hijos
 author: Laura Díaz de Entresotos
 type: articulos
 date: 2014-09-24

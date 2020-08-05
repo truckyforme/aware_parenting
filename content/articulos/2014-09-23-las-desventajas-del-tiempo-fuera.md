@@ -1,5 +1,6 @@
 ---
 title: Las Desventajas del Tiempo Fuera
+description: Traducción del artículo de Aletha Solter sobre las desventajas del uso del tiempo fuera
 author: Laura Díaz de Entresotos
 type: articulos
 date: 2014-09-23T21:16:35+00:00

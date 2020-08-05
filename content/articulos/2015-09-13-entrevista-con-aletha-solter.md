@@ -1,6 +1,7 @@
 ---
 title: Entrevista con Aletha Solter
 author: Laura Díaz de Entresotos
+description: Entrevista con Aletha Solter, fundadora del Aware Parenting Institute, realizada en Mayo de 2014 con motivo de su visita a España. 
 type: articulos
 date: 2015-09-13T20:11:10+00:00
 url: /entrevista-con-aletha-solter/

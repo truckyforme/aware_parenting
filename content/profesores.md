@@ -1,6 +1,7 @@
 ---
 title: "Educar con presencia en el aula"
 subtitle: "Formación para profesores"
+description: "Formación para profesores que quieren relacionarse con sus alumnos de forma respetuosa, resolviendo conflictos de forma democrática. Impartidos por Laura Díaz de Entresotos."
 type: profesores
 date: 2018-12-17
 url: "/formacion-profesorado"
