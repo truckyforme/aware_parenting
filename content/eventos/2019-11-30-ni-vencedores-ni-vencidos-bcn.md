@@ -4,6 +4,7 @@ subtitle:  "Ni vencedores, ni vencidos"
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Curso"
+expirydate: 2020-06-20
 date1: 2019-11-30
 date2: 2019-12-01
 lugar: " Hotel Iberostar Paseo de Gracia"

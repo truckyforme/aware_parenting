@@ -4,6 +4,7 @@ subtitle: ""
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Taller"
+expirydate: 2020-06-20
 date1: 2019-02-02
 date2: 
 lugar: "Casa de Cultura de Benicàssim"

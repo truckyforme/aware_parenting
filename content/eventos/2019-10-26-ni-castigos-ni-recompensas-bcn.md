@@ -4,6 +4,7 @@ subtitle:
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Curso"
+expirydate: 2020-06-20
 date1: 2019-10-26
 date2: 2019-10-27
 lugar: " Hotel Iberostar Paseo de Gracia"

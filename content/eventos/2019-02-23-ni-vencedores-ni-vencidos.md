@@ -4,6 +4,7 @@ subtitle:  "Resolver conflictos en familia"
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Curso"
+expirydate: 2020-06-20
 date1: 2019-02-23
 date2: 2019-02-24
 lugar: "Colegio 4 Camins"

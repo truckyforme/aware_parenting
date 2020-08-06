@@ -5,6 +5,7 @@ subtitle: "La conexión emocional con nuestros hijos"
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Curso"
+expirydate: 2020-06-20
 date1: 2020-04-25
 date2: 2020-04-26
 lugar: "Colegio 4 Camins"

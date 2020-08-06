@@ -5,6 +5,7 @@ subtitle:
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Curso"
+expirydate: 2020-06-20
 date1: 2020-02-22
 date2: 2020-02-23
 lugar: "Colegio 4 Camins"

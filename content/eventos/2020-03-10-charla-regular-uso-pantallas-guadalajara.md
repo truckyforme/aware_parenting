@@ -4,6 +4,7 @@ subtitle: ""
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Charla"
+expirydate: 2020-06-20
 date1: 2020-03-10
 date2: 
 lugar: "CRA Francisco Ibáñez"

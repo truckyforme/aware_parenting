@@ -4,6 +4,7 @@ subtitle: ""
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Charla"
+expirydate: 2020-06-20
 date1: 2019-02-15
 date2: 
 lugar: "Edificio Ayuntamiento"

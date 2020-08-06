@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Formulario enviado con éxito
 type: form
 date: 2019-05-10

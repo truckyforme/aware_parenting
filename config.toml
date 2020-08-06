@@ -5,6 +5,8 @@ paginatePath	= "newspage"
 canonifyurls	= false
 enableRobotsTXT = true
 
+disableKinds = ["taxonomy", "term"]
+
 title = "Laura Díaz de Entresotos - Psicóloga - Aware Parenting en España"
 author         	= "Laura Díaz de Entresotos"
 copyright		= "© 2018 Laura Díaz de Entresotos. Todos los derechos reservados."

@@ -4,6 +4,7 @@ subtitle: "La conexión emocional con nuestros hijos"
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Curso"
+expirydate: 2020-06-20
 date1: 2020-01-25
 date2: 2020-01-26
 lugar: " Hotel Iberostar Paseo de Gracia"

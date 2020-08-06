@@ -4,6 +4,7 @@ subtitle: ""
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Charla"
+expirydate: 2020-06-20
 date1: 2020-01-11
 date2: 
 lugar: "Salón de actos"

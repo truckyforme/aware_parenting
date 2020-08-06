@@ -4,6 +4,7 @@ subtitle: ""
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Taller"
+expirydate: 2020-06-20
 date1: 2019-11-08
 date2: 
 lugar: Escuela Infantil Municipal "Pintor Tasio"

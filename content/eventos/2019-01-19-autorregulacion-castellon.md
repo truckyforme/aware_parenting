@@ -3,6 +3,7 @@ title: "Autorregulación"
 subtitle: 
 author: Laura Díaz de Entresotos
 type: eventos
+expirydate: 2020-06-20
 tipoevento: "Curso"
 date1: 2019-01-19
 date2: 2019-02-20

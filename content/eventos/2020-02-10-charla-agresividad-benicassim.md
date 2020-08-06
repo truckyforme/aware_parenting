@@ -4,6 +4,7 @@ subtitle: "¿Reprimir o Liberar?"
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Charla"
+expirydate: 2020-06-20
 date1: 2020-02-10
 date2: 
 lugar: "Casa de Cultura de Benicàssim"
@@ -19,9 +20,9 @@ tags: ["Charla","Aresividad"]
 ---
 La agresividad nos asusta. Cuando nuestros hijos muerden, pegan, golpean objetos; cuando nos gritan y nos alejan de su lado; cuando tienen rabietas; cuando dicen que nos odian o nos llaman “¡Malo!”,...
 
- Nos asusta pensar en su futuro: en quién se convertirán, si tendrán amigos, si serán unos monstruos, hasta dónde llegarán cuando sean mayores y tengan más poder y  más fuerza.
+Nos asusta pensar en su futuro: en quién se convertirán, si tendrán amigos, si serán unos monstruos, hasta dónde llegarán cuando sean mayores y tengan más poder y  más fuerza.
 
- Nos asusta por nuestra relación: ya no me quiere, soy un padre horrible, ya no confía en mi, le molesto... Nos asusta porque su agresividad despierta la nuestra: “no lo soporto”, “lo mataría”, “¿quién se ha creído que es este mocoso?”  
+Nos asusta por nuestra relación: ya no me quiere, soy un padre horrible, ya no confía en mi, le molesto...Nos asusta porque su agresividad despierta la nuestra: “no lo soporto”, “lo mataría”, “¿quién se ha creído que es este mocoso?” 
 
 En medio de esta vorágine, dos preguntas dan vueltas sin parar en nuestra cabeza: **¿Por qué?** y **¿Qué hago?** Trataremos de responder a estas preguntas y reflexionaremos acerca de nuestro miedo a la agresividad. 
 

@@ -5,6 +5,7 @@ subtitle:
 author: Laura Díaz de Entresotos
 type: eventos
 tipoevento: "Curso"
+expirydate: 2020-06-20
 date1: 2020-02-14
 date2: 2020-02-15
 lugar: "Ceip rosa dels Vents"
