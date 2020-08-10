@@ -163,7 +163,7 @@ theme        	= "ap_theme"
     [params.form]
         contactoexito ="Gracias por tu mensaje, me pondré en contacto contigo lo antes posible."
         escuelaexito ="Gracias por reservar tu plaza para la escuela de familias. En breve me pondré en contacto contigo para confirmar la plaza."
-        inscripcionexito ="¡Muchas gracias! Hemos recibido tu solicitud de inscripción correctamente.<br>En unos minutos enviaremos al email que nos has indicado las instrucciones para completar tu inscripción. Esto debería ser casi instantáneo, así que si no recibes nuestro email pasados unos minutos, por favor revisa la bandeja de SPAM de tu correo electrónico o escríbeme a laura@awareparenting.es"
+        inscripcionexito ="¡Muchas gracias! Hemos recibido tu solicitud de inscripción correctamente. En unos minutos enviaremos al email que nos has indicado las instrucciones para completar tu inscripción. Esto debería ser casi instantáneo, así que si no recibes nuestro email pasados unos minutos, por favor revisa la bandeja de SPAM de tu correo electrónico o escríbeme a laura@awareparenting.es"
         faqexito ="Gracias, he recibido tu pregunta. En breve te responderé personalmente."
 [markup]
   [markup.goldmark]

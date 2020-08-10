@@ -13,13 +13,14 @@
             </div>
         </header>   
 <!-- Hero Section -->    
-        <div class="header-page-text-box">
-            <h1>{{ with .Params.Title }}{{ . | markdownify  }}{{ end }}</h1>
-            <h3>{{ with .Params.subtitle }}{{ . | markdownify  }}{{ end }}</h3>
-        </div>
-        <div class="header-page-button justify-content-center">
+        <div class="header-page">
+            <div class="header-page-text-box">
+                <h1>{{ with .Params.Title }}{{ . | markdownify  }}{{ end }}</h1>
+                <h3>{{ with .Params.subtitle }}{{ . | markdownify  }}{{ end }}</h3>
+            </div>
             <a class="btn btn-full btn-text-huge btn-purple scroll" href="{{ .Params.registerlnk }}">{{ .Params.buttonregistro }}</a>
-        </div>
+        </div>        
+        
 <!-- Navigation bar for sections -->
 
     {{ partial "escuela-nav1.html" . }}

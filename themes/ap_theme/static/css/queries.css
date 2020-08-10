@@ -10,6 +10,27 @@
     .sticky-sidebar {
         position: static;	
     }
+    .layout-hero {
+        height: 80vh;
+    }
+    .layout-hero > img {
+        height: 80vh;
+    }
+
+    .header-escuela {
+        height: 80vh;
+    }
+    .header-page {
+        top: 25%;
+        height: 35vh;
+    }
+    .header-page-text-box {
+        width: 90%;
+    }
+    .header-page-button {
+        top: 50%;
+    }
+
     .navbar-fixed-top.scrolled,
     .navbar-fixed-top.scrolled .dropdown-menu,
     .navbar-fixed-top.scrolled ul {
@@ -31,6 +52,9 @@
   }
   .dropdown-item {
       text-align: right;
+  }
+  .mobile-right {
+      float:right;
   }
 }	
 @media (min-width: 576px) {

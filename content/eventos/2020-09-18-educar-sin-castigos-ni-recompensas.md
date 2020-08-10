@@ -1,7 +1,7 @@
 ---
 draft: "false"
 title: "Educar sin castigos ni recompensas"
-subtitle: 18/09 - 25/09 - 2/10
+subtitle: 18/Sep — 25/Sep — 2/Oct
 description: "Aprende técnicas para educar a tus hijos sin utilizar castigos ni recompensas."
 type: eventos
 tipoevento: "Curso"

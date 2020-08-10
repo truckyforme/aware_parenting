@@ -8,9 +8,12 @@
             <header class="header-articulo">
                 {{ partial "nav.html" . }} 
             </header>
-            <div class="header-page-text-box">
+            <div class="header-page-short">
+                <div class="header-page-text-box">
                     <h1>{{ with .Site.Params.Articulos.Title }}{{ . | markdownify  }}{{ end }}</h1>
                 </div>
+            </div>
+            
             <div class="container" >
                     <div class="row">
                         <!-- *** LEFT COLUMN *** -->

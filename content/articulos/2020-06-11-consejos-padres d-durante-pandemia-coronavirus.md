@@ -5,7 +5,7 @@ author: Laura Díaz de Entresotos
 type: articulos
 date: 2020-06-11
 url:
-banner: /img/articulos/jugardoctor_thumb.jpg
+banner: /img/articulos/jugardoctor-thumb.jpg
 thumb: /img/articulos/jugardoctor-thumb-mini.jpg
 et_enqueued_post_fonts:
 
