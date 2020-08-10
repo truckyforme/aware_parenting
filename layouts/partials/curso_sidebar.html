@@ -1,0 +1,40 @@
+{{ "<!-- escuela-sidebar.html -->" | safeHTML }}
+<section class="sidebar-layout sticky-sidebar" id="sidebarescuela">
+    {{ range .Params.sidebar}}
+    <div class="sidebar-block-flex" id=".">
+        <div class="sidebar-icon-flex">
+            <i class="fa {{ .icon }}"></i>
+        </div>
+        <div class="sidebar-text-flex">
+            <h3><strong>{{ .title }}</strong></h3>
+            <p>{{ .items }}</p>
+            {{ with .pills }}
+                <div class="row">
+                    {{ range . }}
+                        <div class="sidebar-pill">{{ . }}</div>
+                    {{ end }}
+                </div>
+                
+            {{ end }}
+        </div>
+    </div>    
+    {{ end }}
+    <div class="sidebar-block-flex white-bg" id="precio">
+        <div class="col-xs-2 sidebar-icon-flex">
+            <i class="fa fa-euro"></i>
+        </div>
+        <div class="sidebar-text-flex">
+            <h3><strong>Precio</strong></h3>
+            {{ with .Params.earlybird }}
+                <p {{ if lt $.Params.earlybirdfecha (now.Format "2006-01-02") }}style="text-decoration-line: line-through;opacity: 0.5;"{{ end }}><strong>{{ $.Params.earlybirdprecio }}</strong> antes del {{ dateFormat "2" $.Params.earlybirdfecha }} de {{ index $.Site.Data.meses (printf "%d" ((time $.Params.earlybirdfecha).Month)) }}</p>
+            {{ end }}
+            <p><strong>{{ .Params.precio }}</strong> después del {{ dateFormat "2" $.Params.earlybirdfecha }} de {{ index $.Site.Data.meses (printf "%d" ((time $.Params.earlybirdfecha).Month)) }}</p>                     
+        </div>
+    </div>    
+    <div class="sidebar-block-flex flex-justify-content white-bg">
+            <a class="btn btn-full text-center scroll" href="{{ .Params.registerlnk }}">{{ .Params.buttonregistro }}</a>
+    </div>
+        
+                
+    
+</section>

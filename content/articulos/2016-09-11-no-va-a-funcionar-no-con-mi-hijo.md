@@ -6,6 +6,7 @@ type: articulos
 date: 2016-09-11T07:04:11+00:00
 url: /no-va-a-funcionar-no-con-mi-hijo/
 banner: /img/articulos/soluciones_enlatadas-thumb.jpg
+thumb: /img/articulos/soluciones_enlatadas-thumb-mini.jpg
 ---
 ![soluciones enlatadas][pic1]
 ## Las recomendaciones del experto

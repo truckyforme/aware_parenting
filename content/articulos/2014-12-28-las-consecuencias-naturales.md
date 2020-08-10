@@ -6,6 +6,7 @@ type: articulos
 date: 2014-12-28T21:48:43+00:00
 url: /las-consecuencias-naturales/
 banner: /img/articulos/piel-de-gallina-thumb.jpg
+thumb: /img/articulos/piel-de-gallina-thumb-mini.jpg
 categories:
   - Artículos
 

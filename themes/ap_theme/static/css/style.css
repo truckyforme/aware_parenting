@@ -185,6 +185,15 @@ input[type=submit]:active {
 .btn-text-huge {
     font-size: 1em;
 }
+.btn-purple:link,
+.btn-purple:visited {
+    background-color: #7D7EBB;
+    border-color: #7D7EBB;
+}
+.btn-purple:hover {
+    background-color: #c77645;
+    border-color: #c77645;
+}
 
 /* EVENTOS */
 
@@ -1194,6 +1203,8 @@ input[type='checkbox'] {
     color: #555;
     text-align: center;
     text-decoration:none;
+    white-space: nowrap;
+
 }
 .flex-child-scroll a:hover {
     color: #F08B4F;
@@ -1233,13 +1244,8 @@ input[type='checkbox'] {
 	opacity: 0.4;
   }
 
-  :target:before {
-    position:relative;
-    content: "";
-    display: block;
-    height: 135px;
-    margin-top: -65px;
-  }
+
+
 
 /* @end */
 
@@ -1249,7 +1255,7 @@ input[type='checkbox'] {
     padding-bottom: 5px;
 }
 .escuelasection:first-of-type {
-    padding-top: 30px;
+    padding-top: 0px;
 }
 /* sidebar for Escuela online */
 .sidebar-layout {
@@ -1300,8 +1306,8 @@ input[type='checkbox'] {
     margin-bottom: 0;
 }
 .sidebar-pill {
-    border: 1px solid #F08B4F;
-    color: #F08B4F;
+    border: 1px solid #7D7EBB;
+    color: #7D7EBB;
     text-align: center;
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -1309,10 +1315,10 @@ input[type='checkbox'] {
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
     font-size: 0.8em;
-    padding: 2px 5px;
+    padding: 0.2rem 0.3rem;
     line-height: 1.2em;
-    margin-top: 0.4em;
-    width: auto;
+    margin: 0.4rem auto;
+    width: 80%;
 }
 .sidebar-layout .white-bg {
     background-color: white;
@@ -1331,11 +1337,11 @@ input[type='checkbox'] {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index:1000;
+    z-index:1002;
     border: none;
     transition: all .35s;
     margin: 0;
-    padding: 0;
+    padding: 0.5rem 0;
 
 }
 /* Links inside the navbar */
@@ -1348,67 +1354,71 @@ input[type='checkbox'] {
     text-decoration: none;
     text-transform: uppercase;
     border: none;
-  }
+}
   
-  .apnavbar a:hover {
+.apnavbar a:hover {
     color: #F08B4F;
-  }
+}
   
   /* Adjust logo positioning */
-  .apnavbar-brand {
+.apnavbar-brand {
     height: 58px;
     padding: 0;
     color: #F08B4F;
     float: left;
     width: 10em;
     min-width: 120px;
-  }
-  .apnavbar-brand img {
+}
+.apnavbar-brand img {
       padding:2px 0;
-  }
+}
   /* definition of the "burger" */
-  .apnavbar-icon {
+.apnavbar-icon {
     height: 1.2em;
     margin-right: 8px;
     padding-top:-2px;
-  }
+}
 
-  nav:after {
+nav:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
   
-  nav ul.apmenu {
+nav ul.apmenu {
     float: right;
     padding: 0;
     margin: 0;
     position: relative;
     background-color: transparent;
-  }
+}
   
-  nav ul.apmenu li {
-    margin: 0px;
+nav ul.apmenu li {
+    margin: 0px 0.4em;
     display: inline-block;
     float: left;
     list-style: none;
-  }
+}
+nav ul.apmenu>li:first-of-type {
+    margin-left: 0px;
+}
+
   
-  nav ul.apmenu>li>a {
-    padding: 15px 0.9em;
+nav ul.apmenu>li>a {
+    padding: 15px 0;
     line-height: 20px;
     border: none;
-  }
-  nav ul.apmenu>li>a:first-child {
-    padding: 15px 0.9em 15px 0;	
-  }
-  
-  nav ul.apmenu>li>ul>li>a {
+    white-space: nowrap;
+
+}
+    
+nav ul.apmenu>li>ul>li>a {
     padding: 5px 15px;
     font-size: 0.8em;
     background-color: transparent;
     line-height: 20px;
-  }
+    white-space: nowrap;
+}
   nav ul.apmenu>li>ul>li:hover { color: #F08B4F; }
   
   nav ul.apmenu ul {
@@ -1424,6 +1434,7 @@ input[type='checkbox'] {
     float: none;
     display: list-item;
     position: relative;
+    margin: 0;
   }
 
   .menutoggle, [id^=drop] {
@@ -1529,6 +1540,33 @@ input[type='checkbox'] {
     max-width: 1140px; /* prevents text area from getting unpleasantly wide */
 }
 
+.layout-hero {
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    width: 100vw;
+}
+
+.layout-hero > img {
+    position: absolute;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    width: 100vw;
+    object-fit: cover;
+}   
+.hero-gradient {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.0));
+    position: absolute;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    width: 100vw;
+    object-fit: cover;
+} 
+
 .layout-33vw {
     width: 33%;
     padding: 1vw;
@@ -1551,12 +1589,12 @@ input[type='checkbox'] {
 }
 .layout-sticky {
     position: sticky;
-    top: 58px;
-    z-index: 100;	
+    top: 74px;
+    z-index: 1000;	
 }
 .sticky-sidebar {
     position: sticky;
-    top: 120px;
+    top: 135px;
     z-index: 100;	
 }
 
@@ -1610,6 +1648,12 @@ input[type='checkbox'] {
 .padding-tb-normal {
     padding-top: 0.8em;
     padding-bottom: 0.8em;
+}
+.padding-t-regular {
+    padding-top: 1em;
+}
+.margin-t-none {
+    margin-top: 0px
 }
 .margin-b-normal {
     margin-bottom: 0.8em;
@@ -1681,4 +1725,17 @@ input[type='checkbox'] {
     position: absolute;
     background: url("//i.imgur.com/TxzC70f.png") no-repeat;
     cursor: pointer;
+}
+
+/* lista de contenidos para cursos y escuela de familias */
+ul.contenidos-list {
+    margin-left: 2em;
+    line-height: 1.5em;
+}
+.contenidos-list li {
+    padding-left: 0.4em;
+    list-style: none;
+}
+.contenidos-list li:last-of-type {
+    padding-bottom: 2em;
 }

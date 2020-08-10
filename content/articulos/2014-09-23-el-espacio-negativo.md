@@ -6,6 +6,7 @@ type: articulos
 date: 2014-09-24
 url: /articulos/el-espacio-negativo/
 banner: /img/articulos/tazas-thumb.jpg
+thumb: /img/articulos/tazas-thumb-mini.jpg
 categories: ['Articulos']
 
 ---

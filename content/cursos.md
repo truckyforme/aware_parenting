@@ -1,7 +1,7 @@
 ---
 title: Cursos, Talleres y Charlas
 description: "Cursos para padres y profesores que buscan una educación respetuosa para con sus hijos. Basados en la filosofía de Aware Parenting. Impartidos por Laura Díaz de Entresotos."
-type: cursos
+type: formacion
 date: 2018-12-17
 url: "/cursos"
 aliases: ["/formacion-aware-parenting/"]

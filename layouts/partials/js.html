@@ -13,7 +13,7 @@
 <script>
   $(function() {
     $('.scroll').scrollOffset({
-      offset: 115,
+      offset: 145,
       duration: 500 // default: 400
     });
   });
@@ -60,7 +60,7 @@
 
     function labnolIframe() {
         var iframe = document.createElement("iframe");
-        iframe.setAttribute("src", "https://www.youtube.com/embed/" + this.dataset.id + "?autoplay=1");
+        iframe.setAttribute("src", "https://www.youtube-nocookie.com/embed/" + this.dataset.id + "?autoplay=1");
         iframe.setAttribute("frameborder", "0");
         iframe.setAttribute("allowfullscreen", "1");
         this.parentNode.replaceChild(iframe, this);

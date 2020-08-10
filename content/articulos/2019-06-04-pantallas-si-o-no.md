@@ -6,6 +6,7 @@ type: articulos
 date: 2019-06-04
 url: /pantallas-si-o-no/
 banner: /img/articulos/pantallas-thumb.jpg
+thumb: /img/articulos/pantallas-thumb-mini.jpg
 ---
 {{% youtube aGIyZlrhSq8 %}}
 

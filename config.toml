@@ -141,11 +141,8 @@ theme        	= "ap_theme"
                 name = "Sitemap"
                 url = "/sitemap.xml"
             [params.footer.menu1.002]
-                name = "Política de Privacidad"
-                url = "/privacypolicy"
-            [params.footer.menu1.003]
-                name = "Política de Cookies"
-                url = "/cookies"
+                name = "Política de Privacidad y cookies"
+                url = "/politica-de-privacidad-y-cookies"
             [params.footer.menu1.004]
                 name="Condiciones de uso"
                 url="/terms"

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+{{ "<!-- escuela de familias -->" | safeHTML }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}es-es{{ end }}">
+    <head>
+        {{ partial "head1.html" . }}
+    </head>
+    <body id="page-top">
+        <header id="hero">
+            <div class="layout-hero">
+                <img src="{{ .Params.hero }}" alt="educar sin castigos ni recompensas">
+                <div class="hero-gradient"></div>
+                {{ partial "navflex.html" . }} 
+            </div>
+        </header>   
+<!-- Hero Section -->    
+        <div class="header-page-text-box">
+            <h1>{{ with .Params.Title }}{{ . | markdownify  }}{{ end }}</h1>
+            <h3>{{ with .Params.subtitle }}{{ . | markdownify  }}{{ end }}</h3>
+        </div>
+        <div class="header-page-button justify-content-center">
+            <a class="btn btn-full btn-text-huge btn-purple scroll" href="{{ .Params.registerlnk }}">{{ .Params.buttonregistro }}</a>
+        </div>
+<!-- Navigation bar for sections -->
+
+    {{ partial "escuela-nav1.html" . }}
+
+
+<main role="main">
+    <div class="layout-module-wrapper">
+        <div class="layout-content">
+             <div class="flex-parent-row">
+                <div class="layout-67vw">
+                    <!-- Presentation Section -->           
+                    <section class="escuelasection" id="presentacion">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                {{ with .Params.introtitle }}
+                                    <h2 class="padding-t-regular margin-t-none">{{ . | markdownify }}</h2>
+                                {{ end }}
+                                {{ with .Params.textintro }}
+                                    <p>{{ . | markdownify }}</p>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Formato Section -->        
+                    <section class="escuelasection" id="formato">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                {{ with .Params.grupotitle }}
+                                    <h2 class="padding-t-regular margin-t-none">{{ . | markdownify }}</h2>
+                                {{ end }}
+                                {{ with .Params.textgrupo }}
+                                    <p>{{ . | markdownify }}</p>
+                                {{ end }}
+                            </div>
+                        </div>      
+                    </section>
+        
+                    <!-- Inscripción Section -->   
+                        <section class="escuelasection" id="registro">
+                            <div class="container pilares-ap">
+                                {{ partial "inscripcion-cursos.html" . }}
+                            </div>
+                        </section>
+                    
+                    <!-- Aprenderás Section -->           
+                    <section class="escuelasection" id="Contenidos">
+                        <div class="container pilares-ap">
+                            <div class="row justify-content-center">
+                                {{ with .Params.aprenderastitle }}
+                                    <h2 class="padding-t-regular margin-t-none">{{ . | markdownify }}</h2>
+                                {{ end }}
+                            </div>
+                            <div class="flex-parent-row">
+                                <ul class="contenidos-list">
+                                    {{ range .Params.contenidos }}
+                                        <li>> {{ . | markdownify }}</li>
+                                    {{ end }}
+                                </ul>
+                            </div>
+                        </div>        
+                    </section>
+                    <!-- Faq Section -->          
+                        {{ partial "cursos-faq.html" . }} 
+                </div>
+                <div class="layout-33vw">
+                    {{ partial "curso_sidebar.html" . }}
+                </div>        
+        </div>
+        </div>
+       
+            
+
+    </div>
+</main> 
+                      
+        {{ partial "footer1.html" . }}
+        {{ partial "js.html" }}
+    </body>
+</html>

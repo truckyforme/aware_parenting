@@ -1,16 +1,18 @@
 <!-- Escuela de Familias Faq Section -->
-<section class="faq" id="faq">
+
+    <section class="faq" id="faq">
     <div class="container">
+    {{ if .Params.faq }}    
         <div class="row justify-content-center">
-            {{ with .Params.faqtitle }}
+            {{ with $.Params.faqtitle }}
              <h2>{{ . | markdownify }}</h2>
             {{ end }} 
-            {{ with .Params.faqintro }}
+            {{ with $.Params.faqintro }}
              <p>{{ . | markdownify }}</p>
             {{ end }}
         </div>
         <div class="row ">
-            {{ range .Site.Data.faqescuela }}
+            {{ range $.Site.Data.faqescuela }}
             <div class="col-xs-12 margin-b-normal">
                 <input id="collapsible_{{ .title }}" class="faq-toggle" type="checkbox">
                 <label for="collapsible_{{ .title }}" class="faq-toggle style-faq-item-title"><i class="fa fa-chevron-down text-right"></i>&nbsp;&nbsp;{{ .title }}</label>
@@ -21,6 +23,7 @@
             
             {{ end }}
         </div>
+    {{ end }}
         <div class="flex-parent-row flex-justify-content padding-tb-normal">
                 <div class="flex-parent-row flex-justify-content">
                     <h4>{{ with .Params.faqcontacto }}{{ . | markdownify }}{{ end }}</h4>
@@ -66,5 +69,7 @@
                 </div>
         </div>
     </div>
-</section> 
+</section>
+
+ 
 <!-- End - Escuela de Familias Faq Section -->

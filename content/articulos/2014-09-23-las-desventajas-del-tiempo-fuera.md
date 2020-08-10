@@ -6,6 +6,7 @@ type: articulos
 date: 2014-09-23T21:16:35+00:00
 url: /las-desventajas-del-tiempo-fuera/
 banner: /img/articulos/tiempo-fuera-thumb.jpg
+thumb: /img/articulos/tiempo-fuera-mini.jpg
 categories:
   - Aletha Solter
   - Artículos

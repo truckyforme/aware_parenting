@@ -6,6 +6,7 @@ type: articulos
 date: 2014-09-23T21:17:14+00:00
 url: /veinte-alternativas-al-castigo/
 banner: /img/articulos/castigo-thumb.jpg
+thumb: /img/articulos/castigo-thumb-mini.jpg
 et_enqueued_post_fonts:
 
 categories:

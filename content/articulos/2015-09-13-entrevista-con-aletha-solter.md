@@ -6,6 +6,7 @@ type: articulos
 date: 2015-09-13T20:11:10+00:00
 url: /entrevista-con-aletha-solter/
 banner: /img/articulos/entrevista_aletha_thumb.jpg
+thumb: /img/articulos/entrevista_aletha_thumb-mini.jpg
 et_enqueued_post_fonts:
 
 categories:

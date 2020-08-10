@@ -6,6 +6,7 @@ type: articulos
 date: 2016-01-14T22:54:27+00:00
 url: /ya-pero-por-que/
 banner: /img/articulos/pegatinas-thumb.jpg
+thumb: /img/articulos/pegatinas-thumb-mini.jpg
 et_enqueued_post_fonts:
 
 categories:
