@@ -449,7 +449,16 @@ input[type=submit]:active {
     color: #fff;
     text-align: center;
 }
+.card-evento-multi {
+    display:inline-block;
+    padding: 2px;
+    margin: 4px 0;
+    border-right: 1px dashed rgba(255, 255, 255, 0.8);
 
+}
+.card-evento-multi:last-of-type {
+    border-right: none;
+}
 .card-evento-month {
     text-transform: uppercase;
     font-size: 80%;
@@ -1756,4 +1765,10 @@ ul.contenidos-list {
 }
 .contenidos-list li:last-of-type {
     padding-bottom: 2em;
+}
+.desktop-visible {
+    display: block;
+}
+.mobile-visible {
+    display: none;
 }

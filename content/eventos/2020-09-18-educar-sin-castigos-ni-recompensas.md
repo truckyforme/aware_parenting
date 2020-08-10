@@ -6,9 +6,15 @@ description: "Aprende técnicas para educar a tus hijos sin utilizar castigos ni
 type: eventos
 tipoevento: "Curso"
 hero: /img/cursos/recompensas_hero.jpg
+heromobile: /img/cursos/recompensas_hero_mobile.jpg
 expiry-date: 2020-10-02
+multidate: true
 date1: 2020-09-18
 date2: 2020-10-02
+fechas:
+  fecha1: 2020-09-18
+  fecha2: 2020-09-25
+  fecha3: 2020-10-02
 lugar: "Online"
 ciudad: "Online"
 direccion:
@@ -85,5 +91,9 @@ sidebar:
       p3: Ejercicios
       p4: Debates
       p5: Material de consulta
+  - Certificación:
+    title: Certificación
+    items: Curso válido para cumplir el requisito de formación para obtener la certificación de Instructor de Aware Parenting
+    icon: fa-certificate  
 faq: false
 ---

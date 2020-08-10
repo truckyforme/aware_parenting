@@ -1,4 +1,4 @@
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (portrait phones, up to 480px) */
 @media(max-aspect-ratio:1/1) and (max-width:480px) {
     .layout-67vw,
     .layout-33vw,
@@ -38,24 +38,38 @@
         transition: background-color 200ms linear;
     }
   
-  .navbar-fixed-top.scrolled .nav-link,
-  .navbar-fixed-top.scrolled .dropdown-item,
-  .navbar-fixed-top.scrolled a,
-  .navbar-fixed-top.scrolled ul.apmenu li a {
-      color: #555;
-  }
-  .menutoggle {
-      background-color: transparent;
-  }
-  nav ul.apmenu {
-      background-color: rgba(45, 48, 39, 0.8); 
-  }
-  .dropdown-item {
-      text-align: right;
-  }
-  .mobile-right {
-      float:right;
-  }
+    .navbar-fixed-top.scrolled .nav-link,
+    .navbar-fixed-top.scrolled .dropdown-item,
+    .navbar-fixed-top.scrolled a,
+    .navbar-fixed-top.scrolled ul.apmenu li a {
+        color: #555;
+    }
+    .menutoggle {
+        background-color: transparent;
+    }
+    nav ul.apmenu {
+        background-color: rgba(45, 48, 39, 0.8); 
+    }
+    .dropdown-item {
+        text-align: right;
+    }
+    .desktop-visible {
+        display: none;
+    }
+    .mobile-visible {
+        display: block;
+    }
+    .header-hero {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg_mobile.jpeg);
+        background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg_mobile.jpeg);
+        background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg_mobile.jpeg);
+        background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg_mobile.jpeg);
+        background-image: -ms-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg_mobile.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 90vh;
+    }
+
 }	
 @media (min-width: 576px) {
     .consulta-form {

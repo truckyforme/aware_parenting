@@ -7,7 +7,8 @@
     <body id="page-top">
         <header id="hero">
             <div class="layout-hero">
-                <img class="mobile-right" src="{{ .Params.hero }}" alt="escuela de familias online">
+                <img class="mobile-visible" src="{{ .Params.heromobile }}" alt="escuela de familias online">
+                <img class="desktop-visible" src="{{ .Params.hero }}" alt="escuela de familias online">
                 <div class="hero-gradient"></div>
                 {{ partial "navflex.html" . }} 
             </div>

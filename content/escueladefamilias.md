@@ -3,6 +3,7 @@ draft: false
 title: Escuela de familias online
 subtitle: Curso 2020-21
 hero: "/css/img/Formacion.jpeg"
+heromobile: "/css/img/Formacion_mobile.jpeg"
 description: "Aprende técnicas, comparte y contrasta tus experiencias con otros padres y madres, para mejorar las relaciones y rutinas de tu familia, en un espacio libre de juicios."
 type: escuelafamilias
 date: 2020-07-13

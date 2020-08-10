@@ -10,17 +10,32 @@
             <a class="card event-box" href="{{ .RelPermalink }}">
                 <img class="card-img" src="{{ .Params.thumb }}" alt=".Params.thumb">
                 <div class="card-img-overlay">
-                    <div class="card-evento-date">
-                        <div class="card-evento-month">
-                                {{ index $.Site.Data.mes (printf "%d" ((time .Params.date1).Month)) }}
+                    {{ if .Params.multidate }}
+                        <div class="card-evento-date">
+                            {{ range .Params.fechas }}
+                                <div class="card-evento-multi">
+                                    <div class="card-evento-month">
+                                        {{ index $.Site.Data.mes (printf "%d" ((time . ).Month)) }}
+                                    </div>
+                                    <div class="card-evento-day">
+                                        {{ dateFormat "2" . }}
+                                    </div>
+                                </div>
+                            {{ end }}
                         </div>
-                        <div class="card-evento-day">
-                                {{ dateFormat "2" .Params.date1 }}{{ with .Params.date2 }}-{{dateFormat "2" . }}{{ end }}
+                    {{ else }}
+                        <div class="card-evento-date">
+                            <div class="card-evento-month">
+                                    {{ index $.Site.Data.mes (printf "%d" ((time .Params.date1).Month)) }}
+                            </div>
+                            <div class="card-evento-day">
+                                    {{ dateFormat "2" .Params.date1 }}{{ with .Params.date2 }}-{{dateFormat "2" . }}{{ end }}
+                            </div>
+                            <div class="card-evento-year">
+                                    {{ dateFormat "2006" .Params.date1 }}
+                            </div>
                         </div>
-                        <div class="card-evento-year">
-                                {{ dateFormat "2006" .Params.date1 }}
-                        </div>
-                    </div>
+                    {{ end }}
                     <div class="card-evento-ciudad">{{ .Params.ciudad }}</div>
                     <div class="card-title card-evento-title">
                         <div class="card-evento-tipo">{{ .Params.tipoevento }}</div>
