@@ -31,8 +31,8 @@ theme        	= "ap_theme"
 			[params.navigation.items]
 				[params.navigation.items.001]
 					name			= "Consulta"
-					url				= "/#consulta"
-					frontpageurl	= "#consulta"
+					url				= "/consulta/"
+					frontpageurl	= "/consulta/"
                 [params.navigation.items.002]
 					name		 	= "Formación"
 					url			 	= "/cursos/"
@@ -70,12 +70,12 @@ theme        	= "ap_theme"
         [params.hero.menu]
             [params.hero.menu.001]
                 name    = "Consulta"
-                url     = "#consulta"
-                scroll  ="consulta"
+                url     = "/consulta/"
+                
             [params.hero.menu.002]
                 name    = "Escuela de Familias Online"
                 url     = "/escuela-de-familias/"
-                scroll  ="escueladefamilias"
+                
             [params.hero.menu.003]
                 name    = "Próximos Cursos"
                 url     = "#proximoscursos"

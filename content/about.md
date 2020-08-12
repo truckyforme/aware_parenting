@@ -3,7 +3,7 @@ title: Laura Díaz de Entresotos
 type: about
 url: "/about"
 aliases: ["/sobre-mi/"] 
-intro: "Soy licenciada en Psicología, con mas de 15 años de experiencia profesional avalados por el sello europeo EuroPSY. Desde 2008 soy instructora certificada de AwareParenting, y desde 2013 soy instructora de nivel 2, con capacidad de ofrecer formación de Aware Parenting válida para cumplir el requisito de formación para futuros instructores. Soy mediadora familiar formada en Comunicación no Violenta."
+intro: "Soy licenciada en Psicología, con mas de 17 años de experiencia profesional avalados por el sello europeo EuroPSY. Desde 2008 soy instructora certificada de AwareParenting, y desde 2013 soy instructora de nivel 2, con capacidad de ofrecer formación de Aware Parenting válida para cumplir el requisito de formación para futuros instructores. Soy mediadora familiar formada en Comunicación no Violenta."
 introimage: "/img/about/laura-columna800.jpg"
 avalimg1: "/img/about/Laura_colegiada_gris-2.png"
 avalimg2: "/img/about/Europsy-2.png"

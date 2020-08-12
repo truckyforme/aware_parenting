@@ -23,7 +23,7 @@ contactoname: "Laura Díaz de Entresotos"
 contactoemail: "laura@awareparenting.es"
 contactotelefono: "687054595"
 contactoweb: ""
-thumb: "img/eventos/escnr_thumb.jpg"
+thumb: "img/eventos/escnr_thumb_mini.jpg"
 tags: ["Curso","Disciplina"]
 inscripcion: "true"
 idcurso: "ESCNR"

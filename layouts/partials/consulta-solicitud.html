@@ -1,0 +1,59 @@
+    <div class="row padding-lr-normal pilares-ap">
+        <div class="row justify-content-center">
+            {{ with .Params.solicitud.title }}
+                <h2 class="padding-t-regular margin-t-none">{{ . | markdownify }}</h2>
+            {{ end }}
+            <div class="excerpt-fullwidth">
+                
+                <div class="flex-parent-row"></div>
+                <form class="formulario-consulta" action="{{ .RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="consulta" data-netlify="true">
+                    <div class="flex-parent-row">
+                        <div class="form-25">
+                            <label for="name">Nombre</label>
+                        </div>
+                        <div class="form-75 padding-lr-normal">
+                            <input type="text" name="name" id="name" placeholder="Tu nombre y apellidos" oninvalid="alert('Por favor, introduce tu nombre y apellidos');" required>
+                        </div>
+                    </div>
+                    <div class="flex-parent-row">
+                        <div class="form-25">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-75 padding-lr-normal">
+                            <input type="email" name="email" id="email" placeholder="Tu email" oninvalid="alert('Por favor, introduce tu email');" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}" required>
+                        </div>
+                    </div>
+                    <div class="flex-parent-row">
+                            <div class="form-25">
+                                <label for="telefono">Teléfono</label>
+                            </div>
+                            <div class="form-75 padding-lr-normal">
+                                <input type="text" name="telefono" id="telefono" placeholder="Tu teléfono" oninvalid="alert('Por favor, introduce tu teléfono');" pattern="^[0-9-+\s()]*$" required>
+                            </div>
+                    </div>
+
+                    <div class="flex-parent-row">
+                            <div class="form-25">
+                                <label for="mensaje">Información adicional</label>
+                            </div>
+                            <div class="form-75 padding-lr-normal">
+                                <textarea name="mensaje" placeholder="Escribe aquí cualquier información relevante"></textarea>    
+                            </div>
+                    </div>
+
+                    <div class="flex-parent-row">
+                        <div class="form-25">
+                            <label>&nbsp;</label>
+                            <p class="d-none">
+                                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                              </p>
+                        </div>
+                        <div class="form-75 padding-lr-normal" style="text-align: left;">
+                            <input type="submit" value="Enviar" success="{{ with .Site.Params.form.contactoexito }}{{ . }}{{ end }}">
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>

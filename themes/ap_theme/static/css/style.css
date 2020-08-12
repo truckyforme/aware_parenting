@@ -194,6 +194,11 @@ input[type=submit]:active {
     background-color: #c77645;
     border-color: #c77645;
 }
+.btn-narrow {
+    width: 40vh;
+    max-width: 80%;
+    text-align: center;
+}
 
 /* EVENTOS */
 

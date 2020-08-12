@@ -1,9 +1,9 @@
+{{ if eq .Params.tipoevento "Curso" }}
+        {{ partial "curso.html" . }}
+    {{ else }}
 <!DOCTYPE html>
 {{ "<!-- evento -->" | safeHTML }}
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}es-es{{ end }}">
-    {{ if eq .Params.tipoevento "Curso" }}
-        {{ partial "curso.html" . }}
-    {{ else }}
     <head>
         {{ partial "head.html" . }}
     </head>
@@ -103,5 +103,5 @@
         {{ partial "js.html"}}
         {{ with .Params.inscripcion }}{{ partial "jsacordion.html" }}{{ end }}
     </body>
-    {{ end }}
 </html>
+{{ end }}
