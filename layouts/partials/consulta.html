@@ -9,7 +9,7 @@
                 <p>{{ with .Site.Params.consulta.maintext }}{{ . | markdownify }}{{ end }}</p>
                 <div class="row">
                     {{ range .Site.Params.consulta.items }}
-                    <div class="col-6 feature-box fadeInUp">
+                    <div class="col-6 feature-box InUp">
                         <img src="/img/{{ .img }}" alt="{{ .name }}">
                         <h3>{{ .name }}</h3>    
                     </div>

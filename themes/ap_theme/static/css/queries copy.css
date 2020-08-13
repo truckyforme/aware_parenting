@@ -74,7 +74,7 @@
     }
     .btn-hero {
         font-size: 100%;
-        display: inline-block;
+        display: block;
     }
     .btn-hero:first-of-type {
         margin-top: 0;
@@ -106,9 +106,16 @@
         margin-top: 5px;
     }
     .hero-text-box {
-        margin-top:20vh;
-        width: 60%;
-        max-width: 60vh;
+        position: absolute;
+        width: 45%;
+        max-width: 513px;
+        top: 45vh;
+        left: 30%;
+        transform: translate(-45%, -30%);
+        -moz-transform: translate(-45%, -30%);
+        -o-transform: translate(-45%, -30%);
+        -webkit-transform: translate(-45%, -30%);
+        -ms-transform: translate(-45%, -30%);
 }
     .hero-text-box p {
         font-size: 125%;
@@ -120,7 +127,7 @@
         content: "";
         width: 150px;
         margin: 0 auto;
-        margin-top: 2vh;
+        margin-top: 90px;
     }
 
     .evento-main {
@@ -300,8 +307,7 @@
     }
 
     .hero-text-box h2:after {
-        width: 0px;
-        margin-top: 0;
+    
     }
     
     h3 {

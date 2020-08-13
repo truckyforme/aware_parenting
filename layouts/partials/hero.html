@@ -1,8 +1,18 @@
-<div class="hero-text-box">
-    <h1>{{ with .Site.Params.hero.titulo }}{{ . | markdownify  }}{{ end }}</h1>
-    <h3>{{ with .Site.Params.hero.subtitulo }}{{ . | markdownify }}{{ end }}</h3>
-    <p> {{ with .Site.Params.hero.texto }}{{ . | markdownify }}{{ end }}</p>
-        {{ range .Site.Params.hero.menu}}
-            <a class="btn-hero scroll" href="{{ .url }}">{{ .name }}</a>
-        {{ end }}
+
+<!-- <div class="hero-text-box">
 </div>
+-->
+<!-- Hero Section -->   
+<div class="hero-text">
+    <div class="layout-content-width">
+        <div class="hero-text-box">
+            <h1>{{ with .Site.Params.hero.titulo }}{{ . | markdownify  }}{{ end }}</h1>
+            <h2>{{ with .Site.Params.hero.subtitulo }}{{ . | markdownify }}{{ end }}</h2>
+            <p> {{ with .Site.Params.hero.texto }}{{ . | markdownify }}{{ end }}</p>
+            {{ range .Site.Params.hero.menu}}
+                <a class="btn-hero scroll" href="{{ .url }}">{{ .name }}</a>
+            {{ end }}     
+        </div>
+    </div>
+</div>
+

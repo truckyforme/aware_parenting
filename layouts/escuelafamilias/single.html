@@ -13,11 +13,11 @@
                 {{ partial "navflex.html" . }} 
             </div>
         </header>   
-<!-- Hero Section -->    
+<!-- Hero Section -->
         <div class="header-page">
             <div class="header-page-text-box">
                 <h1>{{ with .Params.Title }}{{ . | markdownify  }}{{ end }}</h1>
-                <h3>{{ with .Params.subtitle }}{{ . | markdownify  }}{{ end }}</h3>
+                <h2>{{ with .Params.subtitle }}{{ . | markdownify  }}{{ end }}</h2>
             </div>
             <a class="btn btn-full btn-text-huge scroll" href="{{ .Params.registerlnk }}">{{ .Params.buttonregistro }}</a>
         </div>        

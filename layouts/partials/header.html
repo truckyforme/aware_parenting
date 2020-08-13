@@ -1,3 +1,8 @@
-<header class="header-hero" id="page-top">
-    {{ partial "nav.html" . }}  
-</header>
+<header id="page-top">
+    <div class="layout-hero-home">
+        <img class="mobile-visible" src="{{ .Site.Params.hero.bgimagemobile }}" alt="Laura Díaz de Entresotos">
+        <img class="desktop-visible" src="{{ .Site.Params.hero.bgimage }}" alt="Laura Díaz de Entresotos">
+        <div class="hero-gradient-home"></div>
+        {{ partial "navflex.html" . }} 
+    </div>
+</header>   

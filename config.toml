@@ -22,6 +22,7 @@ theme        	= "ap_theme"
     year = "2019"
     author         	= "Laura Díaz de Entresotos"
     description     = "Psicóloga colegiada con 18 años de experiencia, especializada en psicología infantil y familia. Enfoque basado en la disciplina no punitiva, el respeto y el apego."
+    
 
 # Navigation
     [params.navigation]
@@ -63,8 +64,10 @@ theme        	= "ap_theme"
  # Hero Section                    
 	[params.hero]
         titulo ="Laura Díaz de Entresotos"
-        subtitulo ="PSICOLOGA - INSTRUCTORA AWARE PARENTING"
+        subtitulo ="PSICÓLOGA - INSTRUCTORA AWARE PARENTING"
         texto ="Un enfoque de educación y crianza que **sí** funciona para todos, basado en la disciplina no punitiva, el respeto, y el apego"
+        bgimage = "/css/img/hero_bg.jpeg"
+        bgimagemobile = "/css/img/hero_bg_mobile.jpeg"
         button_1 = "Consulta"
         button_2 = "Próximos Cursos"
         [params.hero.menu]
