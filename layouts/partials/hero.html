@@ -3,6 +3,6 @@
     <h3>{{ with .Site.Params.hero.subtitulo }}{{ . | markdownify }}{{ end }}</h3>
     <p> {{ with .Site.Params.hero.texto }}{{ . | markdownify }}{{ end }}</p>
         {{ range .Site.Params.hero.menu}}
-            <a class="btn-hero js--scroll-{{ .scroll }}" href="{{ .url }}">{{ .name }}</a>
+            <a class="btn-hero scroll" href="{{ .url }}">{{ .name }}</a>
         {{ end }}
 </div>

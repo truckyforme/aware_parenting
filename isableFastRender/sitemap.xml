@@ -1,14 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/aware_parenting/</loc>
+    <loc>http://localhost:1313/consulta/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/escuela-de-familias/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/articulos/</loc>
+    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/articulos/2020-06-11-consejos-padres-d-durante-pandemia-coronavirus/</loc>
+    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/pantallas-si-o-no/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/aware-parenting/</loc>
     <lastmod>2018-12-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://localhost:1313/cursos/</loc>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formacion-profesorado/</loc>
     <lastmod>2018-12-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,12 +68,22 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/terms/</loc>
+    <lastmod>2014-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/articulos/el-espacio-negativo/</loc>
     <lastmod>2014-09-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://localhost:1313/cookies/</loc>
+    <lastmod>2014-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/politica-de-privacidad-y-cookies/</loc>
     <lastmod>2014-09-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,150 +118,15 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/acoso/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/eventos/2019-02-01-charla-acoso-escolar-benicassim/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/adolescentes/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/aletha-solter/</loc>
-    <lastmod>2015-09-13T20:11:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/articulos/</loc>
-    <lastmod>2016-09-11T07:04:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/articulos/</loc>
-    <lastmod>2014-09-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/art%C3%ADculos/</loc>
-    <lastmod>2016-01-14T22:54:27+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/autorregulacion/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/eventos/2019-01-19-autorregulacion-castellon/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/aware-parenting/</loc>
-    <lastmod>2015-09-13T20:11:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2015-09-13T20:11:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/charla/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/conflictos/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/curso/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/curso-intensivo/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/disciplina/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/eventos/2019-03-30-ni-castigos-ni-recompensas-bcn/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/emociones/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/eventos/2019-02-02-taller-empatia-y-conexion/</loc>
+    <loc>http://localhost:1313/eventos/2020-09-18-educar-sin-castigos-ni-recompensas/</loc>
   </url>
   
   <url>
     <loc>http://localhost:1313/eventos/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/hermanos/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/eventos/2019-02-08-hermanos-y-amigos-almassora/</loc>
   </url>
   
   <url>
     <loc>http://localhost:1313/about/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/eventos/2019-02-23-ni-vencedores-ni-vencidos/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/eventos/2019-02-09-taller-resolver-conflictos-en-familia-almassora/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/eventos/2019-04-06-sonrisas-y-lagrimas-castellon/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/eventos/2019-06-01-sonrisas-y-lagrimas-bcn/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/taller/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

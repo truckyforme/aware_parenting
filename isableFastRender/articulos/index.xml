@@ -1,16 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articulos on Laura Díaz de Entresotos - Aware Parenting en España</title>
+    <title>Articulos on Laura Díaz de Entresotos - Psicóloga - Aware Parenting en España</title>
     <link>http://localhost:1313/articulos/</link>
-    <description>Recent content in Articulos on Laura Díaz de Entresotos - Aware Parenting en España</description>
+    <description>Recent content in Articulos on Laura Díaz de Entresotos - Psicóloga - Aware Parenting en España</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© 2018 Laura Díaz de Entresotos. Todos los derechos reservados.</copyright>
-    <lastBuildDate>Sun, 11 Sep 2016 07:04:11 +0000</lastBuildDate>
+    <copyright>© 2020 Laura Díaz de Entresotos. Todos los derechos reservados.</copyright>
+    <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/articulos/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Consejos para padres de niños pequeños durante la pandemia del coronavirus</title>
+      <link>http://localhost:1313/articulos/2020-06-11-consejos-padres-d-durante-pandemia-coronavirus/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articulos/2020-06-11-consejos-padres-d-durante-pandemia-coronavirus/</guid>
+      <description>por Aletha Solter, Ph.D. (Traducción español de Laura Díaz de Entresotos Bajo) (Versión inglés) Son tiempos difíciles para todos, y especialmente para las familias que han de permanecer confinadas en casa. Es posible que estés asustado o te sientas sobrepasado por unos acontecimientos fuera de tu control, sin tener una idea clara de cuánto durará esta situación. Quizás estés tratando de trabajar desde casa y cuidar de tus hijos simultáneamente. O quizás hayas perdido tu trabajo y fuente de ingresos, y te estés preguntando cómo pagarás el alquiler o la compra en el supermercado.</description>
+    </item>
+    
+    <item>
+      <title>¿Pantallas sí o no?</title>
+      <link>http://localhost:1313/pantallas-si-o-no/</link>
+      <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pantallas-si-o-no/</guid>
+      <description>¿Cuántas horas al día usas el móvil? ¿y tus hijos?
+Nos preocupa cómo el uso de pantallas puede afectar a nuestros hijos a su salud física y emocional, a sus relaciones sociales, a la convivencia en casa, e incluso a su rendimiento académico. A menudo, para prevenir estos problemas o para intentar solucionarlos, controlamos el tiempo que nuestros hijos pasan frente al móvil, el ordenador o la televisión. En algunos casos esto puede dar resultado, pero en muchos otros el control del tiempo suele aumentar la urgencia y la preocupación, con lo que nuestros hijos piensan en los móviles, en las pantallas y los quieren usar.</description>
+    </item>
     
     <item>
       <title>No va a funcionar, no con mi hijo</title>
@@ -18,7 +37,7 @@
       <pubDate>Sun, 11 Sep 2016 07:04:11 +0000</pubDate>
       
       <guid>http://localhost:1313/no-va-a-funcionar-no-con-mi-hijo/</guid>
-      <description>Las recomendaciones del experto Imagina esta situación: Has acudido a un experto para que te ayude a resolver una situación difícil. Tras escuchar tus preocupaciones el experto comienza a hablar&amp;#8230; y sus sugerencias te suenan enlatadas y te hacen pensar que ha sacado conclusiones rápidamente acerca de cómo eres y cuál es tu problema. Desde luego, si no estás convencida, puedes decidir no hacer caso al experto. Aunque, claro, esto no es tan sencillo como parece, pues desde pequeños nos han enseñado que el experto siempre tiene razón.</description>
+      <description>Las recomendaciones del experto Imagina esta situación: Has acudido a un experto para que te ayude a resolver una situación difícil. Tras escuchar tus preocupaciones el experto comienza a hablar… y sus sugerencias te suenan enlatadas y te hacen pensar que ha sacado conclusiones rápidamente acerca de cómo eres y cuál es tu problema. Desde luego, si no estás convencida, puedes decidir no hacer caso al experto. Aunque, claro, esto no es tan sencillo como parece, pues desde pequeños nos han enseñado que el experto siempre tiene razón.</description>
     </item>
     
     <item>
@@ -27,7 +46,7 @@
       <pubDate>Thu, 14 Jan 2016 22:54:27 +0000</pubDate>
       
       <guid>http://localhost:1313/ya-pero-por-que/</guid>
-      <description>Todavía recuedo como si fuera ayer, el día en que me encontré a mi hija India, que entonces tenía 3 años, pegando unas pegatinas en una de las cajoneras donde guardábamos los juguetes. Posiblemente ella también lo recuerde porque mi grito -¡NO! &amp;#8211; debió despertar de la siesta a todo el vecindario. Alertado por mi grito, mi marido se presentó en la habitación y me preguntó alarmado qué ocurría. Cuando le expliqué que India estaba pegando las pegatinas en la cajonera y que no podía hacer eso, él se limito a responderme:</description>
+      <description>Todavía recuedo como si fuera ayer, el día en que me encontré a mi hija India, que entonces tenía 3 años, pegando unas pegatinas en una de las cajoneras donde guardábamos los juguetes. Posiblemente ella también lo recuerde porque mi grito -¡NO! – debió despertar de la siesta a todo el vecindario. Alertado por mi grito, mi marido se presentó en la habitación y me preguntó alarmado qué ocurría. Cuando le expliqué que India estaba pegando las pegatinas en la cajonera y que no podía hacer eso, él se limito a responderme:</description>
     </item>
     
     <item>
@@ -38,8 +57,8 @@
       <guid>http://localhost:1313/entrevista-con-aletha-solter/</guid>
       <description>En Mayo de 2014, durante su última visita a España, surgió la posibilidad de realizar una entrevista con Aletha Solter para comentar algunos de los aspectos que trata en sus libros y también algunos otros temas que normalmente preocupan a los padres.
 Como siempre, fue un privilegio disfrutar de su compañía y sus profundos conocimientos.
-&amp;nbsp;
-¿Fuiste una ‘bebé consciente’?¿Cuáles son las principales influencias de la filosofía de Aware Parenting descritas en tus libros y desarrolladas en tu trabajo con padres?</description>
+ ![Aletha Solter][pic1]
+ ¿Fuiste una ‘bebé consciente’?¿Cuáles son las principales influencias de la filosofía de Aware Parenting descritas en tus libros y desarrolladas en tu trabajo con padres?</description>
     </item>
     
     <item>
@@ -66,10 +85,7 @@ Como siempre, fue un privilegio disfrutar de su compañía y sus profundos conoc
       <pubDate>Tue, 23 Sep 2014 21:17:14 +0000</pubDate>
       
       <guid>http://localhost:1313/veinte-alternativas-al-castigo/</guid>
-      <description>por Aletha Solter, Ph.D. 
- (Traducción español de Laura Díaz de Entresotos Bajo) 
- (Versión inglés: Twenty Alternatives to Punishment) 
-Haga clic acquí para una versión PDF de este artículo que se puede imprimir. Copyright © 1996 por Aletha Solter. Todos los derechos reservados. Ninguna parte de este artículo puede ser reproducida o transmitida en ningún formato o por cualquier medio electrónico o mecánico (incluida la copia a otros sitios web, e incluyendo las traducciones), sin el permiso escrito de Aletha Solter.</description>
+      <description>por Aletha Solter, Ph.D.   (Traducción español de Laura Díaz de Entresotos Bajo)   (Versión inglés: Twenty Alternatives to Punishment)  Haga clic acquí para una versión PDF de este artículo que se puede imprimir. Copyright © 1996 por Aletha Solter. Todos los derechos reservados. Ninguna parte de este artículo puede ser reproducida o transmitida en ningún formato o por cualquier medio electrónico o mecánico (incluida la copia a otros sitios web, e incluyendo las traducciones), sin el permiso escrito de Aletha Solter.</description>
     </item>
     
     <item>
@@ -78,8 +94,7 @@ Haga clic acquí para una versión PDF de este artículo que se puede imprimir.
       <pubDate>Tue, 23 Sep 2014 21:16:35 +0000</pubDate>
       
       <guid>http://localhost:1313/las-desventajas-del-tiempo-fuera/</guid>
-      <description>por Aletha Solter, Ph.D. (Traducción español de Laura Díaz de Entresotos Bajo) (Versión inglés: The Disadvantages of Time-Out)  Publicado originalmente en la revistar Mothering Magazine, Otoño de 1992. Revisado y actualizado en 2000. 
-Copyright © 1992, 2000 por Aletha Solter. Todos los derechos reservados. Ninguna parte de este artículo puede ser reproducida o transmitida en ningún formato o por cualquier medio electrónico o mecánico (incluida la copia a otros sitios web, e incluyendo las traducciones), sin el permiso escrito de Aletha Solter.</description>
+      <description>por Aletha Solter, Ph.D. (Traducción español de Laura Díaz de Entresotos Bajo) (Versión inglés: The Disadvantages of Time-Out)  Publicado originalmente en la revistar Mothering Magazine, Otoño de 1992. Revisado y actualizado en 2000.  Copyright © 1992, 2000 por Aletha Solter. Todos los derechos reservados. Ninguna parte de este artículo puede ser reproducida o transmitida en ningún formato o por cualquier medio electrónico o mecánico (incluida la copia a otros sitios web, e incluyendo las traducciones), sin el permiso escrito de Aletha Solter.</description>
     </item>
     
     <item>
@@ -88,8 +103,7 @@ Copyright © 1992, 2000 por Aletha Solter. Todos los derechos reservados. Ningun
       <pubDate>Tue, 23 Sep 2014 21:15:34 +0000</pubDate>
       
       <guid>http://localhost:1313/principios-de-aware-parenting/</guid>
-      <description>por Aletha Solter, Ph.D. 
- Los padres conscientes satisfacen las necesidades de contacto físico de sus niños y saben que no los van &amp;#8220;estropear&amp;#8221; o a &amp;#8220;malcriar&amp;#8221; de esta manera. Los padres conscientes aceptan toda la gama de emociones de sus hijos y los escuchan sin juzgarlos, permitiendo las expresiones de sus sentimientos. Se dan cuenta de que no pueden prevenir toda la tristeza, la rabia o la frustración de sus hijos, y no intentan parar las manifestaciones de sus sensaciones dolorosas, expresadas a través del llanto o las rabietas.</description>
+      <description>por Aletha Solter, Ph.D.   Los padres conscientes satisfacen las necesidades de contacto físico de sus niños y saben que no los van “estropear” o a “malcriar” de esta manera. Los padres conscientes aceptan toda la gama de emociones de sus hijos y los escuchan sin juzgarlos, permitiendo las expresiones de sus sentimientos. Se dan cuenta de que no pueden prevenir toda la tristeza, la rabia o la frustración de sus hijos, y no intentan parar las manifestaciones de sus sensaciones dolorosas, expresadas a través del llanto o las rabietas.</description>
     </item>
     
     <item>

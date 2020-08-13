@@ -4,7 +4,7 @@
  <div class="layout-content-width">
   <div class="apnavbar-header">
     	<div class="apnavbar-brand">
-    	<a class="page-scroll" href="/#page-top">
+    	<a class="scroll" href="{{ if .IsHome }}/#page-top{{ else }}/{{ end }}">
     	<img src="{{ .Site.Params.navigation.brand_logo }}" alt="Aware Parenting" class="apnavbar-brand"></a>
   		</div>
   </div>
@@ -15,13 +15,13 @@
      {{ if .IsHome }}
 			  {{ range .Site.Params.navigation.items }}
           <li>
-            <a class="page-scroll" href="{{ .frontpageurl }}">{{ .name }}</a>
+            <a class="scroll" href="{{ .frontpageurl }}">{{ .name }}</a>
           </li>
         {{ end }}
      {{ else }}  
 			  {{ range .Site.Params.navigation.items }}
           <li>
-				    <a class="page-scroll" href="{{ .url }}">{{ .name }}</a>
+				    <a class="scroll" href="{{ .url }}">{{ .name }}</a>
 				  </li>
 				{{- end }}
       {{- end }}

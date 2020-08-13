@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    
+    /* Scrolling to anchor */
+
     $('.js--scroll-consulta').click(function () {
         $('html, body').animate({scrollTop: $('.js--section-consulta').offset().top}, 1000); 
      });

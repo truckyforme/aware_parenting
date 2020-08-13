@@ -6,7 +6,7 @@
             <i class="fa {{ .icon }}"></i>
         </div>
         <div class="sidebar-text-flex">
-            <h3><strong>{{ .title }}</strong></h3>
+            <div class="sidebar-header"><strong>{{ .title }}</strong></div>
             <p>{{ .items }}</p>
             {{ with .pills }}
                 <div class="row">
@@ -24,7 +24,7 @@
             <i class="fa fa-euro"></i>
         </div>
         <div class="sidebar-text-flex">
-            <h3><strong>Precio</strong></h3>
+            <div class="sidebar-header"><strong>Precio</strong></div>
             {{ with .Params.earlybird }}
                 <p {{ if lt $.Params.earlybirdfecha (now.Format "2006-01-02") }}style="text-decoration-line: line-through;opacity: 0.5;"{{ end }}><strong>{{ $.Params.earlybirdprecio }}</strong> antes del {{ dateFormat "2" $.Params.earlybirdfecha }} de {{ index $.Site.Data.meses (printf "%d" ((time $.Params.earlybirdfecha).Month)) }}</p>
             {{ end }}

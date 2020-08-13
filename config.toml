@@ -9,7 +9,7 @@ disableKinds = ["taxonomy", "term"]
 
 title = "Laura Díaz de Entresotos - Psicóloga - Aware Parenting en España"
 author         	= "Laura Díaz de Entresotos"
-copyright		= "© 2018 Laura Díaz de Entresotos. Todos los derechos reservados."
+copyright		= "© 2020 Laura Díaz de Entresotos. Todos los derechos reservados."
 
 theme        	= "ap_theme"
 
@@ -21,7 +21,7 @@ theme        	= "ap_theme"
     email = "laura@awareparenting.es"
     year = "2019"
     author         	= "Laura Díaz de Entresotos"
-    description     = "Psicóloga colegiada con 18 años de experiencia, especialiazada en psicología infantil y familia. Enfoque basado en la disciplina no punitiva, el respeto y el apego."
+    description     = "Psicóloga colegiada con 18 años de experiencia, especializada en psicología infantil y familia. Enfoque basado en la disciplina no punitiva, el respeto y el apego."
 
 # Navigation
     [params.navigation]

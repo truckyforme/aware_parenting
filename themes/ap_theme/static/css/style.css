@@ -862,7 +862,10 @@ footer {
     text-decoration: none;
     border: 0;
     color: #888;
+    min-width: 48px;
+    margin: .5em 0;
 }
+
 
 .social-links {
     list-style: none;
@@ -926,10 +929,13 @@ footer p {
     margin-top: 20px;
 }
 
-footer h3 {
+footer .footer-header {
     color: rgb(197, 197, 197);
+    text-transform: uppercase;
+    font-size: 125%;
+    margin-bottom: .8em;
 }
-footer h4 {
+footer .footer-subheader {
     color: rgb(197, 197, 197);
     text-transform: uppercase;
     font-size: 100%;
@@ -1328,7 +1334,9 @@ input[type='checkbox'] {
     width: 90%;
 }
 .sidebar-text h3,
-.sidebar-text-flex h3 {
+.sidebar-text .sidebar-header,
+.sidebar-text-flex h3,
+.sidebar-text-flex .sidebar-header {
     margin-bottom: 0.2em;
     font-size: 110%;
 }
@@ -1688,6 +1696,10 @@ nav ul.apmenu>li>ul>li>a {
     margin-top: 0px
 }
 .margin-b-normal {
+    margin-bottom: 0.8em;
+}
+.margin-tb-normal {
+    margin-top: 0.8em;
     margin-bottom: 0.8em;
 }
 .padding-lr-normal {

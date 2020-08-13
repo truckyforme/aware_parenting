@@ -2,14 +2,14 @@
 <section class="sidebar-layout sticky-sidebar" id="sidebarescuela">
     <div class="sidebar-block-flex" id="{{ .Params.preconsulta.id }}">
         <div class="sidebar-text-flex">
-            <h3><strong>{{ .Params.preconsulta.title }}</strong></h3>
+            <div class="sidebar-header"><strong>{{ .Params.preconsulta.title }}</strong></div>
             <p>{{ .Params.preconsulta.items | markdownify }}</p>
         </div>
     </div>
     <iframe src="https://lauradiazdeentresotos.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframelauradiazdeentresotos" style="width:100%;height:1000px;border:0px;background-color:transparent;" frameborder="0" allowtransparency="true"></iframe><script>window.addEventListener && window.addEventListener("message", function(event){if (event.origin === "https://lauradiazdeentresotos.youcanbook.me"){document.getElementById("ycbmiframelauradiazdeentresotos").style.height = event.data + "px";}}, false);</script>
     {{ range .Params.sidebar}}
     <div class="sidebar-block-flex" id=".">
-            <h3><strong>{{ .title }}</strong></h3>
+            <div class="sidebar-header"><strong>{{ .title }}</strong></div>
             <p>{{ .items | markdownify }}</p>
             {{ with .pills }}
                 <div class="row">

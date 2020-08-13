@@ -1,23 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Laura Díaz de Entresotos - Aware Parenting en España</title>
+    <title>Laura Díaz de Entresotos - Psicóloga - Aware Parenting en España</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Laura Díaz de Entresotos - Aware Parenting en España</description>
+    <description>Recent content on Laura Díaz de Entresotos - Psicóloga - Aware Parenting en España</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© 2018 Laura Díaz de Entresotos. Todos los derechos reservados.</copyright>
-    <lastBuildDate>Mon, 17 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>© 2020 Laura Díaz de Entresotos. Todos los derechos reservados.</copyright>
+    <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Consulta de Psicología</title>
+      <link>http://localhost:1313/consulta/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/consulta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Escuela de familias online</title>
+      <link>http://localhost:1313/escuela-de-familias/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/escuela-de-familias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Consejos para padres de niños pequeños durante la pandemia del coronavirus</title>
+      <link>http://localhost:1313/articulos/2020-06-11-consejos-padres-d-durante-pandemia-coronavirus/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articulos/2020-06-11-consejos-padres-d-durante-pandemia-coronavirus/</guid>
+      <description>por Aletha Solter, Ph.D. (Traducción español de Laura Díaz de Entresotos Bajo) (Versión inglés) Son tiempos difíciles para todos, y especialmente para las familias que han de permanecer confinadas en casa. Es posible que estés asustado o te sientas sobrepasado por unos acontecimientos fuera de tu control, sin tener una idea clara de cuánto durará esta situación. Quizás estés tratando de trabajar desde casa y cuidar de tus hijos simultáneamente. O quizás hayas perdido tu trabajo y fuente de ingresos, y te estés preguntando cómo pagarás el alquiler o la compra en el supermercado.</description>
+    </item>
+    
+    <item>
+      <title>¿Pantallas sí o no?</title>
+      <link>http://localhost:1313/pantallas-si-o-no/</link>
+      <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pantallas-si-o-no/</guid>
+      <description>¿Cuántas horas al día usas el móvil? ¿y tus hijos?
+Nos preocupa cómo el uso de pantallas puede afectar a nuestros hijos a su salud física y emocional, a sus relaciones sociales, a la convivencia en casa, e incluso a su rendimiento académico. A menudo, para prevenir estos problemas o para intentar solucionarlos, controlamos el tiempo que nuestros hijos pasan frente al móvil, el ordenador o la televisión. En algunos casos esto puede dar resultado, pero en muchos otros el control del tiempo suele aumentar la urgencia y la preocupación, con lo que nuestros hijos piensan en los móviles, en las pantallas y los quieren usar.</description>
+    </item>
+    
+    <item>
       <title>Aware Parenting</title>
-      <link>http://localhost:1313/aware_parenting/</link>
+      <link>http://localhost:1313/aware-parenting/</link>
       <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/aware_parenting/</guid>
+      <guid>http://localhost:1313/aware-parenting/</guid>
       <description></description>
     </item>
     
@@ -31,12 +68,21 @@
     </item>
     
     <item>
+      <title>Educar con presencia en el aula</title>
+      <link>http://localhost:1313/formacion-profesorado/</link>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/formacion-profesorado/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>No va a funcionar, no con mi hijo</title>
       <link>http://localhost:1313/no-va-a-funcionar-no-con-mi-hijo/</link>
       <pubDate>Sun, 11 Sep 2016 07:04:11 +0000</pubDate>
       
       <guid>http://localhost:1313/no-va-a-funcionar-no-con-mi-hijo/</guid>
-      <description>Las recomendaciones del experto Imagina esta situación: Has acudido a un experto para que te ayude a resolver una situación difícil. Tras escuchar tus preocupaciones el experto comienza a hablar&amp;#8230; y sus sugerencias te suenan enlatadas y te hacen pensar que ha sacado conclusiones rápidamente acerca de cómo eres y cuál es tu problema. Desde luego, si no estás convencida, puedes decidir no hacer caso al experto. Aunque, claro, esto no es tan sencillo como parece, pues desde pequeños nos han enseñado que el experto siempre tiene razón.</description>
+      <description>Las recomendaciones del experto Imagina esta situación: Has acudido a un experto para que te ayude a resolver una situación difícil. Tras escuchar tus preocupaciones el experto comienza a hablar… y sus sugerencias te suenan enlatadas y te hacen pensar que ha sacado conclusiones rápidamente acerca de cómo eres y cuál es tu problema. Desde luego, si no estás convencida, puedes decidir no hacer caso al experto. Aunque, claro, esto no es tan sencillo como parece, pues desde pequeños nos han enseñado que el experto siempre tiene razón.</description>
     </item>
     
     <item>
@@ -45,7 +91,7 @@
       <pubDate>Thu, 14 Jan 2016 22:54:27 +0000</pubDate>
       
       <guid>http://localhost:1313/ya-pero-por-que/</guid>
-      <description>Todavía recuedo como si fuera ayer, el día en que me encontré a mi hija India, que entonces tenía 3 años, pegando unas pegatinas en una de las cajoneras donde guardábamos los juguetes. Posiblemente ella también lo recuerde porque mi grito -¡NO! &amp;#8211; debió despertar de la siesta a todo el vecindario. Alertado por mi grito, mi marido se presentó en la habitación y me preguntó alarmado qué ocurría. Cuando le expliqué que India estaba pegando las pegatinas en la cajonera y que no podía hacer eso, él se limito a responderme:</description>
+      <description>Todavía recuedo como si fuera ayer, el día en que me encontré a mi hija India, que entonces tenía 3 años, pegando unas pegatinas en una de las cajoneras donde guardábamos los juguetes. Posiblemente ella también lo recuerde porque mi grito -¡NO! – debió despertar de la siesta a todo el vecindario. Alertado por mi grito, mi marido se presentó en la habitación y me preguntó alarmado qué ocurría. Cuando le expliqué que India estaba pegando las pegatinas en la cajonera y que no podía hacer eso, él se limito a responderme:</description>
     </item>
     
     <item>
@@ -56,8 +102,8 @@
       <guid>http://localhost:1313/entrevista-con-aletha-solter/</guid>
       <description>En Mayo de 2014, durante su última visita a España, surgió la posibilidad de realizar una entrevista con Aletha Solter para comentar algunos de los aspectos que trata en sus libros y también algunos otros temas que normalmente preocupan a los padres.
 Como siempre, fue un privilegio disfrutar de su compañía y sus profundos conocimientos.
-&amp;nbsp;
-¿Fuiste una ‘bebé consciente’?¿Cuáles son las principales influencias de la filosofía de Aware Parenting descritas en tus libros y desarrolladas en tu trabajo con padres?</description>
+ ![Aletha Solter][pic1]
+ ¿Fuiste una ‘bebé consciente’?¿Cuáles son las principales influencias de la filosofía de Aware Parenting descritas en tus libros y desarrolladas en tu trabajo con padres?</description>
     </item>
     
     <item>
@@ -67,6 +113,15 @@ Como siempre, fue un privilegio disfrutar de su compañía y sus profundos conoc
       
       <guid>http://localhost:1313/las-consecuencias-naturales/</guid>
       <description>¡Se niega a ponerse las zapatillas en casa!’’¡No quiere hacer los deberes!’’¡Nunca deshace la bolsa del entrenamiento de fútbol!’’ Nunca quiere ponerse la chaqueta para salir a la calle, ¡se va a morir de frío! Todos estos conflictos, aparte de ser motivo frecuente de consulta de muchos padres, tienen algo en común: son comportamientos de los niños que no afectan directamente a las necesidades de los adultos, pero que les preocupan y molestan.</description>
+    </item>
+    
+    <item>
+      <title>Condiciones de uso</title>
+      <link>http://localhost:1313/terms/</link>
+      <pubDate>Wed, 24 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/terms/</guid>
+      <description>1. Introducción Las presentes condiciones generales de uso de la página web, regulan los términos y condiciones de acceso y uso de www.awareparenting.es, propiedad de Laura Díaz de Entresotos Bajo, con domicilio en Cabrils y con Código de Identificación Fiscal número 72129852N, en adelante, «la Empresa», que el usuario del Portal deberá de leer y aceptar para usar todos los servicios e información que se facilitan desde el portal. El mero acceso y/o utilización del portal, de todos o parte de sus contenidos y/o servicios significa la plena aceptación de las presentes condiciones generales de uso.</description>
     </item>
     
     <item>
@@ -88,15 +143,21 @@ Como siempre, fue un privilegio disfrutar de su compañía y sus profundos conoc
     </item>
     
     <item>
+      <title>Política de Privacidad y Cookies</title>
+      <link>http://localhost:1313/politica-de-privacidad-y-cookies/</link>
+      <pubDate>Wed, 24 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/politica-de-privacidad-y-cookies/</guid>
+      <description>POLÍTICA DE PRIVACIDAD El presente Política de Privacidad establece los términos en que Aware Parenting España usa y protege la información que es proporcionada por sus usuarios al momento de utilizar su sitio web. Esta compañía está comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este documento.</description>
+    </item>
+    
+    <item>
       <title>Veinte alternativas al castigo</title>
       <link>http://localhost:1313/veinte-alternativas-al-castigo/</link>
       <pubDate>Tue, 23 Sep 2014 21:17:14 +0000</pubDate>
       
       <guid>http://localhost:1313/veinte-alternativas-al-castigo/</guid>
-      <description>por Aletha Solter, Ph.D. 
- (Traducción español de Laura Díaz de Entresotos Bajo) 
- (Versión inglés: Twenty Alternatives to Punishment) 
-Haga clic acquí para una versión PDF de este artículo que se puede imprimir. Copyright © 1996 por Aletha Solter. Todos los derechos reservados. Ninguna parte de este artículo puede ser reproducida o transmitida en ningún formato o por cualquier medio electrónico o mecánico (incluida la copia a otros sitios web, e incluyendo las traducciones), sin el permiso escrito de Aletha Solter.</description>
+      <description>por Aletha Solter, Ph.D.   (Traducción español de Laura Díaz de Entresotos Bajo)   (Versión inglés: Twenty Alternatives to Punishment)  Haga clic acquí para una versión PDF de este artículo que se puede imprimir. Copyright © 1996 por Aletha Solter. Todos los derechos reservados. Ninguna parte de este artículo puede ser reproducida o transmitida en ningún formato o por cualquier medio electrónico o mecánico (incluida la copia a otros sitios web, e incluyendo las traducciones), sin el permiso escrito de Aletha Solter.</description>
     </item>
     
     <item>
@@ -105,8 +166,7 @@ Haga clic acquí para una versión PDF de este artículo que se puede imprimir.
       <pubDate>Tue, 23 Sep 2014 21:16:35 +0000</pubDate>
       
       <guid>http://localhost:1313/las-desventajas-del-tiempo-fuera/</guid>
-      <description>por Aletha Solter, Ph.D. (Traducción español de Laura Díaz de Entresotos Bajo) (Versión inglés: The Disadvantages of Time-Out)  Publicado originalmente en la revistar Mothering Magazine, Otoño de 1992. Revisado y actualizado en 2000. 
-Copyright © 1992, 2000 por Aletha Solter. Todos los derechos reservados. Ninguna parte de este artículo puede ser reproducida o transmitida en ningún formato o por cualquier medio electrónico o mecánico (incluida la copia a otros sitios web, e incluyendo las traducciones), sin el permiso escrito de Aletha Solter.</description>
+      <description>por Aletha Solter, Ph.D. (Traducción español de Laura Díaz de Entresotos Bajo) (Versión inglés: The Disadvantages of Time-Out)  Publicado originalmente en la revistar Mothering Magazine, Otoño de 1992. Revisado y actualizado en 2000.  Copyright © 1992, 2000 por Aletha Solter. Todos los derechos reservados. Ninguna parte de este artículo puede ser reproducida o transmitida en ningún formato o por cualquier medio electrónico o mecánico (incluida la copia a otros sitios web, e incluyendo las traducciones), sin el permiso escrito de Aletha Solter.</description>
     </item>
     
     <item>
@@ -115,8 +175,7 @@ Copyright © 1992, 2000 por Aletha Solter. Todos los derechos reservados. Ningun
       <pubDate>Tue, 23 Sep 2014 21:15:34 +0000</pubDate>
       
       <guid>http://localhost:1313/principios-de-aware-parenting/</guid>
-      <description>por Aletha Solter, Ph.D. 
- Los padres conscientes satisfacen las necesidades de contacto físico de sus niños y saben que no los van &amp;#8220;estropear&amp;#8221; o a &amp;#8220;malcriar&amp;#8221; de esta manera. Los padres conscientes aceptan toda la gama de emociones de sus hijos y los escuchan sin juzgarlos, permitiendo las expresiones de sus sentimientos. Se dan cuenta de que no pueden prevenir toda la tristeza, la rabia o la frustración de sus hijos, y no intentan parar las manifestaciones de sus sensaciones dolorosas, expresadas a través del llanto o las rabietas.</description>
+      <description>por Aletha Solter, Ph.D.   Los padres conscientes satisfacen las necesidades de contacto físico de sus niños y saben que no los van “estropear” o a “malcriar” de esta manera. Los padres conscientes aceptan toda la gama de emociones de sus hijos y los escuchan sin juzgarlos, permitiendo las expresiones de sus sentimientos. Se dan cuenta de que no pueden prevenir toda la tristeza, la rabia o la frustración de sus hijos, y no intentan parar las manifestaciones de sus sensaciones dolorosas, expresadas a través del llanto o las rabietas.</description>
     </item>
     
     <item>
@@ -147,55 +206,12 @@ Copyright © 1992, 2000 por Aletha Solter. Todos los derechos reservados. Ningun
     </item>
     
     <item>
-      <title>Acoso Escolar</title>
-      <link>http://localhost:1313/eventos/2019-02-01-charla-acoso-escolar-benicassim/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/eventos/2019-02-01-charla-acoso-escolar-benicassim/</guid>
-      <description>¿Podemos acabar con el acoso escolar? ¿cómo? ¿quién? ¿es un problema del que acosa? ¿o del que es acosado? ¿por qué se produce? ¿hay cada vez más acoso? ¿es diferente el acoso de otros conflictos? ¿qué es acoso y qué no lo es? ¿que papel juega la familia? ¿y la escuela? ¿por dónde empezamos para acabar con el acoso escolar?
-Si te haces alguna de estas preguntas, te interesa esta charla.</description>
-    </item>
-    
-    <item>
-      <title>Autorregulación</title>
-      <link>http://localhost:1313/eventos/2019-01-19-autorregulacion-castellon/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/eventos/2019-01-19-autorregulacion-castellon/</guid>
-      <description>La capacidad de autorregulación se desarrolla y fortalece a lo largo de la vida, y el papel de los padres y cuidadores es determinante: pueden interferir con una educación basada en castigos y recompensas que persigue la obediencia de los niños, o pueden proporcionar las condiciones de libertad y responsabilidad adecuadas para que se produzca el aprendizaje de esta habilidad.
-Pero, ¿cuáles son esas condiciones?, ¿qué es autorregulación?, y ¿cómo ayudar a los niños a aprender a regularse?</description>
-    </item>
-    
-    <item>
       <title>Educar sin castigos ni recompensas</title>
-      <link>http://localhost:1313/eventos/2019-03-30-ni-castigos-ni-recompensas-bcn/</link>
+      <link>http://localhost:1313/eventos/2020-09-18-educar-sin-castigos-ni-recompensas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/eventos/2019-03-30-ni-castigos-ni-recompensas-bcn/</guid>
-      <description>¿Cómo resolver conflictos en el entorno familiar?. Partiendo del trabajo de Marshall Rosenberg (Comunicación No Violenta) pondremos en práctica una nueva forma de comunicarnos con los demás y conseguir equilibrio en nuestras relaciones con los niños. Este curso incluye una buena cantidad de ejercicios para practicar las diferentes técnicas.
-Entre otros, exploraremos los siguientes temas:
- Tipos de conflicto Las Técnicas de Influencia Asambleas Familiares Obstáculos en la comunicación El equilibrio en las relaciones Expresar desde uno mismo La escucha verdadera  Dirigido tanto a padres, educadores como a todo aquel que se relacione con niños y esté interesado en mejorar su relación y convivencia con ellos.</description>
-    </item>
-    
-    <item>
-      <title>Empatía y Conexión</title>
-      <link>http://localhost:1313/eventos/2019-02-02-taller-empatia-y-conexion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/eventos/2019-02-02-taller-empatia-y-conexion/</guid>
-      <description>Un taller dedicado a practicar la escucha, el superpoder de los padres con hijos adolescentes. Habilidad básica para la resolución de conflictos, pieza clave para la regulación emocional, e ingrediente imprescindible para fortalecer la relación con los hijos. Pero, ¡ojo! ¿de qué hablamos cuando hablamos de escucha?
-El curso combina la exposición de ideas y conceptos con ejemplos reales y ejercicios prácticos aplicados a situaciones reales de los propios participantes.</description>
-    </item>
-    
-    <item>
-      <title>Hermanos y amigos</title>
-      <link>http://localhost:1313/eventos/2019-02-08-hermanos-y-amigos-almassora/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/eventos/2019-02-08-hermanos-y-amigos-almassora/</guid>
-      <description>La familia es el entorno ideal en el que los niños pueden aprender habilidades sociales, especialmente cuando hay hermanos. Prepararles para el nacimiento de un hermano, afrontar su rivalidad y ayudar a resolver conflictos entre ellos serán algunos de los temas que abordaremos en esta charla.
-Horario: 18:30h
-No se permite la asistencia de niños y niñas, con la excepción de bebés de hasta 6 meses.</description>
+      <guid>http://localhost:1313/eventos/2020-09-18-educar-sin-castigos-ni-recompensas/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -205,51 +221,10 @@ No se permite la asistencia de niños y niñas, con la excepción de bebés 
       
       <guid>http://localhost:1313/about/</guid>
       <description>Actualmente resido en Barcelona, donde, día a día, en mi relación con mis hijas India y Cloe, basada en el Respeto y el Amor, me hago más consciente de:
- Las auténticas necesidades de los niños.
- La importancia de una comunicación que favorezca la conexión.
- Que el rol de los adultos es escuchar y prestar asistencia.
- La responsabilidad de proporcionar bienestar y seguridad a nuestros hijos.
- Mis propias limitaciones y mi necesidad de ayuda y apoyo.</description>
-    </item>
-    
-    <item>
-      <title>Ni vencedores, ni vencidos</title>
-      <link>http://localhost:1313/eventos/2019-02-23-ni-vencedores-ni-vencidos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/eventos/2019-02-23-ni-vencedores-ni-vencidos/</guid>
-      <description>¿Muchos padres y profesionales de la educación buscan una manera de educar alejada de la tradicional disciplina autoritaria, basada en castigos y recompensas. Ante la falta de modelos en los que fijarse, a menudo se sienten inseguros, y ante la dificultad para poner en práctica cambios sin caer en la permisividad, a menudo se sienten frustrados e impotentes. El curso ‘Educar sin castigos ni recompensas’ plantea un enfoque de educación basado en la comunicación, la cooperación, el respeto y la responsabilidad.</description>
-    </item>
-    
-    <item>
-      <title>Resolver conflictos en familia</title>
-      <link>http://localhost:1313/eventos/2019-02-09-taller-resolver-conflictos-en-familia-almassora/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/eventos/2019-02-09-taller-resolver-conflictos-en-familia-almassora/</guid>
-      <description>¿Qué hacer cuando nuestro día a día se llena de conflictos, discusiones, o enfrentamientos con nuestros hijos o entre ellos? Imponerse o ceder parecen las únicas alternativas, pero la “solución” no suele satisfacer a todos y la “paz” dura menos de lo que nos gustaría. Sin embargo, existe una manera de resolver los conflictos en familia en la que no hay ni vencedores ni vencidos, y todos se sienten tenidos en cuenta.</description>
-    </item>
-    
-    <item>
-      <title>Sonrisas y lágrimas</title>
-      <link>http://localhost:1313/eventos/2019-04-06-sonrisas-y-lagrimas-castellon/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/eventos/2019-04-06-sonrisas-y-lagrimas-castellon/</guid>
-      <description>Con frecuencia, la manifestación de emociones “negativas “por parte de nuestros hijos nos confunde y nos desborda.
-¿Cómo satisfacer las necesidades emocionales?
-Partiendo del trabajo de Aletha Solter (Aware Parenting) trataremos las necesidades emocionales de los niños y veremos cómo podemos satisfacerlas para que los niños crezcan felices y seguros. Hablaremos de cómo ofrecer apoyo emocional y responder ante emociones “negativas”: agresividad, tristeza, miedo, etc. También veremos cómo solucionar problemas de comportamiento a través del juego, la risa y la conexión.</description>
-    </item>
-    
-    <item>
-      <title>Sonrisas y lágrimas</title>
-      <link>http://localhost:1313/eventos/2019-06-01-sonrisas-y-lagrimas-bcn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/eventos/2019-06-01-sonrisas-y-lagrimas-bcn/</guid>
-      <description>Este es un curso sobre emociones que persigue que los participantes aprendan cómo dar apoyo emocional a los niños y cómo ayudarles a gestionar sus emociones para garantizar su bienestar y un buen desarrollo cognitivo, social y emocional.
-A lo largo del curso se tratan temas como:
- Qué papel jugamos los adultos en el bienestar emocional de los niños y su correcto desarrollo. La importancia de los cuidados y la disciplina en el aprendizaje de la gestión emocional.</description>
+  Las auténticas necesidades de los niños.
+  La importancia de una comunicación que favorezca la conexión.
+  Que el rol de los adultos es escuchar y prestar asistencia.
+  La responsabilidad de proporcionar bienestar y seguridad a nuestros hijos.</description>
     </item>
     
   </channel>
