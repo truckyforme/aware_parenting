@@ -5,6 +5,7 @@ subtitle: 18/Sep — 25/Sep — 2/Oct
 description: "Curso intensivo online para aprender técnicas para educar a tus hijos de forma respetuosa y sin castigos"
 type: eventos
 tipoevento: "Curso"
+url: "/eventos/curso-educar-sin-castigos-ni-recompensas-online-fin-2020/"
 hero: /img/cursos/recompensas_hero.jpg
 heromobile: /img/cursos/recompensas_hero_mobile.jpg
 heroimagealt: "golosinas-recompensas"
