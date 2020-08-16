@@ -35,7 +35,7 @@ solicitud:
   title: Solicita una consulta ahora
 about:
   title: ¿Por qué confiar en mí?
-  desc: "Soy licenciada en Psicología y trabajo en mi consulta privada desde 2003. Debido a mi movilidad geográfica y a la especialización de mi enfoque, desde 2014 realizo gran parte de las sesiones online, y mi modo de trabajo está muy adaptado a este medio.<br><br>Puedes conocer más detalles sobre mi formación y experiencia [aquí](/about/)."
+  desc: "Soy licenciada en Psicología y trabajo en mi consulta privada desde 2003. Debido a mi movilidad geográfica y a la especialización de mi enfoque, desde 2014 realizo gran parte de las sesiones online, y mi modo de trabajo está muy adaptado a este medio.<br><br>Puedes conocer [más detalles sobre mi formación y experiencia en mi biografía](/about/)."
 
 secciones:
   - Presentacion:

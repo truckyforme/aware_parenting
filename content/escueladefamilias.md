@@ -64,4 +64,34 @@ secciones:
   - Faq:
     desc: Preguntas Frecuentes
     lnk: "#faq"
+fechasinfantil:
+  - 6-oct
+  - 20-oct
+  - 3-nov
+  - 17-nov
+  - 1-dic
+  - 12-ene
+  - 26-ene
+  - 9-feb
+  - 23-feb
+  - 9-mar
+  - 23-mar
+  - 20-abr
+  - 4-may
+  - 18-may
+fechasadolescencia:
+  - 13-oct
+  - 27-oct
+  - 10-nov
+  - 24-nov
+  - 15-dic
+  - 19-ene
+  - 2-feb
+  - 16-feb
+  - 2-mar
+  - 16-mar
+  - 13-abr
+  - 27-abr
+  - 11-may
+  - 25-may
 ---

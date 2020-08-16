@@ -62,16 +62,6 @@
     .mobile-visible {
         display: block;
     }
-    .header-hero {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg_mobile.jpeg);
-        background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg_mobile.jpeg);
-        background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg_mobile.jpeg);
-        background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg_mobile.jpeg);
-        background-image: -ms-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg_mobile.jpeg);
-        background-size: cover;
-        background-position: center;
-        height: 90vh;
-    }
     .btn-hero {
         font-size: 100%;
         display: inline-block;
@@ -404,14 +394,9 @@
 
     .header-about {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg.jpeg);
-        background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg.jpeg);
-        background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg.jpeg);
-        background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg.jpeg);
-        background-image: -ms-linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(/css/img/hero_bg.jpeg);
         background-size: cover;
         background-position: center;
         height: 50vh;
-        background-attachment: ;
     }
 }
 

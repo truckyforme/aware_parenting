@@ -2,11 +2,12 @@
 draft: "false"
 title: "Educar sin castigos ni recompensas"
 subtitle: 18/Sep — 25/Sep — 2/Oct
-description: "Aprende técnicas para educar a tus hijos sin utilizar castigos ni recompensas."
+description: "Curso intensivo online para aprender técnicas para educar a tus hijos de forma respetuosa y sin castigos"
 type: eventos
 tipoevento: "Curso"
 hero: /img/cursos/recompensas_hero.jpg
 heromobile: /img/cursos/recompensas_hero_mobile.jpg
+heroimagealt: "golosinas-recompensas"
 expiry-date: 2020-10-02
 multidate: true
 date1: 2020-09-18
@@ -24,6 +25,7 @@ contactoemail: "laura@awareparenting.es"
 contactotelefono: "687054595"
 contactoweb: ""
 thumb: "img/eventos/escnr_thumb_mini.jpg"
+thumbalt: "miniatura poster educar sin castigos ni recompensas"
 tags: ["Curso","Disciplina"]
 inscripcion: "true"
 idcurso: "ESCNR"

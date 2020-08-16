@@ -7,6 +7,14 @@
         <div class="sidebar-text-flex">
             <div class="sidebar-header"><strong>14 sesiones</strong></div>
             <p>Periodicicad quincenal</p>
+            <p style="margin-bottom: 0;"><strong>Grupo Infantil</strong></p>
+            {{ range .Params.fechasinfantil }}
+                <div class="sidebar-fechas">{{ . }}</div>
+            {{ end }}
+            <p  style="margin-bottom: 0; margin-top: 1rem;"><strong>Grupo Adolescencia</strong></p>
+            {{ range .Params.fechasadolescencia }}
+                <div class="sidebar-fechas">{{ . }}</div>
+            {{ end }}
         </div>
     </div>
     <div class="sidebar-block-flex" id="clock">

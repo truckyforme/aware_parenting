@@ -61,7 +61,12 @@
                     <div class="footer-subheader">{{ $.Site.Params.footer.Titlemenu4 }}</div>
                     <ul class="footer-nav">
                     {{ range $.Site.Params.footer.menu4 }}
-                        <li>{{ .name }}<a href="{{ .url | safeURL }}">{{ .value }}</a></li>
+                        <li>{{ .name }}
+                            {{ $value:= .value }}
+                            {{ with .url }}
+                                <a href="{{ . | safeURL }}">{{ $value }}</a>
+                            {{ end }}
+                        </li>
                     {{ end }}    
                     </ul>
             </div>
