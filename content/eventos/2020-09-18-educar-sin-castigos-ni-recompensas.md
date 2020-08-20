@@ -32,7 +32,7 @@ inscripcion: "true"
 idcurso: "ESCNR"
 idciudad: "ONLINE"
 earlybird: "true"
-earlybirdfecha: 2020-09-01
+earlybirdfecha: 2020-09-08
 earlybirdprecio: "95€"
 aliases:
 buttonregistro: "¡Reserva tu plaza ahora!"
