@@ -3,7 +3,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="author" property="og:author" content="{{ with .Site.Params.Author }}{{ . }}{{ end }}">
-		<meta name="description" property="og:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}-">
+		<meta name="description" property="og:description" content="{{ with .Params.description }}{{ . }}{{ end }}-">
 		
 		<meta name="title" property="og:title" content="{{ with .Params.Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
 		<meta name="image" property="og:image" content="{{ with .Params.banner }}{{ . }}{{ else }}/img/ap_logo_full.jpg{{ end }}">

@@ -9,6 +9,7 @@ url: "/eventos/curso-educar-sin-castigos-ni-recompensas-online-fin-2020/"
 hero: /img/cursos/recompensas_hero.jpg
 heromobile: /img/cursos/recompensas_hero_mobile.jpg
 heroimagealt: "golosinas-recompensas"
+banner: "/img/cursos/banner_escnr_online.jpg"
 expiry-date: 2020-10-02
 multidate: true
 date1: 2020-09-18
