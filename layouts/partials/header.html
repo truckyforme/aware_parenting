@@ -1,11 +1,7 @@
 <header id="page-top">
     <div class="layout-hero-home">
-        <img srcset="{{ .Site.Params.hero.bgimagemobile }} 480w,
-                     {{ .Site.Params.hero.bgimage }} 1200w"
-             sizes="(max-width: 600px) 480px,
-                     1200px"
-             src = "{{ .Site.Params.hero.bgimage }}"
-             alt = "Laura Díaz de Entresotos">
+        <img class="mobile-visible" src="{{ .Site.Params.hero.bgimagemobile }}" alt="Laura Díaz de Entresotos">
+        <img class="desktop-visible" src="{{ .Site.Params.hero.bgimage }}" alt="Laura Díaz de Entresotos">
         <div class="hero-gradient-home"></div>
         {{ partial "navflex.html" . }} 
     </div>
