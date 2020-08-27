@@ -72,6 +72,9 @@ secciones:
   - Contenidos:
     desc: Contenidos
     lnk: "#Contenidos"
+  - Faq:
+    desc: Preguntas Frecuentes
+    lnk: "#faq"
 sidebar:
   - Sesiones:
     title: 3 Sesiones
@@ -99,5 +102,5 @@ sidebar:
     title: Certificación
     items: Curso válido para cumplir el requisito de formación para obtener la certificación de Instructor de Aware Parenting
     icon: fa-certificate  
-faq: false
+faq: true
 ---
