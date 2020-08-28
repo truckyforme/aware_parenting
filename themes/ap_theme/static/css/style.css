@@ -1530,6 +1530,7 @@ nav ul.apmenu>li>ul>li>a {
     padding: 0;
     height: 50vh;
     width: 100vw;
+    overflow-x: hidden;
 }
 .layout-hero-home{
     display: flex;
@@ -1537,6 +1538,7 @@ nav ul.apmenu>li>ul>li>a {
     padding: 0;
     height: 90vh;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 .layout-hero > img {
