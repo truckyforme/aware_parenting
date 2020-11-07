@@ -9,7 +9,7 @@ url: "/eventos/taller-juego-apego-online-2020/"
 hero: /img/talleres/juego_apego_hero.jpg
 heromobile: /img/talleres/juego_apego_hero_mobile.jpg
 heroimagealt: "padre y niña jugando"
-banner: "img/cursos/banner_escnr_online.jpg"
+banner: "img/talleres/banner_tja_online.jpg"
 expiry-date: 2020-12-12
 multidate: true
 date1: 2020-12-12
