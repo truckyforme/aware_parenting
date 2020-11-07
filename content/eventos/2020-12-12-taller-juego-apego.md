@@ -37,9 +37,9 @@ aliases:
 buttonregistro: "¡Reserva tu plaza ahora!"
 registerlnk: "#registro"
 introtitle: 
-textintro: "¿Quieres mejorar el vínculo con tus hijos, favorecer su salud emocional y, al mismo tiempo, resover problemas de comportamiento?<br><br>En este taller aprenderás cómo conectar con tus hijos a través del Juego de Apego, y sus diferentes utilidades: favorecer la cooperación, preparar a los niños para situaciones dfíciles, afrontar miedos, reducir estrés, y muchas más.<br><br>Explicarés qué diferencia est tipo de juego de otros. Hablaremos de los 9 tipos de juego y sus diferentes utilidades y, ¿por qué no?, ¡jugaremos un poco y nos divertiremos!"
+textintro: "¿Quieres mejorar el vínculo con tus hijos, favorecer su salud emocional y, al mismo tiempo, resover problemas de comportamiento?<br><br>En este taller aprenderás cómo conectar con tus hijos a través del Juego de Apego, y sus diferentes utilidades: favorecer la cooperación, preparar a los niños para situaciones dfíciles, afrontar miedos, reducir estrés, y muchas más.<br><br>Explicaré qué diferencia este tipo de juego de otros. Hablaremos de los 9 tipos de juego y sus diferentes utilidades y, ¿porqué no?, ¡jugaremos un poco y nos divertiremos!"
 grupotitle: "Formato"
-textgrupo: "El taller tiene una duración de 3 horas y media. Lo realizaremos en una sesión el sábado 12 de Diciembre, de 10:00 a 13:30 horas. Utilizaremos la plataforma de videoconferencia Zoom.<br><br>El taller incluirá exposiciones teóricas y ejercicios. También dispondrás de unos apuntes con el contenido del taller."
+textgrupo: "El taller tiene una duración de 3 horas y media. Lo realizaremos en una sesión el sábado 12 de diciembre, de 10:00 a 13:30 horas. Utilizaremos la plataforma de videoconferencia Zoom.<br><br>El taller incluirá exposiciones teóricas y ejercicios. También dispondrás de unos apuntes con el contenido del taller."
 aprenderastitle: "Contenidos"
 contenidos:
   - Descripción del Juego de Apego
@@ -49,8 +49,6 @@ contenidos:
 faqtitle: "Preguntas Frecuentes"
 faqcontacto: "¿Tienes alguna pregunta sobre la escuela de familias?<br>Envíamela con el formulario y te responderé en seguida."
 inscripciontitle: "Inscripción"
-testimoniostitle: "Testimonios"
-texttestimonio: "Podría estar todo el día hablando de las bondades de la escuela de familias, pero he preferido compartir el testimonio de algunos de los participantes de ediciones anteriores."
 secciones:
   - Presentacion:
     desc: Presentación
@@ -70,7 +68,7 @@ secciones:
 sidebar:
   - Sesiones:
     title: 1 Sesión
-    items: 12/Diciembre
+    items: 12 diciembre
     icon: fa-calendar
   - Horario: 
     title: 3,5 horas

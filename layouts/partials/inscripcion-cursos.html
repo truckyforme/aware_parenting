@@ -7,7 +7,7 @@
         <div class="row">
             <div class="excerpt-fullwidth">
                 <p>Rellena los datos del formulario y te enviaré un correo elecrónico con las instrucciones para hacer el pago.<br>Tu plaza quedará reservada una vez hayas completado el pago.</p>
-                <p>Precio del curso:
+                <p>Precio del {{ .Params.tipoevento }}:
                     {{ with .Params.earlybird }}
                         <li {{ if lt $.Params.earlybirdfecha (now.Format "2006-01-02") }}style="text-decoration-line: line-through;opacity: 0.5;"{{ end }}>Antes del {{ dateFormat "2" $.Params.earlybirdfecha }} de {{ index $.Site.Data.meses (printf "%d" ((time $.Params.earlybirdfecha).Month)) }} <strong>{{ $.Params.earlybirdprecio }}</strong> </li>
                     {{ end }}
