@@ -59,6 +59,7 @@
                                     <input type="hidden" name="preciounitario" id="b" value="{{ with .Params.earlybird }}{{ if gt $fecha ( now.Format "2006-01-02" ) }}{{ $precioearlybird }}{{ else }}{{ $precio }}{{ end }}{{ end }}" readonly>
                                     <input type="hidden" name="codigocurso" value="{{ .Params.idcurso }}" readonly>
                                     <input type="hidden" name="codigociudad" value="{{ .Params.idciudad }}" readonly>
+                                    <input type="hidden" name="tipoevento" value="{{ .Params.tipoevento }}">
                                     <input type="hidden" name="curso" value="{{ .Params.title }}" readonly>
                                     <input type="hidden" name="ciudad" value="{{ .Params.ciudad }}" readonly>
                                     <input type="hidden" name="y" for="a b" readonly>  
