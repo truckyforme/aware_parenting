@@ -1,6 +1,6 @@
-{{ if eq .Params.tipoevento "Curso" }}
+{{ if (or (eq .Params.tipoevento "Curso") (eq .Params.tipoevento "Taller")) }}
         {{ partial "curso.html" . }}
-    {{ else }}
+{{ else }}
 <!DOCTYPE html>
 {{ "<!-- evento -->" | safeHTML }}
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}es-es{{ end }}">

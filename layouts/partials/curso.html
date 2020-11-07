@@ -84,7 +84,13 @@
                         </div>        
                     </section>
                     <!-- Faq Section -->          
+                    {{ if (eq .Params.tipoevento "Curso") }}
                         {{ partial "cursos-faq.html" . }} 
+                    {{ else if (eq .Params.tipoevento "Taller") }}
+                        {{ partial "talleres-faq.html" . }} 
+                    {{ end }}
+
+                     <!-- Sidebar  -->   
                 </div>
                 <div class="layout-33vw">
                     {{ partial "curso_sidebar.html" . }}
