@@ -31,7 +31,7 @@ inscripcion: "true"
 idcurso: "TJA"
 idciudad: "ONLINE"
 earlybird: "true"
-earlybirdfecha: 2021-04-08
+earlybirdfecha: 2021-04-24
 earlybirdprecio: "40€"
 aliases:
 buttonregistro: "¡Reserva tu plaza ahora!"
@@ -39,7 +39,7 @@ registerlnk: "#registro"
 introtitle: 
 textintro: "¿Quieres mejorar el vínculo con tus hijos, favorecer su salud emocional y, al mismo tiempo, resolver problemas de comportamiento?<br><br>En este taller aprenderás cómo conectar con tus hijos a través del Juego de Apego, y sus diferentes utilidades: favorecer la cooperación, preparar a los niños para situaciones difíciles, afrontar miedos, reducir estrés, y muchas más.<br><br>Explicaré qué diferencia este tipo de juego de otros. Hablaremos de los 9 tipos de juego y sus diferentes utilidades y, ¿por qué no?, ¡jugaremos un poco y nos divertiremos!"
 grupotitle: "Formato"
-textgrupo: "El taller tiene una duración de 3 horas y media. Lo realizaremos en una sesión el sábado 8 de mayo, de 10:00 a 13:30 horas. Utilizaremos la plataforma de videoconferencia Zoom.<br><br>El taller incluirá exposiciones teóricas y ejercicios. También dispondrás de unos apuntes con el contenido del taller."
+textgrupo: "El taller tiene una duración de 3 horas y media. Lo realizaremos en una sesión el sábado 8 de mayo, de 09:30 a 13:00 horas. Utilizaremos la plataforma de videoconferencia Zoom.<br><br>El taller incluirá exposiciones teóricas y ejercicios. También dispondrás de unos apuntes con el contenido del taller."
 aprenderastitle: "Contenidos"
 contenidos:
   - Descripción del Juego de Apego
@@ -47,7 +47,7 @@ contenidos:
   - Exploración de las experiencias de juego en la infancia.
   - Nuestra relación con el juego.
 faqtitle: "Preguntas Frecuentes"
-faqcontacto: "¿Tienes alguna pregunta sobre la escuela de familias?<br>Envíamela con el formulario y te responderé en seguida."
+faqcontacto: "¿Tienes alguna pregunta sobre el taller?<br>Envíamela con el formulario y te responderé en seguida."
 inscripciontitle: "Inscripción"
 secciones:
   - Presentacion:
@@ -72,11 +72,11 @@ sidebar:
     icon: fa-calendar
   - Horario: 
     title: 3,5 horas
-    items: sábado, de 10 a 13:30 h
+    items: sábado, de 9:30 a 13:00 h
     icon: fa-clock-o
   - Grupo: 
     title: GRUPO REDUCIDO
-    items: máximo 16 personas
+    items: máximo 12 personas
     icon: fa-users  
   - Contenido: 
     title: Contenido
