@@ -5,7 +5,7 @@ subtitle: Online – 8 Mayo
 description: "Taller de juego para mejorar el vínculo con tus hijos, favorecer su salud emocional y resolver problemas de comportamiento"
 type: eventos
 tipoevento: "Taller"
-url: "/eventos/taller-juego-apego-online-2020/"
+url: "/eventos/taller-juego-apego-online-2021/"
 hero: /img/talleres/juego_apego_hero.jpg
 heromobile: /img/talleres/juego_apego_hero_mobile.jpg
 heroimagealt: "padre y niña jugando"
