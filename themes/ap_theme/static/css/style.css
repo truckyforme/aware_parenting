@@ -438,6 +438,7 @@ input[type=submit]:active {
     line-height: 90%;
     color: #fff;
     text-align: center;
+    max-width: 40%;
 }
 .card-evento-multi {
     display:inline-block;
