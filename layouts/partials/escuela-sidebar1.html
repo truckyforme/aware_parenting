@@ -5,13 +5,17 @@
             <i class="fa fa-calendar"></i>
         </div>
         <div class="sidebar-text-flex">
-            <div class="sidebar-header"><strong>14 sesiones</strong></div>
-            <p>Periodicicad quincenal</p>
-            <p style="margin-bottom: 0;"><strong>Grupo Infantil</strong></p>
+            <div class="sidebar-header"><strong>12 sesiones</strong></div>
+            <p>De septiembre a junio</p>
+            <p style="margin-bottom: 0;"><strong>Grupo Infantil (jueves)</strong></p>
             {{ range .Params.fechasinfantil }}
                 <div class="sidebar-fechas">{{ . }}</div>
             {{ end }}
-            <p  style="margin-bottom: 0; margin-top: 1rem;"><strong>Grupo Adolescencia</strong></p>
+            <p style="margin-bottom: 0;"><strong>Grupo Primaria (jueves)</strong></p>
+            {{ range .Params.fechasprimaria }}
+                <div class="sidebar-fechas">{{ . }}</div>
+            {{ end }}
+            <p  style="margin-bottom: 0; margin-top: 1rem;"><strong>Grupo Adolescencia (lunes)</strong></p>
             {{ range .Params.fechasadolescencia }}
                 <div class="sidebar-fechas">{{ . }}</div>
             {{ end }}
@@ -22,8 +26,7 @@
             <i class="fa fa-clock-o"></i>
         </div>
         <div class="sidebar-text-flex">
-            <div class="sidebar-header"><strong>2 horas por sesión</strong></div>
-            <p>Martes, de 18 a 20 h</p>            
+            <div class="sidebar-header"><strong>2 horas por sesión</strong></div>          
         </div>
     </div>
     <div class="sidebar-block-flex" id="group">
@@ -32,10 +35,11 @@
         </div>
         <div class="sidebar-text-flex">
             <div class="sidebar-header"><strong>Grupos reducidos</strong></div>
-            <p>Máximo 12 personas</p>      
+            <p>Máximo 10 personas</p>      
             <div class="row">
-                <div class="sidebar-pill">Infancia<br>2-9 años</div>
-                <div class="sidebar-pill">Adolescencia<br>10-16 años</div>
+                <div class="sidebar-pill">Infantil<br>2-5 años</div>
+                <div class="sidebar-pill">Primaria<br>6-11 años</div>
+                <div class="sidebar-pill">Adolescencia<br>12-16 años</div>
             </div>
                   
         </div>
@@ -61,8 +65,8 @@
         </div>
         <div class="sidebar-text-flex">
             <div class="sidebar-header"><strong>Precio</strong></div>
-            <p><strong>295 €</strong> antes del 15/9</p>
-            <p><strong>350 €</strong> despúes del 15/9</p>                     
+            <p><strong>295 €</strong> antes del 1/9</p>
+            <p><strong>350 €</strong> despúes del 1/9</p>                     
         </div>
     </div>    
     <div class="sidebar-block-flex flex-justify-content white-bg">

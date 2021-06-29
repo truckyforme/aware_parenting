@@ -1,12 +1,12 @@
 ---
 draft: false
 title: Escuela de familias online
-subtitle: Curso 2020-21
+subtitle: Curso 2021-22
 hero: "/css/img/Formacion.jpeg"
 heromobile: "/css/img/Formacion_mobile.jpeg"
 description: "Aprende técnicas, comparte y contrasta tus experiencias con otros padres y madres, para mejorar las relaciones y rutinas de tu familia, en un espacio libre de juicios."
 type: escuelafamilias
-date: 2020-07-13
+date: 2021-06-29
 url: "/escuela-de-familias"
 aliases:
 buttonregistro: "¡Reserva tu plaza ahora!"
@@ -14,8 +14,7 @@ registerlnk: "#registro"
 introtitle: 
 textintro: "Participa en la Escuela de Familias online. Disfruta de un espacio de reflexión, desahogo y diversión, en el que compartir y crear vínculos con otros padres. Aprende a educar de forma más consciente, mejorar la relación con tus hijos y afrontar las situaciones difíciles de la paternidad con mayor seguridad, confianza y tranquilidad."
 grupotitle: "Formato"
-textgrupo: "Grupos reducidos (máximo 12 plazas) que ayudan a crear un espacio de seguridad y aceptación donde intercambiar apoyo emocional, escucha y comprensión. Al mismo tiempo, se favorece la participación y la adaptación de los contenidos a las inquietudes de los asistentes. Y para facilitar esto último, te ofrezco dos grupos distintos:<br><br>•	Infancia: hijos de 2-9 años
-<br>•	Adolescencia: hijos de 10-16 años<br><br>Nos reuniremos dos martes de cada mes, de 18:00 a 20:00 hora española, en un total de 14 sesiones, desde octubre de 2020 a junio de 2021. Utilizaremos la plataforma de videoconferencia Zoom. Cada sesión constará de una parte de exposición teórica, seguida de una parte práctica en la que realizaremos ejercicios, dinámicas y juegos relacionados con los temas que trabajaremos.
+textgrupo: "Grupos reducidos (máximo 10 plazas) que ayudan a crear un espacio de seguridad y aceptación donde intercambiar apoyo emocional, escucha y comprensión. Al mismo tiempo, se favorece la participación y la adaptación de los contenidos a las inquietudes de los asistentes. Y para facilitar esto último, te ofrezco tres grupos distintos:<br><br>•	Infantil: hijos de 2-5 años, jueves de 10 a 12h<br><br>•	Primaria: hijos de 6-11 años, jueves de 18 a 20h<br><br>•	Adolescencia: hijos de 12-16 años, lunes de 18 a 20h<br><br>Nos reuniremos un total de 12 sesiones, desde octubre de 2021 a junio de 2022. Utilizaremos la plataforma de videoconferencia Zoom. Cada sesión constará de una parte de exposición teórica, seguida de una parte práctica en la que realizaremos ejercicios, dinámicas y juegos relacionados con los temas que trabajaremos.
 Al finalizar cada sesión, proporcionaré unos apuntes con un resumen de la misma (contenidos teóricos, conclusiones de los ejercicios, bibliografía mencionada, etc.)
 "
 enfoquetitle: "El enfoque"
@@ -65,33 +64,42 @@ secciones:
     desc: Preguntas Frecuentes
     lnk: "#faq"
 fechasinfantil:
-  - 6-oct
-  - 20-oct
-  - 3-nov
-  - 17-nov
-  - 1-dic
-  - 12-ene
-  - 26-ene
-  - 9-feb
-  - 23-feb
-  - 9-mar
-  - 23-mar
-  - 20-abr
-  - 4-may
-  - 18-may
+  - 7-oct
+  - 28-oct
+  - 18-nov
+  - 9-dic
+  - 13-ene
+  - 3-feb
+  - 24-feb
+  - 17-mar
+  - 7-abr
+  - 28-abr
+  - 19-may
+  - 9-jun
+fechasprimaria:
+  - 23-sep
+  - 14-oct
+  - 4-nov
+  - 25-nov
+  - 16-dic
+  - 20-ene
+  - 10-feb
+  - 3-mar
+  - 24-mar
+  - 21-abr
+  - 12-may
+  - 2-jun
 fechasadolescencia:
-  - 13-oct
-  - 27-oct
-  - 10-nov
-  - 24-nov
-  - 15-dic
-  - 19-ene
-  - 2-feb
-  - 16-feb
-  - 2-mar
-  - 16-mar
-  - 13-abr
-  - 27-abr
-  - 11-may
-  - 25-may
+  - 27-sep
+  - 18-oct
+  - 8-nov
+  - 29-nov
+  - 20-dic
+  - 10-ene
+  - 31-ene
+  - 21-feb
+  - 14-mar
+  - 4-abr
+  - 2-may
+  - 23-may
 ---

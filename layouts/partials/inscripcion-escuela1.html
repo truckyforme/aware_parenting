@@ -6,10 +6,10 @@
         </div>
         <div class="row">
             <div class="excerpt-fullwidth">
-                <p>Inscríbete ahora para asegurar tu plaza y, en cuanto publique las fechas exactas de las reuniones, me pondré en contacto contigo para formalizar la inscripción realizando el pago.</p>
+                <p>Inscríbete ahora para asegurar tu plaza y me pondré en contacto contigo para formalizar la inscripción realizando el pago.</p>
                 <p>Precio del curso:
-                        <li>Antes del 15 de septiembre: 295 euros</li>
-                        <li>Después del 15 de septiembre: 350 euros</li>
+                        <li>Antes del 1 de septiembre: 295 euros</li>
+                        <li>Después del 1 de septiembre: 350 euros</li>
                 </p>
                 {{ $precio:= .Params.precio }}
                 {{ $precioearlybird := .Params.earlybirdprecio }}
@@ -54,7 +54,8 @@
                             </div>
                             <div class="form-75 padding-lr-normal">
                                 <select id="grupo" name="grupo">
-                                    <option value="Infancia">Infancia</option>
+                                    <option value="Infancia">Infantil</option>
+                                    <option value="Infancia">Primaria</option>
                                     <option value="Adolescencia">Adolescencia</option>
                                 </select>
                             </div>

@@ -1,21 +1,21 @@
 ---
 draft: "false"
 title: "Taller de Juego de Apego"
-subtitle: Online – 8 Mayo
+subtitle: Online – 18 Diciembre
 description: "Taller de juego para mejorar el vínculo con tus hijos, favorecer su salud emocional y resolver problemas de comportamiento"
 type: eventos
 tipoevento: "Taller"
-url: "/eventos/taller-juego-apego-online-2021/"
+url: "/eventos/taller-juego-apego-online-diciembre-2021/"
 hero: /img/talleres/juego_apego_hero.jpg
 heromobile: /img/talleres/juego_apego_hero_mobile.jpg
 heroimagealt: "padre y niña jugando"
 banner: "img/talleres/banner_tja_online.jpg"
-expirydate: 2021-05-08
+expirydate: 2021-12-19
 multidate: true
-date1: 2021-05-08
+date1: 2021-12-18
 date2: 
 fechas:
-  fecha1: 2021-05-08
+  fecha1: 2021-12-18
 lugar: "Online"
 ciudad: "Online"
 direccion:
@@ -31,7 +31,7 @@ inscripcion: "true"
 idcurso: "TJA"
 idciudad: "ONLINE"
 earlybird: "true"
-earlybirdfecha: 2021-04-24
+earlybirdfecha: 2021-11-18
 earlybirdprecio: "40€"
 aliases:
 buttonregistro: "¡Reserva tu plaza ahora!"
@@ -39,7 +39,7 @@ registerlnk: "#registro"
 introtitle: 
 textintro: "¿Quieres mejorar el vínculo con tus hijos, favorecer su salud emocional y, al mismo tiempo, resolver problemas de comportamiento?<br><br>En este taller aprenderás cómo conectar con tus hijos a través del Juego de Apego, y sus diferentes utilidades: favorecer la cooperación, preparar a los niños para situaciones difíciles, afrontar miedos, reducir estrés, y muchas más.<br><br>Explicaré qué diferencia este tipo de juego de otros. Hablaremos de los 9 tipos de juego y sus diferentes utilidades y, ¿por qué no?, ¡jugaremos un poco y nos divertiremos!"
 grupotitle: "Formato"
-textgrupo: "El taller tiene una duración de 3 horas y media. Lo realizaremos en una sesión el sábado 8 de mayo, de 09:30 a 13:00 horas. Utilizaremos la plataforma de videoconferencia Zoom.<br><br>El taller incluirá exposiciones teóricas y ejercicios. También dispondrás de unos apuntes con el contenido del taller."
+textgrupo: "El taller tiene una duración de 3 horas y media. Lo realizaremos en una sesión el sábado 18 de diciembre, de 09:30 a 13:00 horas. Utilizaremos la plataforma de videoconferencia Zoom.<br><br>El taller incluirá exposiciones teóricas y ejercicios. También dispondrás de unos apuntes con el contenido del taller."
 aprenderastitle: "Contenidos"
 contenidos:
   - Descripción del Juego de Apego
@@ -68,7 +68,7 @@ secciones:
 sidebar:
   - Sesiones:
     title: 1 Sesión
-    items: 8 mayo
+    items: 18 diciembre
     icon: fa-calendar
   - Horario: 
     title: 3,5 horas
